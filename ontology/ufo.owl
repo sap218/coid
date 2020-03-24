@@ -449,6 +449,81 @@
         <Class IRI="#UFO_00141"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00166"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
     </Declaration>
     <Declaration>
@@ -1099,6 +1174,114 @@
         <Class IRI="#UFO_00141"/>
         <Class IRI="#UFO_00137"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00142"/>
+        <Class IRI="#UFO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00143"/>
+        <Class IRI="#UFO_00142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00144"/>
+        <Class IRI="#UFO_00143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00145"/>
+        <Class IRI="#UFO_00143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00146"/>
+        <Class IRI="#UFO_00047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00147"/>
+        <Class IRI="#UFO_00146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00148"/>
+        <Class IRI="#UFO_00146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00149"/>
+        <Class IRI="#UFO_00146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00150"/>
+        <Class IRI="#UFO_00147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00151"/>
+        <Class IRI="#UFO_00150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00152"/>
+        <Class IRI="#UFO_00147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00153"/>
+        <Class IRI="#UFO_00152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00154"/>
+        <Class IRI="#UFO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00155"/>
+        <Class IRI="#UFO_00154"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00155"/>
+        <Class IRI="#UFO_00160"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00156"/>
+        <Class IRI="#UFO_00157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00157"/>
+        <Class IRI="#UFO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00158"/>
+        <Class IRI="#UFO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00158"/>
+        <Class IRI="#UFO_00162"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00159"/>
+        <Class IRI="#UFO_00158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00160"/>
+        <Class IRI="#UFO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00161"/>
+        <Class IRI="#UFO_00160"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00162"/>
+        <Class IRI="#UFO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00163"/>
+        <Class IRI="#UFO_00162"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00164"/>
+        <Class IRI="#UFO_00148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00165"/>
+        <Class IRI="#UFO_00148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00166"/>
+        <Class IRI="#UFO_00146"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
         <Class IRI="#UFO_00003"/>
@@ -1159,7 +1342,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00006</IRI>
-        <Literal xml:lang="en">inflammation of the eye</Literal>
+        <Literal xml:lang="en">inflammation of eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1404,7 +1587,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00053</IRI>
-        <Literal xml:lang="en">inflammation of the brain</Literal>
+        <Literal xml:lang="en">inflammation of brain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2290,6 +2473,236 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00141</IRI>
         <Literal xml:lang="en">mononeuritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00142</IRI>
+        <Literal xml:lang="en">inflammation of optic nerve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00143</IRI>
+        <Literal>ICD10:H46</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00143</IRI>
+        <Literal xml:lang="en">optic neuritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00144</IRI>
+        <Literal>ICD10:H46</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00144</IRI>
+        <Literal xml:lang="en">papillitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00145</IRI>
+        <Literal>ICD10:H48.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00145</IRI>
+        <Literal xml:lang="en">retrobulbar neuritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00146</IRI>
+        <Literal xml:lang="en">inflammation of ear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00147</IRI>
+        <Literal xml:lang="en">inflammation of external ear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00148</IRI>
+        <Literal xml:lang="en">inflammation of inner ear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00149</IRI>
+        <Literal xml:lang="en">inflammation of middle ear and mastoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00150</IRI>
+        <Literal>ICD10:H60</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00150</IRI>
+        <Literal xml:lang="en">otitis externa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal>ICD10:H60.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal xml:lang="en">cellulitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00152</IRI>
+        <Literal>ICD10:H61.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00152</IRI>
+        <Literal xml:lang="en">perichondritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00153</IRI>
+        <Literal>ICD10:H61.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00153</IRI>
+        <Literal xml:lang="en">chondrodermatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00154</IRI>
+        <Literal>ICD10:H65</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00154</IRI>
+        <Literal xml:lang="en">otitis media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00155</IRI>
+        <Literal>ICD10:H65</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00155</IRI>
+        <Literal>ICD10:H73.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00155</IRI>
+        <Literal xml:lang="en">myringitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00156</IRI>
+        <Literal>ICD10:H68.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00156</IRI>
+        <Literal xml:lang="en">salpingitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00157</IRI>
+        <Literal>ICD10:H68</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00157</IRI>
+        <Literal xml:lang="en">inflammation of eustachian tube</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00158</IRI>
+        <Literal>ICD10:H70</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00158</IRI>
+        <Literal xml:lang="en">mastoiditis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00159</IRI>
+        <Literal>ICD10:H70.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00159</IRI>
+        <Literal xml:lang="en">petrositis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00160</IRI>
+        <Literal>ICD10:H73</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00160</IRI>
+        <Literal xml:lang="en">inflammation of tympanic membrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00161</IRI>
+        <Literal>ICD10:H73.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00161</IRI>
+        <Literal xml:lang="en">tympanitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00162</IRI>
+        <Literal>ICD10:H74</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00162</IRI>
+        <Literal xml:lang="en">inflammation of mastoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00163</IRI>
+        <Literal>ICD10:H74.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00163</IRI>
+        <Literal xml:lang="en">adhesive otitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00164</IRI>
+        <Literal>ICD10:H81.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00164</IRI>
+        <Literal xml:lang="en">vestibular neuronitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00165</IRI>
+        <Literal>ICD10:H83.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00165</IRI>
+        <Literal xml:lang="en">labyrinthitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00166</IRI>
+        <Literal>ICD10:H94.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00166</IRI>
+        <Literal xml:lang="en">acoustic neuritis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
