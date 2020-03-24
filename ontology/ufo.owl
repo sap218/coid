@@ -173,6 +173,12 @@
         <Class IRI="#UFO_00048"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00050"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00051"/>
     </Declaration>
     <Declaration>
@@ -180,6 +186,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00056"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00057"/>
@@ -363,6 +378,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00118"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00119"/>
@@ -560,6 +578,9 @@
         <Class IRI="#UFO_00184"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00185"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00186"/>
     </Declaration>
     <Declaration>
@@ -620,6 +641,9 @@
         <Class IRI="#UFO_00205"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00206"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00207"/>
     </Declaration>
     <Declaration>
@@ -627,6 +651,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00210"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00211"/>
@@ -819,6 +846,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00276"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00277"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
@@ -1030,6 +1066,18 @@
         <Class IRI="#UFO_00005"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00049"/>
+        <Class IRI="#UFO_00005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00050"/>
+        <Class IRI="#UFO_00049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00050"/>
+        <Class IRI="#UFO_00192"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00051"/>
         <Class IRI="#UFO_00005"/>
     </SubClassOf>
@@ -1040,6 +1088,18 @@
     <SubClassOf>
         <Class IRI="#UFO_00053"/>
         <Class IRI="#UFO_00047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00054"/>
+        <Class IRI="#UFO_00050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00055"/>
+        <Class IRI="#UFO_00050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00056"/>
+        <Class IRI="#UFO_00050"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00057"/>
@@ -1348,6 +1408,10 @@
         <Class IRI="#UFO_00074"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00118"/>
+        <Class IRI="#UFO_00049"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00119"/>
         <Class IRI="#UFO_00075"/>
     </SubClassOf>
@@ -1370,6 +1434,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00123"/>
         <Class IRI="#UFO_00122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00124"/>
+        <Class IRI="#UFO_00049"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00124"/>
@@ -1498,6 +1566,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00150"/>
         <Class IRI="#UFO_00147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00151"/>
+        <Class IRI="#UFO_00049"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00151"/>
@@ -1668,6 +1740,10 @@
         <Class IRI="#UFO_00167"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00185"/>
+        <Class IRI="#UFO_00050"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00186"/>
         <Class IRI="#UFO_00187"/>
     </SubClassOf>
@@ -1701,11 +1777,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00193"/>
-        <Class IRI="#UFO_00192"/>
+        <Class IRI="#UFO_00210"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00194"/>
         <Class IRI="#UFO_00190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00195"/>
+        <Class IRI="#UFO_00049"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00195"/>
@@ -1756,6 +1836,10 @@
         <Class IRI="#UFO_00220"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00206"/>
+        <Class IRI="#UFO_00193"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00207"/>
         <Class IRI="#UFO_00199"/>
     </SubClassOf>
@@ -1770,6 +1854,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00209"/>
         <Class IRI="#UFO_00048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00210"/>
+        <Class IRI="#UFO_00049"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00211"/>
@@ -2050,6 +2138,18 @@
     <SubClassOf>
         <Class IRI="#UFO_00274"/>
         <Class IRI="#UFO_00273"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00275"/>
+        <Class IRI="#UFO_00193"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00276"/>
+        <Class IRI="#UFO_00193"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00277"/>
+        <Class IRI="#UFO_00049"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
@@ -2335,6 +2435,76 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00049</IRI>
+        <Literal xml:lang="en">inflammation of skin and subcutaneous tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:I83.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L08.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L23</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L24</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L26</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L85.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal xml:lang="en">dermatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00051</IRI>
         <Literal xml:lang="en">inflammation of back</Literal>
     </AnnotationAssertion>
@@ -2347,6 +2517,41 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00053</IRI>
         <Literal xml:lang="en">inflammation of brain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00054</IRI>
+        <Literal>ICD10:L20.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00054</IRI>
+        <Literal xml:lang="en">eczema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00055</IRI>
+        <Literal>ICD10:L20.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00055</IRI>
+        <Literal>ICD10:L28.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00055</IRI>
+        <Literal xml:lang="en">neurodermatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00056</IRI>
+        <Literal>ICD10:L21.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00056</IRI>
+        <Literal xml:lang="en">capitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2925,6 +3130,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00118</IRI>
+        <Literal>ICD10:L40.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00118</IRI>
+        <Literal xml:lang="en">acrodermatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00119</IRI>
         <Literal>ICD10:H05.0</Literal>
     </AnnotationAssertion>
@@ -2982,6 +3197,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00124</IRI>
         <Literal>ICD10:H35.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00124</IRI>
+        <Literal>ICD10:L95</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3252,6 +3472,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00151</IRI>
         <Literal>ICD10:K61</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal>ICD10:L03</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3570,6 +3795,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00185</IRI>
+        <Literal>ICD10:L58</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00185</IRI>
+        <Literal xml:lang="en">radiodermatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00186</IRI>
         <Literal>ICD10:I77.6</Literal>
     </AnnotationAssertion>
@@ -3626,12 +3861,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00193</IRI>
-        <Literal>ICD10:I83.1</Literal>
+        <Literal>ICD10:L66.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00193</IRI>
+        <Literal>ICD10:L66.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00193</IRI>
-        <Literal xml:lang="en">dermatitis</Literal>
+        <Literal xml:lang="en">folliculitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3642,6 +3882,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00195</IRI>
         <Literal>ICD10:I88</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00195</IRI>
+        <Literal>ICD10:L04</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3785,6 +4030,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00206</IRI>
+        <Literal>ICD10:L66.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00206</IRI>
+        <Literal xml:lang="en">perifolliculitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00207</IRI>
         <Literal>ICD10:J05</Literal>
     </AnnotationAssertion>
@@ -3812,6 +4067,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00209</IRI>
         <Literal xml:lang="en">pneumonia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00210</IRI>
+        <Literal xml:lang="en">inflammation of skin appendages</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -4452,6 +4712,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00274</IRI>
         <Literal xml:lang="en">pancreatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00275</IRI>
+        <Literal>ICD10:L73.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00275</IRI>
+        <Literal xml:lang="en">pseudofolliculitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00276</IRI>
+        <Literal>ICD10:L73.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00276</IRI>
+        <Literal xml:lang="en">hidradenitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00277</IRI>
+        <Literal>ICD10:L93.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00277</IRI>
+        <Literal xml:lang="en">panniculitis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
