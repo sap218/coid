@@ -725,6 +725,102 @@
         <Class IRI="#UFO_00242"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00258"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00265"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00271"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00274"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
     </Declaration>
     <Declaration>
@@ -1002,6 +1098,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00066"/>
         <Class IRI="#UFO_00190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00066"/>
+        <Class IRI="#UFO_00264"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00067"/>
@@ -1416,6 +1516,10 @@
         <Class IRI="#UFO_00237"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00151"/>
+        <Class IRI="#UFO_00257"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00152"/>
         <Class IRI="#UFO_00147"/>
     </SubClassOf>
@@ -1810,6 +1914,142 @@
     <SubClassOf>
         <Class IRI="#UFO_00242"/>
         <Class IRI="#UFO_00241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00243"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00244"/>
+        <Class IRI="#UFO_00243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00245"/>
+        <Class IRI="#UFO_00243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00246"/>
+        <Class IRI="#UFO_00243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00247"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00248"/>
+        <Class IRI="#UFO_00247"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00249"/>
+        <Class IRI="#UFO_00257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00250"/>
+        <Class IRI="#UFO_00257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00251"/>
+        <Class IRI="#UFO_00249"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00251"/>
+        <Class IRI="#UFO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00252"/>
+        <Class IRI="#UFO_00250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00253"/>
+        <Class IRI="#UFO_00250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00253"/>
+        <Class IRI="#UFO_00261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00254"/>
+        <Class IRI="#UFO_00250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00255"/>
+        <Class IRI="#UFO_00250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00256"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00257"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00258"/>
+        <Class IRI="#UFO_00257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00259"/>
+        <Class IRI="#UFO_00257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00260"/>
+        <Class IRI="#UFO_00259"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00261"/>
+        <Class IRI="#UFO_00257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00262"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00263"/>
+        <Class IRI="#UFO_00262"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00264"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00265"/>
+        <Class IRI="#UFO_00264"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00266"/>
+        <Class IRI="#UFO_00264"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00267"/>
+        <Class IRI="#UFO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00268"/>
+        <Class IRI="#UFO_00270"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00269"/>
+        <Class IRI="#UFO_00268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00270"/>
+        <Class IRI="#UFO_00267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00271"/>
+        <Class IRI="#UFO_00267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00272"/>
+        <Class IRI="#UFO_00271"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00273"/>
+        <Class IRI="#UFO_00267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00274"/>
+        <Class IRI="#UFO_00273"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
@@ -2207,6 +2447,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00066</IRI>
         <Literal>ICD10:I80</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00066</IRI>
+        <Literal>ICD10:K75.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2996,12 +3241,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00151</IRI>
+        <Literal>ICD10:J38.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00151</IRI>
         <Literal>ICD10:K12.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00151</IRI>
-        <Literal>J38.3</Literal>
+        <Literal>ICD10:K61</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3887,6 +4137,321 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00242</IRI>
         <Literal xml:lang="en">glossitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00243</IRI>
+        <Literal xml:lang="en">inflammation of oesophagus, stomach, and duodenum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00244</IRI>
+        <Literal>ICD10:K20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00244</IRI>
+        <Literal xml:lang="en">oesophagitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00245</IRI>
+        <Literal>ICD10:K29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00245</IRI>
+        <Literal xml:lang="en">gastritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00246</IRI>
+        <Literal>ICD10:K29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00246</IRI>
+        <Literal xml:lang="en">duodenitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00247</IRI>
+        <Literal xml:lang="en">inflammation of appendix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00248</IRI>
+        <Literal>ICD10:K35</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00248</IRI>
+        <Literal>ICD10:K36</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00248</IRI>
+        <Literal>ICD10:K37</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00248</IRI>
+        <Literal xml:lang="en">appendicitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00249</IRI>
+        <Literal>ICD10:K50.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00249</IRI>
+        <Literal xml:lang="en">enteritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>ICD10:K50.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal xml:lang="en">colitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00251</IRI>
+        <Literal>ICD10:K50.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00251</IRI>
+        <Literal>ICD10:K51.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00251</IRI>
+        <Literal xml:lang="en">ileitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00252</IRI>
+        <Literal>ICD10:K51.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00252</IRI>
+        <Literal xml:lang="en">pancolitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00253</IRI>
+        <Literal>ICD10:K51.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00253</IRI>
+        <Literal>ICD10:K62.7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00253</IRI>
+        <Literal xml:lang="en">proctitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00254</IRI>
+        <Literal>ICD10:K51.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00254</IRI>
+        <Literal xml:lang="en">rectosigmoiditis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00255</IRI>
+        <Literal>ICD10:K51.5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00255</IRI>
+        <Literal xml:lang="en">hemicolitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00256</IRI>
+        <Literal>ICD10:K52.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00256</IRI>
+        <Literal xml:lang="en">gastroenteritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00257</IRI>
+        <Literal xml:lang="en">inflammation of intestine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00258</IRI>
+        <Literal>ICD10:K55.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00258</IRI>
+        <Literal xml:lang="en">enterocolitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00259</IRI>
+        <Literal>ICD10:K57</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00259</IRI>
+        <Literal xml:lang="en">diverticulitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00260</IRI>
+        <Literal>ICD10:K57.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00260</IRI>
+        <Literal>ICD10:K57.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00260</IRI>
+        <Literal>ICD10:K57.4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00260</IRI>
+        <Literal>ICD10:K57.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00260</IRI>
+        <Literal xml:lang="en">peritonitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00261</IRI>
+        <Literal xml:lang="en">inflammation of anus and rectum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00262</IRI>
+        <Literal xml:lang="en">inflammation of peritoneum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00263</IRI>
+        <Literal>ICD10:K65</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00263</IRI>
+        <Literal xml:lang="en">peritonitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00264</IRI>
+        <Literal xml:lang="en">inflammation of liver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>ICD10:K70.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>ICD10:K72</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>ICD10:K73</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal xml:lang="en">hepatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00266</IRI>
+        <Literal>ICD10:K74.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00266</IRI>
+        <Literal xml:lang="en">cholangitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00267</IRI>
+        <Literal xml:lang="en">inflammation of gallbladder, biliary tract, and pancreas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00268</IRI>
+        <Literal>ICD10:K81</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00268</IRI>
+        <Literal xml:lang="en">cholecystitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00269</IRI>
+        <Literal>ICD10:K81.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00269</IRI>
+        <Literal xml:lang="en">angiocholecystitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00270</IRI>
+        <Literal xml:lang="en">inflammation of gallbladder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00271</IRI>
+        <Literal xml:lang="en">inflammation of billary tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00272</IRI>
+        <Literal>ICD10:K83.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00272</IRI>
+        <Literal xml:lang="en">cholangitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00273</IRI>
+        <Literal xml:lang="en">inflammation of pancreas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00274</IRI>
+        <Literal>ICD10:K85</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00274</IRI>
+        <Literal xml:lang="en">pancreatitis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
