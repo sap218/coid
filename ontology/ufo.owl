@@ -11,6 +11,464 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>unified inflammatory ontology - with diseases, disorders, and phenotypes</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
+        <Literal>Samantha C Pendleton</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:github"/>
+        <Literal>https://github.com/sap218/ufo</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:license"/>
+        <Literal>https://creativecommons.org/licenses/by/3.0/</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#UFO_00001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00034"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:github"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasNarrowSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasRelatedSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:license"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UFO_00001"/>
+        <Class IRI="#UFO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00002"/>
+        <Class IRI="#UFO_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00003"/>
+        <Class IRI="#UFO_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00004"/>
+        <Class IRI="#UFO_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00006"/>
+        <Class IRI="#UFO_00005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00007"/>
+        <Class IRI="#UFO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00008"/>
+        <Class IRI="#UFO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00009"/>
+        <Class IRI="#UFO_00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00010"/>
+        <Class IRI="#UFO_00008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00014"/>
+        <Class IRI="#UFO_00013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00015"/>
+        <Class IRI="#UFO_00013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00017"/>
+        <Class IRI="#UFO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00018"/>
+        <Class IRI="#UFO_00017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00019"/>
+        <Class IRI="#UFO_00018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00020"/>
+        <Class IRI="#UFO_00018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00021"/>
+        <Class IRI="#UFO_00018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00022"/>
+        <Class IRI="#UFO_00017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00023"/>
+        <Class IRI="#UFO_00022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00024"/>
+        <Class IRI="#UFO_00022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00025"/>
+        <Class IRI="#UFO_00022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00026"/>
+        <Class IRI="#UFO_00016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00027"/>
+        <Class IRI="#UFO_00016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00028"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00029"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00030"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00031"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00032"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00033"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00034"/>
+        <Class IRI="#UFO_00007"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#UFO_00002"/>
+        <Class IRI="#UFO_00003"/>
+        <Class IRI="#UFO_00004"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00009"/>
+        <Class IRI="#UFO_00010"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00018"/>
+        <Class IRI="#UFO_00022"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00019"/>
+        <Class IRI="#UFO_00020"/>
+        <Class IRI="#UFO_00021"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00023"/>
+        <Class IRI="#UFO_00024"/>
+        <Class IRI="#UFO_00025"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00028"/>
+        <Class IRI="#UFO_00029"/>
+        <Class IRI="#UFO_00030"/>
+        <Class IRI="#UFO_00031"/>
+        <Class IRI="#UFO_00032"/>
+        <Class IRI="#UFO_00033"/>
+        <Class IRI="#UFO_00034"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00001</IRI>
+        <Literal xml:lang="en">course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00002</IRI>
+        <Literal xml:lang="en">acute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00003</IRI>
+        <Literal xml:lang="en">chronic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00004</IRI>
+        <Literal xml:lang="en">recurrent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00005</IRI>
+        <Literal xml:lang="en">anatomical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00006</IRI>
+        <Literal xml:lang="en">inflammation of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00007</IRI>
+        <Literal xml:lang="en">maturity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00008</IRI>
+        <Literal xml:lang="en">onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00009</IRI>
+        <Literal xml:lang="en">insidious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00010</IRI>
+        <Literal xml:lang="en">sudden</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00012</IRI>
+        <Literal xml:lang="en">classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00013</IRI>
+        <Literal xml:lang="en">clinical feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00014</IRI>
+        <Literal xml:lang="en">clinical sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00015</IRI>
+        <Literal xml:lang="en">clinical symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00016</IRI>
+        <Literal xml:lang="en">complication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00017</IRI>
+        <Literal xml:lang="en">activity status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00018</IRI>
+        <Literal xml:lang="en">active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00019</IRI>
+        <Literal xml:lang="en">improving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00020</IRI>
+        <Literal xml:lang="en">worsening</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00021</IRI>
+        <Literal xml:lang="en">no change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00022</IRI>
+        <Literal xml:lang="en">quiescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00023</IRI>
+        <Literal xml:lang="en">in remission on treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00024</IRI>
+        <Literal xml:lang="en">in remission off treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00025</IRI>
+        <Literal xml:lang="en">inactivity of recent onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00026</IRI>
+        <Literal xml:lang="en">outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00027</IRI>
+        <Literal xml:lang="en">impact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00028</IRI>
+        <Literal xml:lang="en">neonatal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00029</IRI>
+        <Literal xml:lang="en">juvenile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00030</IRI>
+        <Literal xml:lang="en">immature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00031</IRI>
+        <Literal xml:lang="en">prepubescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00032</IRI>
+        <Literal xml:lang="en">pubescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00033</IRI>
+        <Literal xml:lang="en">adolescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00034</IRI>
+        <Literal xml:lang="en">mature</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
