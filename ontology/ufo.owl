@@ -65,9 +65,6 @@
         <Class IRI="#UFO_00012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00013"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00014"/>
     </Declaration>
     <Declaration>
@@ -1352,10 +1349,6 @@
     <SubClassOf>
         <Class IRI="#UFO_00014"/>
         <Class IRI="#UFO_00027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_00015"/>
-        <Class IRI="#UFO_00013"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00017"/>
@@ -3922,11 +3915,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00012</IRI>
         <Literal xml:lang="en">classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00013</IRI>
-        <Literal xml:lang="en">clinical feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
