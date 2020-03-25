@@ -1,9 +1,5 @@
 # Unified Inflammatory Ontology **UFO**
 
-* diseases
-* disorders
-* phenotypes
-
 #### See :grey_exclamation: [Issues](https://github.com/sap218/ufo/issues)  for the term-tracker
 
 ---
