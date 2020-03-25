@@ -803,6 +803,9 @@
         <Class IRI="#UFO_00259"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00260"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00261"/>
     </Declaration>
     <Declaration>
@@ -1604,6 +1607,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00038"/>
+        <Class IRI="#UFO_00260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
         <Class IRI="#UFO_00342"/>
     </SubClassOf>
     <SubClassOf>
@@ -1738,6 +1745,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00274"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00397"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3126,6 +3140,10 @@
         <Class IRI="#UFO_00257"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00260"/>
+        <Class IRI="#UFO_00409"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00261"/>
         <Class IRI="#UFO_00257"/>
     </SubClassOf>
@@ -4175,6 +4193,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00412"/>
+        <Class IRI="#UFO_00260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00412"/>
         <Class IRI="#UFO_00410"/>
     </SubClassOf>
     <SubClassOf>
@@ -4203,6 +4225,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00256"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00412"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00396"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4305,6 +4334,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00417"/>
+        <Class IRI="#UFO_00260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00417"/>
         <Class IRI="#UFO_00410"/>
     </SubClassOf>
     <SubClassOf>
@@ -4330,6 +4363,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00143"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00396"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4428,6 +4468,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00423"/>
+        <Class IRI="#UFO_00260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00423"/>
         <Class IRI="#UFO_00421"/>
     </SubClassOf>
     <SubClassOf>
@@ -4449,6 +4493,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00110"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00423"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00396"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6996,6 +7047,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00259</IRI>
         <Literal xml:lang="en">diverticulitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00260</IRI>
+        <Literal xml:lang="en">symptom of endocrine system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
