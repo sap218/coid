@@ -1355,6 +1355,15 @@
         <Class IRI="#UFO_00444"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00446"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00448"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
     </Declaration>
     <Declaration>
@@ -1549,6 +1558,17 @@
     <SubClassOf>
         <Class IRI="#UFO_00036"/>
         <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00036"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00036"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00050"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00036"/>
@@ -1768,6 +1788,17 @@
     <SubClassOf>
         <Class IRI="#UFO_00038"/>
         <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00050"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00038"/>
@@ -2036,6 +2067,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00039"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00168"/>
@@ -2227,6 +2269,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00044"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00044"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00058"/>
@@ -2251,6 +2297,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00132"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00151"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2505,9 +2558,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00045"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00045"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00058"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00193"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2745,6 +2816,17 @@
     <SubClassOf>
         <Class IRI="#UFO_00063"/>
         <Class IRI="#UFO_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00063"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00063"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00063"/>
@@ -3063,7 +3145,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00118"/>
-        <Class IRI="#UFO_00049"/>
+        <Class IRI="#UFO_00050"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00119"/>
@@ -4195,6 +4277,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00339"/>
+        <Class IRI="#UFO_00013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00339"/>
         <Class IRI="#UFO_00051"/>
     </SubClassOf>
     <SubClassOf>
@@ -4224,6 +4310,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00339"/>
         <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00339"/>
+        <Class IRI="#UFO_00446"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00339"/>
@@ -4366,6 +4456,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00339"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00385"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00340"/>
         <Class IRI="#UFO_00013"/>
     </SubClassOf>
@@ -4404,6 +4501,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00340"/>
         <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00340"/>
+        <Class IRI="#UFO_00446"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00340"/>
@@ -4952,6 +5053,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00341"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00341"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00071"/>
@@ -4969,6 +5081,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00150"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00193"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5806,6 +5925,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00425"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00425"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00054"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00425"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00087"/>
@@ -6049,6 +6179,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00434"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00434"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00434"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00277"/>
@@ -6306,6 +6447,32 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00446"/>
+        <Class IRI="#UFO_00409"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00447"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00447"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00448"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00448"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00193"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -10194,6 +10361,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00444</IRI>
         <Literal xml:lang="en">blocked nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00446</IRI>
+        <Literal xml:lang="en">symptom of skin and subcutaneous tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00447</IRI>
+        <Literal xml:lang="en">skin dimpling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00448</IRI>
+        <Literal xml:lang="en">pimples</Literal>
     </AnnotationAssertion>
 </Ontology>
 
