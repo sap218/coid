@@ -21,6 +21,14 @@
         <Literal>Samantha C Pendleton</Literal>
     </Annotation>
     <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <Literal>ICD10</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <Literal>NHS</Literal>
+    </Annotation>
+    <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:github"/>
         <Literal>https://github.com/sap218/ufo</Literal>
     </Annotation>
