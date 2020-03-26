@@ -6,7 +6,7 @@
 
 **Creators**
 
-* Samantha C Pendleton (University of Birmingham, UK ) | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
+* Samantha C Pendleton (University of Birmingham, UK) | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
 
 ---
 
