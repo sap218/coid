@@ -577,6 +577,9 @@
         <Class IRI="#UFO_00181"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00182"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00183"/>
     </Declaration>
     <Declaration>
@@ -1387,6 +1390,9 @@
         <Class IRI="#UFO_00453"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00454"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
     </Declaration>
     <Declaration>
@@ -2184,6 +2190,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00182"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3527,6 +3540,10 @@
         <Class IRI="#UFO_00170"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00182"/>
+        <Class IRI="#UFO_00286"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00183"/>
         <Class IRI="#UFO_00187"/>
     </SubClassOf>
@@ -4723,6 +4740,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00175"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00340"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00182"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6522,6 +6546,14 @@
         <Class IRI="#UFO_00453"/>
         <Class IRI="#UFO_00105"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00454"/>
+        <Class IRI="#UFO_00182"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00454"/>
+        <Class IRI="#UFO_00287"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
         <Class IRI="#UFO_00003"/>
@@ -8203,6 +8235,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00181</IRI>
         <Literal xml:lang="en">periendocarditis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00182</IRI>
+        <Literal>ICD10:M79.7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00182</IRI>
+        <Literal xml:lang="en">fibrositis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -10483,6 +10525,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00453</IRI>
         <Literal xml:lang="en">inflammation of choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00454</IRI>
+        <Literal>ICD10:M79.7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00454</IRI>
+        <Literal xml:lang="en">myofibrositis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
