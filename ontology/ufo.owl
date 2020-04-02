@@ -1504,10 +1504,22 @@
         <Class IRI="#UFO_00491"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00493"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00494"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00495"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00411"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UFO_00492"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
@@ -1548,8 +1560,36 @@
         <Class IRI="#UFO_00001"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00492"/>
+            <Class IRI="#UFO_00010"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00492"/>
+            <Class IRI="#UFO_00494"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00003"/>
         <Class IRI="#UFO_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00492"/>
+            <Class IRI="#UFO_00009"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00492"/>
+            <Class IRI="#UFO_00495"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00004"/>
@@ -6809,6 +6849,18 @@
         <Class IRI="#UFO_00491"/>
         <Class IRI="#UFO_00346"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00493"/>
+        <Class IRI="#UFO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00494"/>
+        <Class IRI="#UFO_00493"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00495"/>
+        <Class IRI="#UFO_00493"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
         <Class IRI="#UFO_00003"/>
@@ -6840,6 +6892,10 @@
         <Class IRI="#UFO_00032"/>
         <Class IRI="#UFO_00033"/>
         <Class IRI="#UFO_00034"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00494"/>
+        <Class IRI="#UFO_00495"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10975,6 +11031,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00491</IRI>
         <Literal xml:lang="en">cortisone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00492</IRI>
+        <Literal xml:lang="en">characterised by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00493</IRI>
+        <Literal xml:lang="en">duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00494</IRI>
+        <Literal xml:lang="en">short</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00495</IRI>
+        <Literal xml:lang="en">persistent</Literal>
     </AnnotationAssertion>
 </Ontology>
 
