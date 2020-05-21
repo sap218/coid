@@ -1531,6 +1531,21 @@
         <Class IRI="#UFO_00501"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00502"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00503"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00504"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00505"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00506"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
     </Declaration>
     <Declaration>
@@ -3490,7 +3505,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00141"/>
-        <Class IRI="#UFO_00137"/>
+        <Class IRI="#UFO_00502"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00142"/>
@@ -3499,6 +3514,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00143"/>
         <Class IRI="#UFO_00142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00143"/>
+        <Class IRI="#UFO_00502"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00144"/>
@@ -6903,6 +6922,26 @@
         <Class IRI="#UFO_00501"/>
         <Class IRI="#UFO_00058"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00502"/>
+        <Class IRI="#UFO_00137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00503"/>
+        <Class IRI="#UFO_00197"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00504"/>
+        <Class IRI="#UFO_00394"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00505"/>
+        <Class IRI="#UFO_00504"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00506"/>
+        <Class IRI="#UFO_00066"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
         <Class IRI="#UFO_00003"/>
@@ -7207,6 +7246,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00050</IRI>
+        <Literal>ICD10:L08.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00050</IRI>
         <Literal>ICD10:L08.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -7495,6 +7539,11 @@
         <Literal xml:lang="en">inflammation of lacrimal passages</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00075</IRI>
+        <Literal>ICD10:H05.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00075</IRI>
         <Literal xml:lang="en">inflammation of orbit</Literal>
@@ -7632,17 +7681,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00093</IRI>
-        <Literal>H20.0</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#UFO_00093</IRI>
-        <Literal>H20.8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#UFO_00093</IRI>
         <Literal>ICD10:H20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00093</IRI>
+        <Literal>ICD10:H20.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00093</IRI>
+        <Literal>ICD10:H20.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -7662,12 +7711,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00095</IRI>
-        <Literal>H30.2</Literal>
+        <Literal>ICD10:H20.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00095</IRI>
-        <Literal>ICD10:H20.0</Literal>
+        <Literal>ICD10:H30.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8062,12 +8111,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00131</IRI>
+        <Literal>ICD10:G08</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00131</IRI>
         <Literal>ICD10:I80</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00131</IRI>
-        <Literal>IDC10:G08</Literal>
+        <Literal>ICD10:I80.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8273,6 +8327,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00151</IRI>
         <Literal>ICD10:N48.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal>ICD10:N49.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -8682,12 +8741,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00186</IRI>
-        <Literal>ICD10:I77.6</Literal>
+        <Literal>ICD10:I70</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00186</IRI>
-        <Literal>IDC10:I70</Literal>
+        <Literal>ICD10:I77.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8938,6 +8997,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00208</IRI>
         <Literal>ICD10:J06.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00208</IRI>
+        <Literal>ICD10:J06.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9375,6 +9439,11 @@
         <Literal>ICD10:K50.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>ICD10:K51.4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00250</IRI>
         <Literal xml:lang="en">colitis</Literal>
@@ -9500,6 +9569,11 @@
         <Literal xml:lang="en">hearing loss</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00264</IRI>
+        <Literal>ICD10:K75</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00264</IRI>
         <Literal xml:lang="en">inflammation of liver</Literal>
@@ -9518,6 +9592,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00265</IRI>
         <Literal>ICD10:K73</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>ICD10:K73.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>K75.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9950,6 +10034,11 @@
         <Literal>ICD10:N41</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00307</IRI>
+        <Literal>ICD10:N41.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00307</IRI>
         <Literal xml:lang="en">prostatitis</Literal>
@@ -10048,6 +10137,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00317</IRI>
         <Literal xml:lang="en">mastitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00318</IRI>
+        <Literal>ICD10:N73.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10257,12 +10351,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00336</IRI>
-        <Literal>ICD10:N76.1</Literal>
+        <Literal>ICD10:N76.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00336</IRI>
-        <Literal>IDC10:N76.0</Literal>
+        <Literal>ICD10:N76.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10638,6 +10732,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UFO_00399</IRI>
         <Literal>ICD10:E27.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00399</IRI>
+        <Literal>ICD10:E27.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11248,6 +11347,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00501</IRI>
         <Literal xml:lang="en">tuberculous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00502</IRI>
+        <Literal>ICD10:M79.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00502</IRI>
+        <Literal xml:lang="en">neuritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00503</IRI>
+        <Literal>ICD10:D73.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00503</IRI>
+        <Literal xml:lang="en">epispenitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00504</IRI>
+        <Literal xml:lang="en">inflammation of thymus gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00505</IRI>
+        <Literal>ICD10:E32.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00505</IRI>
+        <Literal xml:lang="en">thymitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UFO_00506</IRI>
+        <Literal>ICD10:I80.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00506</IRI>
+        <Literal xml:lang="en">pyelophlebitis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
