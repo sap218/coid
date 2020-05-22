@@ -9521,11 +9521,6 @@
         <Literal>ICD10:K50.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#UFO_00251</IRI>
-        <Literal>ICD10:K51.0</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00251</IRI>
         <Literal xml:lang="en">ileitis</Literal>
