@@ -13,6 +13,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="oboInOWL" IRI="http://www.geneontology.org/formats/oboInOWL#"/>
+    <Prefix name="layperson" IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>unified inflammatory ontology - with diseases, disorders, and phenotypes</Literal>
@@ -1735,6 +1736,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00492"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -9030,6 +9034,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00071</IRI>
+        <Literal>DOID:9423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00071</IRI>
+        <Literal>HP:0000498</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00071</IRI>
         <Literal>ICD10:H01.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -9056,6 +9070,21 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00071</IRI>
         <Literal>readcode:F4D00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00071</IRI>
+        <Literal>eyelid inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasRelatedSynonym"/>
+        <IRI>#UFO_00071</IRI>
+        <Literal>cellulitis of eyelid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00071</IRI>
+        <Literal>inflammation of the eyelid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9230,6 +9259,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00085</IRI>
+        <Literal>DOID:13452</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00085</IRI>
+        <Literal>HP:0100532</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00085</IRI>
         <Literal>ICD10:H15.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -9248,9 +9287,24 @@
         <Literal>readcode:F4K00</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00085</IRI>
+        <Literal>inflammation of white of eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00085</IRI>
+        <Literal>inflammation of the sclera, white outer part of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00085</IRI>
         <Literal xml:lang="en">scleritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00086</IRI>
+        <Literal>HP:0100534</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -9271,6 +9325,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00086</IRI>
         <Literal>readcode:X00aA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00086</IRI>
+        <Literal>inflammation of the episclera, the clear layer on top of the white part of your eye, the sclera</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10195,6 +10254,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00124</IRI>
+        <Literal>DOID:865</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00124</IRI>
+        <Literal>HP:0002633</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00124</IRI>
         <Literal>ICD10:H35.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10230,12 +10299,37 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00124</IRI>
+        <Literal>Orphanet:52759</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00124</IRI>
         <Literal>SNOMEDCT:31996006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00124</IRI>
+        <Literal>SYMP:0000153</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00124</IRI>
         <Literal>readcode:G76B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00124</IRI>
+        <Literal>angiitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00124</IRI>
+        <Literal>inflammation of blood vessel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00124</IRI>
+        <Literal>inflammation of the blood vessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10765,6 +10859,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00151</IRI>
+        <Literal>DOID:3488</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal>HP:0100658</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00151</IRI>
         <Literal>ICD10:H05.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10910,7 +11014,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00151</IRI>
+        <Literal>SYMP:0000000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00151</IRI>
         <Literal>readcode:M03z0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal>skin infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00151</IRI>
+        <Literal>infection caused by bacteria in the skin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11285,6 +11404,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00168</IRI>
+        <Literal>DOID:848</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00168</IRI>
+        <Literal>HP:0001369</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00168</IRI>
         <Literal>ICD10:I00</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -11340,7 +11469,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00168</IRI>
+        <Literal>SYMP:0019169</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00168</IRI>
         <Literal>readcode:Nyu1B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00168</IRI>
+        <Literal>joint inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00168</IRI>
+        <Literal>inflammation of the joints</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11920,6 +12064,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00193</IRI>
+        <Literal>DOID:4409</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00193</IRI>
+        <Literal>HP:0025084</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00193</IRI>
         <Literal>ICD10:L66.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -11941,6 +12095,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00193</IRI>
         <Literal>readcode:M244z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00193</IRI>
+        <Literal>inflammation of hair follicles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12130,6 +12289,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00201</IRI>
+        <Literal>DOID:4483</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>HP:0012384</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00201</IRI>
         <Literal>ICD10:J00</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -12183,9 +12352,44 @@
         <Literal>SNOMEDCT:70076002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>SYMP:0000121</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>nasal inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasRelatedSynonym"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>irritation of nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasRelatedSynonym"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>runny nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>inflammation of the mucous membrane of the nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00201</IRI>
         <Literal xml:lang="en">rhinitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00202</IRI>
+        <Literal>DOID:0050127</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00202</IRI>
+        <Literal>HP:0000246</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -12280,7 +12484,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00202</IRI>
+        <Literal>SYMP:0000134</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00202</IRI>
         <Literal>readcode:XM1QH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00202</IRI>
+        <Literal>sinus inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00202</IRI>
+        <Literal>inflammation of the sinuses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13440,6 +13659,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00248</IRI>
+        <Literal>DOID:8337</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00248</IRI>
         <Literal>ICD10:K35</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -13498,6 +13722,11 @@
         <Literal>readcode:J22z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00248</IRI>
+        <Literal>inflammation of the appendix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00248</IRI>
         <Literal xml:lang="en">appendicitis</Literal>
@@ -13521,6 +13750,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00249</IRI>
         <Literal xml:lang="en">enteritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>DOID:8577</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>HP:0100279</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -13551,6 +13790,26 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00250</IRI>
         <Literal>readcode:J41z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>UC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>colitis gravis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>colitis ulcerosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>inflammation of the lower end of the digestive system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13810,6 +14069,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00265</IRI>
+        <Literal>DOID:2237</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>HP:0012115</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00265</IRI>
         <Literal>ICD10:K70.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -13840,7 +14109,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00265</IRI>
+        <Literal>SYMP:0000046</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00265</IRI>
         <Literal>readcode:XM1Oq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>liver inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>liver necrosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00265</IRI>
+        <Literal>inflammation of the liver</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14265,6 +14554,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00285</IRI>
+        <Literal>DOID:9600</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00285</IRI>
         <Literal>ICD10:M35.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -14281,6 +14575,21 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00285</IRI>
         <Literal>readcode:NyuA8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasBroadSynonym"/>
+        <IRI>#UFO_00285</IRI>
+        <Literal>policeman heel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00285</IRI>
+        <Literal>plantar fasciitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00285</IRI>
+        <Literal>inflammation of the plantar fascia, a part of the foot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14540,6 +14849,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00296</IRI>
+        <Literal>DOID:1679</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00296</IRI>
         <Literal>ICD10:N21</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -14601,6 +14915,16 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00296</IRI>
         <Literal>readcode:K15yz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasRelatedSynonym"/>
+        <IRI>#UFO_00296</IRI>
+        <Literal>bladder infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00296</IRI>
+        <Literal>inflammation of the bladder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15570,6 +15894,16 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00335</IRI>
+        <Literal>DOID:2170</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00335</IRI>
+        <Literal>HP:0030683</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00335</IRI>
         <Literal>ICD10:N76.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -15601,6 +15935,16 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00335</IRI>
         <Literal>readcode:K4210</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasRelatedSynonym"/>
+        <IRI>#UFO_00335</IRI>
+        <Literal>vulvovaginitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00335</IRI>
+        <Literal>inflammation of the vagina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
