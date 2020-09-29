@@ -8257,6 +8257,26 @@
         <Literal xml:lang="en">burns</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00036</IRI>
+        <Literal>NCIT:C26901</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00036</IRI>
+        <Literal>SNOMEDCT:386713009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00036</IRI>
+        <Literal>erythema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00036</IRI>
+        <Literal>discoloration of the skin caused by infectious agents, inflammation, drug hypersensitivity, or underlying disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00036</IRI>
         <Literal xml:lang="en">redness</Literal>
@@ -8267,14 +8287,79 @@
         <Literal xml:lang="en">immobility</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00038</IRI>
+        <Literal>NCIT:C3399</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00038</IRI>
+        <Literal>PATO:0001851</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00038</IRI>
+        <Literal>SNOMEDCT:65124004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00038</IRI>
+        <Literal>bulge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00038</IRI>
+        <Literal>swollen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00038</IRI>
+        <Literal>enlargement or expansion in size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00038</IRI>
         <Literal xml:lang="en">swelling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00039</IRI>
+        <Literal>warm to touch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00039</IRI>
         <Literal xml:lang="en">heat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>HP:0012378</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>NCIT:C3036</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>SNOMEDCT:84229001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>SYMP:0019177</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>tired</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>a weariness or exhaustion from labor, exertion, or stress</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8297,6 +8382,36 @@
         <Literal xml:lang="en">injury</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>HP:0001945</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>NCIT:C3038</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>SNOMEDCT:386661006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>SYMP:0000613</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>pyrexia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>a rise of body temperature above the normal whether a natural response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00044</IRI>
         <Literal xml:lang="en">fever</Literal>
@@ -8310,6 +8425,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00046</IRI>
         <Literal xml:lang="en">foreign objects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00047</IRI>
+        <Literal>SNOMEDCT:80585000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00047</IRI>
+        <Literal>intolerant of cold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00047</IRI>
+        <Literal>extremely sensitive to cold temperatures</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8817,6 +8947,41 @@
         <Literal xml:lang="en">bacterial meningitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>HP:0025143</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>NCIT:C35143</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>SNOMEDCT:43724002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>SYMP:0019174</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>shiver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasRelatedSynonym"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>rigor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00060</IRI>
+        <Literal>sensation of being cold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00060</IRI>
         <Literal xml:lang="en">chills</Literal>
@@ -8832,9 +8997,39 @@
         <Literal xml:lang="en">dry cough</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00063</IRI>
+        <Literal>HP:0008066</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00063</IRI>
+        <Literal>NCIT:C75564</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00063</IRI>
+        <Literal>SNOMEDCT:417237009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00063</IRI>
+        <Literal>SYMP:0000009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00063</IRI>
+        <Literal>skin bullae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00063</IRI>
+        <Literal>fluid filled cavity with a thin wall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00063</IRI>
-        <Literal xml:lang="en">blisters</Literal>
+        <Literal xml:lang="en">blister</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -10045,6 +10240,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00114</IRI>
         <Literal xml:lang="en">dacryopericystitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00115</IRI>
+        <Literal>NCIT:C26791</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00115</IRI>
+        <Literal>SNOMEDCT:131148009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00115</IRI>
+        <Literal>SYMP:0000007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00115</IRI>
+        <Literal>hemorrhage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00115</IRI>
+        <Literal>flow of blood from a ruptured blood vessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16047,14 +16267,64 @@
         <Literal xml:lang="en">ulcer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00339</IRI>
+        <Literal>NCIT:C50535</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00339</IRI>
+        <Literal>SNOMEDCT:247347003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00339</IRI>
+        <Literal>feeling of mental or physical uneasiness, pain, or distress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00339</IRI>
         <Literal xml:lang="en">discomfort</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>HP:0012531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>NCIT:C3303</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>SNOMEDCT:22253000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>SYMP:0000099</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>unpleasant sensation that usually indicates the body is threatened or damaged</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00340</IRI>
         <Literal xml:lang="en">pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00341</IRI>
+        <Literal>SNOMEDCT:418290006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00341</IRI>
+        <Literal>sensation that makes a person want to scratch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16752,9 +17022,59 @@
         <Literal xml:lang="en">headache</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00413</IRI>
+        <Literal>NCIT:C113630</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00413</IRI>
+        <Literal>SNOMEDCT:79890006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00413</IRI>
+        <Literal>SYMP:0000309</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00413</IRI>
+        <Literal>reduced desire to eat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00413</IRI>
         <Literal xml:lang="en">loss of appetite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00414</IRI>
+        <Literal>HP:0001289</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00414</IRI>
+        <Literal>NCIT:C37928</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00414</IRI>
+        <Literal>SNOMEDCT:62476001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00414</IRI>
+        <Literal>SYMP:0000023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00414</IRI>
+        <Literal>confusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00414</IRI>
+        <Literal>a lack of clear and orderly thought and behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16777,9 +17097,24 @@
         <Literal xml:lang="en">loss of vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00418</IRI>
+        <Literal>NCIT:C50656</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00418</IRI>
+        <Literal>SNOMEDCT:45352006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00418</IRI>
+        <Literal>a sudden involuntary contraction of a muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00418</IRI>
-        <Literal xml:lang="en">spasms</Literal>
+        <Literal xml:lang="en">spasm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16840,6 +17175,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00429</IRI>
         <Literal xml:lang="en">blood in urine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00430</IRI>
+        <Literal>DOID:10763</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00430</IRI>
+        <Literal>NCIT:C3117</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00430</IRI>
+        <Literal>SNOMEDCT:163028000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00430</IRI>
+        <Literal>hypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00430</IRI>
+        <Literal>blood pressure that is abnormally high</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18632,9 +18992,59 @@
         <Literal xml:lang="en">DIG neurological</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00559</IRI>
+        <Literal>NCIT:C84480</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00559</IRI>
+        <Literal>SNOMEDCT:414786004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00559</IRI>
+        <Literal>unusual sound heard between heartbeats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00559</IRI>
         <Literal xml:lang="en">murmur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>DOID:13250</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>HP:0002014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>SNOMEDCT:62315008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>SYMP:0000570</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasBroadSynonym"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>watery stool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>diarrhea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>increased frequency of loose or watery bowel movements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18735,6 +19145,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00564</IRI>
         <Literal xml:lang="en">steatohepatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00565</IRI>
+        <Literal>NCIT:C37921</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00565</IRI>
+        <Literal>SNOMEDCT:161885008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00565</IRI>
+        <Literal>SYMP:0000406</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00565</IRI>
+        <Literal>contusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00565</IRI>
+        <Literal>discoloration of skin due to rupture of small blood vessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
