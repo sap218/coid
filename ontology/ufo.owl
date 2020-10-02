@@ -2486,6 +2486,9 @@
         <Class IRI="#UFO_00816"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00817"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00818"/>
     </Declaration>
     <Declaration>
@@ -2628,6 +2631,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00866"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00867"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00868"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
@@ -9913,6 +9922,10 @@
         <Class IRI="#UFO_00815"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00817"/>
+        <Class IRI="#UFO_00369"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00818"/>
         <Class IRI="#UFO_00455"/>
     </SubClassOf>
@@ -10104,6 +10117,14 @@
         <Class IRI="#UFO_00866"/>
         <Class IRI="#UFO_00346"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00867"/>
+        <Class IRI="#UFO_00776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00868"/>
+        <Class IRI="#UFO_00642"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
         <Class IRI="#UFO_00003"/>
@@ -10154,6 +10175,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00003</IRI>
         <Literal xml:lang="en">chronic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00004</IRI>
+        <Literal>flare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10324,6 +10350,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00029</IRI>
         <Literal>child</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00029</IRI>
+        <Literal>children</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11869,6 +11900,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00085</IRI>
         <Literal xml:lang="en">scleritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00086</IRI>
+        <Literal>epi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00086</IRI>
+        <Literal>episceritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00086</IRI>
+        <Literal>epischleritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -19041,6 +19087,11 @@
         <Literal xml:lang="en">naproxen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00348</IRI>
+        <Literal>advil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00348</IRI>
         <Literal xml:lang="en">ibuprofen</Literal>
@@ -19049,6 +19100,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00349</IRI>
         <Literal xml:lang="en">aspirin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00350</IRI>
+        <Literal>tynenol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21141,6 +21197,11 @@
         <Literal xml:lang="en">biologic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00475</IRI>
+        <Literal>remicade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00475</IRI>
         <Literal xml:lang="en">infliximab</Literal>
@@ -21149,6 +21210,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00476</IRI>
         <Literal xml:lang="en">etanercept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00477</IRI>
+        <Literal>humira</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21174,6 +21240,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00481</IRI>
         <Literal xml:lang="en">tocilizumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00482</IRI>
+        <Literal>retuximab</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25601,6 +25672,16 @@
         <Literal xml:lang="en">overweight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00817</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00817</IRI>
+        <Literal xml:lang="en">infusion therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00818</IRI>
         <Literal>geno</Literal>
@@ -26001,6 +26082,11 @@
         <Literal xml:lang="en">acid reflux</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00852</IRI>
+        <Literal>pred forte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00852</IRI>
         <Literal>patient.info</Literal>
@@ -26179,6 +26265,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00866</IRI>
         <Literal xml:lang="en">avymy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00867</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00867</IRI>
+        <Literal xml:lang="en">bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00868</IRI>
+        <Literal>SNRA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00868</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00868</IRI>
+        <Literal xml:lang="en">serotonin–norepinephrine releasing agent</Literal>
     </AnnotationAssertion>
 </Ontology>
 
