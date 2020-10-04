@@ -26393,7 +26393,7 @@
         <Literal xml:lang="en">genotype</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00819</IRI>
         <Literal>patient.info</Literal>
     </AnnotationAssertion>
@@ -27393,7 +27393,7 @@
         <Literal xml:lang="en">surgery of the circulatory system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00896</IRI>
         <Literal>patient.info</Literal>
     </AnnotationAssertion>
@@ -27558,7 +27558,7 @@
         <Literal xml:lang="en">minerals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00910</IRI>
         <Literal>patient.info</Literal>
     </AnnotationAssertion>
