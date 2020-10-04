@@ -2615,6 +2615,9 @@
         <Class IRI="#UFO_00859"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00860"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00861"/>
     </Declaration>
     <Declaration>
@@ -2642,7 +2645,13 @@
         <Class IRI="#UFO_00869"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00870"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00871"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00872"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00873"/>
@@ -2739,6 +2748,96 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00904"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00905"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00906"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00907"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00908"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00909"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00910"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00911"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00912"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00913"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00914"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00915"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00916"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00917"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00918"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00919"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00920"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00921"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00922"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00923"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00924"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00925"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00926"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00927"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00928"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00929"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00930"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00931"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00932"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00934"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00935"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
@@ -9233,7 +9332,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00622"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00909"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00623"/>
@@ -9281,7 +9380,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00634"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00909"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00635"/>
@@ -9293,7 +9392,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00637"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00909"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00638"/>
@@ -9673,7 +9772,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00731"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00908"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00732"/>
@@ -9885,7 +9984,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00781"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00909"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00782"/>
@@ -10204,6 +10303,10 @@
         <Class IRI="#UFO_00027"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00860"/>
+        <Class IRI="#UFO_00724"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00861"/>
         <Class IRI="#UFO_00700"/>
     </SubClassOf>
@@ -10244,12 +10347,20 @@
         <Class IRI="#UFO_00877"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00870"/>
+        <Class IRI="#UFO_00468"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00871"/>
         <Class IRI="#UFO_00616"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00872"/>
+        <Class IRI="#UFO_00026"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00873"/>
-        <Class IRI="#UFO_00616"/>
+        <Class IRI="#UFO_00750"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00874"/>
@@ -10374,6 +10485,126 @@
     <SubClassOf>
         <Class IRI="#UFO_00904"/>
         <Class IRI="#UFO_00026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00905"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00906"/>
+        <Class IRI="#UFO_00463"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00907"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00908"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00909"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00910"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00911"/>
+        <Class IRI="#UFO_00474"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00912"/>
+        <Class IRI="#UFO_00457"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00913"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00914"/>
+        <Class IRI="#UFO_00345"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00915"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00916"/>
+        <Class IRI="#UFO_00026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00917"/>
+        <Class IRI="#UFO_00641"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00918"/>
+        <Class IRI="#UFO_00468"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00919"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00920"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00921"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00922"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00923"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00924"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00925"/>
+        <Class IRI="#UFO_00403"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00926"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00927"/>
+        <Class IRI="#UFO_00580"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00928"/>
+        <Class IRI="#UFO_00750"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00929"/>
+        <Class IRI="#UFO_00026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00930"/>
+        <Class IRI="#UFO_00403"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00931"/>
+        <Class IRI="#UFO_00807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00932"/>
+        <Class IRI="#UFO_00807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00934"/>
+        <Class IRI="#UFO_00346"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00935"/>
+        <Class IRI="#UFO_00345"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
@@ -10622,6 +10853,11 @@
         <Literal>children</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00029</IRI>
+        <Literal>kid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00029</IRI>
         <Literal xml:lang="en">juvenile</Literal>
@@ -10755,6 +10991,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00040</IRI>
         <Literal>drowsy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00040</IRI>
+        <Literal>exhausted</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -16727,6 +16968,21 @@
         <Literal xml:lang="en">enteritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>IB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>IBD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00250</IRI>
+        <Literal>UC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00250</IRI>
         <Literal>DOID:8577</Literal>
@@ -16895,6 +17151,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00255</IRI>
         <Literal xml:lang="en">hemicolitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00256</IRI>
+        <Literal>food poisoning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00256</IRI>
+        <Literal>gastro</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -19484,6 +19750,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00357</IRI>
+        <Literal>suppository</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00357</IRI>
         <Literal>tablet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -19660,6 +19931,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00376</IRI>
         <Literal xml:lang="en">chemical irritants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00377</IRI>
+        <Literal>poison</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22437,6 +22713,16 @@
         <Literal xml:lang="en">CGFV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00538</IRI>
+        <Literal>IB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00538</IRI>
+        <Literal>IBD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00538</IRI>
         <Literal>ICD10:K50</Literal>
@@ -22912,6 +23198,16 @@
         <Literal xml:lang="en">murmur</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>watery poo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00560</IRI>
+        <Literal>watery poop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00560</IRI>
         <Literal>DOID:13250</Literal>
@@ -23085,6 +23381,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00565</IRI>
         <Literal xml:lang="en">bruising</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00566</IRI>
+        <Literal>abdo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -24174,7 +24475,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00657</IRI>
-        <Literal xml:lang="en">vitamin</Literal>
+        <Literal xml:lang="en">vitamins</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -24925,6 +25226,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00723</IRI>
         <Literal xml:lang="en">eyebrow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00724</IRI>
+        <Literal>insert</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -26603,6 +26909,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00860</IRI>
+        <Literal>enama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00860</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00860</IRI>
+        <Literal xml:lang="en">enema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00861</IRI>
         <Literal>dymista</Literal>
     </AnnotationAssertion>
@@ -26707,9 +27028,84 @@
         <Literal xml:lang="en">tooth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>asacol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>asocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>mesalazine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>mesazaline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>mezaline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>octasa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>pentasa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>salofalk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00870</IRI>
+        <Literal xml:lang="en">mesalamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00871</IRI>
         <Literal xml:lang="en">sphenoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00872</IRI>
+        <Literal>poo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00872</IRI>
+        <Literal>poop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00872</IRI>
+        <Literal>stool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00872</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00872</IRI>
+        <Literal xml:lang="en">bowel movements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -27105,6 +27501,341 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00904</IRI>
         <Literal xml:lang="en">petechiae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00905</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00905</IRI>
+        <Literal xml:lang="en">gluten</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00906</IRI>
+        <Literal>movement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00906</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00906</IRI>
+        <Literal xml:lang="en">exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00907</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00907</IRI>
+        <Literal xml:lang="en">fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00908</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00908</IRI>
+        <Literal xml:lang="en">seed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00909</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00909</IRI>
+        <Literal xml:lang="en">minerals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00910</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00910</IRI>
+        <Literal xml:lang="en">dairy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00911</IRI>
+        <Literal>entyvio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00911</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00911</IRI>
+        <Literal xml:lang="en">vedolizumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00912</IRI>
+        <Literal>calprotectin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00912</IRI>
+        <Literal>stool sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00912</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00912</IRI>
+        <Literal xml:lang="en">stool test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00913</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00913</IRI>
+        <Literal xml:lang="en">meat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00914</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00914</IRI>
+        <Literal xml:lang="en">mezavant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00915</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00915</IRI>
+        <Literal xml:lang="en">yoghurt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00916</IRI>
+        <Literal>DVT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00916</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00916</IRI>
+        <Literal xml:lang="en">deep vein thrombosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00917</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00917</IRI>
+        <Literal xml:lang="en">laxative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00918</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00918</IRI>
+        <Literal xml:lang="en">mercaptopurine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00919</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00919</IRI>
+        <Literal xml:lang="en">rice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00920</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00920</IRI>
+        <Literal xml:lang="en">coconut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00921</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00921</IRI>
+        <Literal xml:lang="en">onion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00922</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00922</IRI>
+        <Literal xml:lang="en">wheat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00923</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00923</IRI>
+        <Literal xml:lang="en">chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00924</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00924</IRI>
+        <Literal xml:lang="en">sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00925</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00925</IRI>
+        <Literal xml:lang="en">colostomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00926</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00926</IRI>
+        <Literal xml:lang="en">spicy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00927</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00927</IRI>
+        <Literal xml:lang="en">herb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00928</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00928</IRI>
+        <Literal xml:lang="en">chin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00929</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00929</IRI>
+        <Literal xml:lang="en">blood clot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00930</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00930</IRI>
+        <Literal xml:lang="en">sigmoidoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00931</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00931</IRI>
+        <Literal xml:lang="en">platelet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00932</IRI>
+        <Literal>anaemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00932</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00932</IRI>
+        <Literal xml:lang="en">red blood cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00934</IRI>
+        <Literal>uceris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00934</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00934</IRI>
+        <Literal xml:lang="en">budesonide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00935</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00935</IRI>
+        <Literal xml:lang="en">balsalazide</Literal>
     </AnnotationAssertion>
 </Ontology>
 
