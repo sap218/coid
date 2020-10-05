@@ -2834,10 +2834,43 @@
         <Class IRI="#UFO_00932"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00933"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00934"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00935"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00936"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00937"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00938"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00939"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00940"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00941"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00943"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00944"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00945"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00946"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
@@ -2847,6 +2880,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00492"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UFO_00942"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -3098,6 +3134,13 @@
         <Class IRI="#UFO_00036"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00036"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00077"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3264,7 +3307,47 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00037"/>
+        <Class IRI="#UFO_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
+        <Class IRI="#UFO_00293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
         <Class IRI="#UFO_00342"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00285"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00038"/>
@@ -3440,6 +3523,13 @@
         <Class IRI="#UFO_00038"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00202"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3566,6 +3656,13 @@
         <Class IRI="#UFO_00038"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00335"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00388"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3633,6 +3730,34 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00086"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00285"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00039"/>
         <Class IRI="#UFO_00013"/>
     </SubClassOf>
@@ -3646,6 +3771,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00039"/>
+        <Class IRI="#UFO_00421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
         <Class IRI="#UFO_00428"/>
     </SubClassOf>
     <SubClassOf>
@@ -3655,6 +3784,13 @@
     <SubClassOf>
         <Class IRI="#UFO_00039"/>
         <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00086"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00039"/>
@@ -3710,6 +3846,48 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00549"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00193"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00285"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3916,6 +4094,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00085"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4140,6 +4325,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00292"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00296"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4694,7 +4886,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00086"/>
-        <Class IRI="#UFO_00081"/>
+        <Class IRI="#UFO_00085"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00087"/>
@@ -6176,13 +6368,6 @@
         <Class IRI="#UFO_00339"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
-            <Class IRI="#UFO_00086"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_00339"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00127"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6198,6 +6383,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00200"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00339"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6317,6 +6509,27 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00561"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00339"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00339"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00339"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7015,6 +7228,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00340"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00193"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00341"/>
         <Class IRI="#UFO_00013"/>
     </SubClassOf>
@@ -7037,6 +7257,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00341"/>
         <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00341"/>
+        <Class IRI="#UFO_00436"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00341"/>
@@ -7075,6 +7299,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00193"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7131,6 +7362,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00564"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00341"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7435,6 +7673,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00412"/>
+        <Class IRI="#UFO_00421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00412"/>
         <Class IRI="#UFO_00428"/>
     </SubClassOf>
     <SubClassOf>
@@ -7453,6 +7695,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00412"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00085"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7609,6 +7858,13 @@
         <Class IRI="#UFO_00413"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00413"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00256"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7638,6 +7894,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00292"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00413"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00296"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7735,6 +7998,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00414"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00415"/>
         <Class IRI="#UFO_00410"/>
     </SubClassOf>
@@ -7798,6 +8068,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00396"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00417"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7888,6 +8165,13 @@
         <Class IRI="#UFO_00423"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00423"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00087"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7920,6 +8204,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00423"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00424"/>
         <Class IRI="#UFO_00410"/>
     </SubClassOf>
@@ -7932,6 +8223,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00424"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00086"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7970,6 +8268,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00424"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00425"/>
         <Class IRI="#UFO_00051"/>
     </SubClassOf>
@@ -7984,6 +8289,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00425"/>
         <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00425"/>
+        <Class IRI="#UFO_00436"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00425"/>
@@ -8130,6 +8439,34 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00425"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00425"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00425"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00193"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00425"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00426"/>
         <Class IRI="#UFO_00421"/>
     </SubClassOf>
@@ -8138,6 +8475,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00143"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00426"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8237,6 +8581,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00433"/>
+        <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00433"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00168"/>
@@ -8264,8 +8612,19 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00433"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00434"/>
         <Class IRI="#UFO_00293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00434"/>
+        <Class IRI="#UFO_00428"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00434"/>
@@ -8282,6 +8641,13 @@
         <Class IRI="#UFO_00434"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00193"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00434"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00277"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -8290,6 +8656,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00544"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00434"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00434"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8511,6 +8891,13 @@
         <Class IRI="#UFO_00443"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00443"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00202"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -8544,6 +8931,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00200"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00444"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -9065,6 +9459,13 @@
         <Class IRI="#UFO_00560"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00560"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00538"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9105,9 +9506,31 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00565"/>
+        <Class IRI="#UFO_00293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00565"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00565"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UFO_00411"/>
             <Class IRI="#UFO_00564"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00565"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00565"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00168"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -9144,7 +9567,86 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00574"/>
-        <Class IRI="#UFO_00026"/>
+        <Class IRI="#UFO_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <Class IRI="#UFO_00421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00265"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00193"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00575"/>
@@ -9452,7 +9954,25 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00652"/>
-        <Class IRI="#UFO_00026"/>
+        <Class IRI="#UFO_00421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00652"/>
+        <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00652"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00335"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00652"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00653"/>
@@ -10444,7 +10964,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00894"/>
-        <Class IRI="#UFO_00026"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00894"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00895"/>
@@ -10599,12 +11126,239 @@
         <Class IRI="#UFO_00807"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <Class IRI="#UFO_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <Class IRI="#UFO_00293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00933"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00934"/>
         <Class IRI="#UFO_00346"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00935"/>
         <Class IRI="#UFO_00345"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <Class IRI="#UFO_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <Class IRI="#UFO_00421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00936"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00937"/>
+        <Class IRI="#UFO_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00937"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00938"/>
+        <Class IRI="#UFO_00630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00939"/>
+        <Class IRI="#UFO_00630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00940"/>
+        <Class IRI="#UFO_00630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <Class IRI="#UFO_00293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <Class IRI="#UFO_00428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <Class IRI="#UFO_00446"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00285"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00941"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00335"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00943"/>
+        <Class IRI="#UFO_00421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00943"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00943"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00086"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00943"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00942"/>
+            <Class IRI="#UFO_00071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00944"/>
+        <Class IRI="#UFO_00761"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00945"/>
+        <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00945"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00946"/>
+        <Class IRI="#UFO_00436"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00946"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UFO_00411"/>
+            <Class IRI="#UFO_00201"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
@@ -10893,6 +11647,11 @@
         <Literal xml:lang="en">burns</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00036</IRI>
+        <Literal>pink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00036</IRI>
         <Literal>NCIT:C26901</Literal>
@@ -10916,6 +11675,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00036</IRI>
         <Literal xml:lang="en">redness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00037</IRI>
+        <Literal>can&apos;t move</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00037</IRI>
+        <Literal>cripple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00037</IRI>
+        <Literal>joints crack</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00037</IRI>
+        <Literal>limp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00037</IRI>
+        <Literal>pop</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -11075,12 +11859,27 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00043</IRI>
+        <Literal>fall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00043</IRI>
         <Literal>scratch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00043</IRI>
+        <Literal>torn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00043</IRI>
         <Literal xml:lang="en">injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00044</IRI>
+        <Literal>high temperature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -16930,6 +17729,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00248</IRI>
+        <Literal>NCIT:C35145</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00248</IRI>
         <Literal>SNOMEDCT:74400008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -17945,11 +18749,6 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00285</IRI>
-        <Literal>plantar fasciitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00285</IRI>
         <Literal>plantar fascitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -17998,11 +18797,6 @@
         <Literal>policeman heel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
-        <IRI>#UFO_00285</IRI>
-        <Literal>plantar fasciitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFO_00285</IRI>
         <Literal>inflammation of the plantar fascia, a part of the foot</Literal>
@@ -18010,7 +18804,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00285</IRI>
-        <Literal xml:lang="en">fasciitis</Literal>
+        <Literal xml:lang="en">plantar fasciitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -19535,7 +20329,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00339</IRI>
-        <Literal>constipated</Literal>
+        <Literal>aggravate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -19570,7 +20364,22 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00340</IRI>
+        <Literal>agony</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>excruciating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00340</IRI>
         <Literal>hurt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00340</IRI>
+        <Literal>unbearable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -19620,7 +20429,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00341</IRI>
+        <Literal>peel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00341</IRI>
         <Literal>prurigo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00341</IRI>
+        <Literal>scratch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -20870,12 +21689,22 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00425</IRI>
+        <Literal>sticky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00425</IRI>
         <Literal>watery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00425</IRI>
         <Literal>wet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00425</IRI>
+        <Literal>yellow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -23520,6 +24349,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00574</IRI>
+        <Literal>threw up</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00574</IRI>
         <Literal>unwell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -23528,9 +24362,29 @@
         <Literal>vomit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00574</IRI>
-        <Literal>patient.info</Literal>
+        <Literal>HP:0002018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00574</IRI>
+        <Literal>NCIT:C3258</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00574</IRI>
+        <Literal>SNOMEDCT:422587007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00574</IRI>
+        <Literal>SYMP:0000458</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00574</IRI>
+        <Literal>stomach discomfort and the sensation of wanting to vomit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24403,9 +25257,24 @@
         <Literal xml:lang="en">estrogen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00652</IRI>
-        <Literal>patient.info</Literal>
+        <Literal>dandruff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00652</IRI>
+        <Literal>NCIT:C25489</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00652</IRI>
+        <Literal>SNOMEDCT:31908003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00652</IRI>
+        <Literal>lack of natural or normal moisture</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24556,6 +25425,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00665</IRI>
         <Literal xml:lang="en">genetic sex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00666</IRI>
+        <Literal>girl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -24891,6 +25765,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00693</IRI>
         <Literal xml:lang="en">vulvar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00694</IRI>
+        <Literal>cry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -25928,6 +26807,11 @@
         <Literal xml:lang="en">pubic hair</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00784</IRI>
+        <Literal>in grown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00784</IRI>
         <Literal>patient.info</Literal>
@@ -26463,6 +27347,16 @@
         <Literal xml:lang="en">achilles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00826</IRI>
+        <Literal>glad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00826</IRI>
+        <Literal>relief</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00826</IRI>
         <Literal>patient.info</Literal>
@@ -26470,7 +27364,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00826</IRI>
-        <Literal xml:lang="en">glad</Literal>
+        <Literal xml:lang="en">happy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -27375,6 +28269,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00894</IRI>
+        <Literal>raised skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00894</IRI>
         <Literal>urticaria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -27516,6 +28415,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00906</IRI>
         <Literal>movement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00906</IRI>
+        <Literal>stretch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -27813,6 +28717,36 @@
         <Literal xml:lang="en">red blood cell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00933</IRI>
+        <Literal>NCIT:C34827</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00933</IRI>
+        <Literal>SNOMEDCT:55300003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00933</IRI>
+        <Literal>SYMP:0000689</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00933</IRI>
+        <Literal>sudden and involuntary contraction of a muscle for prolonged peroids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00933</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00933</IRI>
+        <Literal xml:lang="en">cramp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00934</IRI>
         <Literal>uceris</Literal>
@@ -27836,6 +28770,241 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00935</IRI>
         <Literal xml:lang="en">balsalazide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>lack of sleep</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>HP:0100785</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>NCIT:C28286</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>SNOMEDCT:193462001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>SYMP:0000571</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>sleeplessness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>difficulty falling asleep or staying asleep</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00936</IRI>
+        <Literal xml:lang="en">insomnia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00937</IRI>
+        <Literal>SNOMEDCT:14760008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00937</IRI>
+        <Literal>difficulty passing stools</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00937</IRI>
+        <Literal xml:lang="en">constipated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00938</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00938</IRI>
+        <Literal xml:lang="en">suffer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00939</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00939</IRI>
+        <Literal xml:lang="en">worry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00940</IRI>
+        <Literal>good</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00940</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00940</IRI>
+        <Literal xml:lang="en">great</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal>loss of sensation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal>numb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal>NCIT:C34857</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal>SNOMEDCT:44077006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal>loss of the sensation of feeling in an area of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00941</IRI>
+        <Literal xml:lang="en">numbness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00942</IRI>
+        <Literal xml:lang="en">patient reported symptom of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00943</IRI>
+        <Literal>PATO:0002408</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00943</IRI>
+        <Literal>SNOMEDCT:263930000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00943</IRI>
+        <Literal>secretion of fluids but not discharge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00943</IRI>
+        <Literal xml:lang="en">watery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00944</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00944</IRI>
+        <Literal xml:lang="en">acne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00945</IRI>
+        <Literal>NCIT:C50746</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00945</IRI>
+        <Literal>SNOMEDCT:76067001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00945</IRI>
+        <Literal>SYMP:0000139</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00945</IRI>
+        <Literal>involuntary expulsion of air from the nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00945</IRI>
+        <Literal xml:lang="en">sneezing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>congest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>congestion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>loss of smell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>HP:0000458</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>NCIT:C116369</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>SNOMEDCT:230502003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>loss of smell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal>lack of sensation to smell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00946</IRI>
+        <Literal xml:lang="en">anosmia</Literal>
     </AnnotationAssertion>
 </Ontology>
 
