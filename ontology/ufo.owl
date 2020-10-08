@@ -1661,9 +1661,6 @@
         <Class IRI="#UFO_00541"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00542"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00543"/>
     </Declaration>
     <Declaration>
@@ -9513,10 +9510,6 @@
         <Class IRI="#UFO_00261"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00542"/>
-        <Class IRI="#UFO_00270"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00543"/>
         <Class IRI="#UFO_00049"/>
     </SubClassOf>
@@ -12313,11 +12306,6 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00050</IRI>
         <Literal>ICD10:I83.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00050</IRI>
-        <Literal>ICD10:I83.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -24038,36 +24026,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00541</IRI>
         <Literal xml:lang="en">anal abscess</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00542</IRI>
-        <Literal>ICD10:K80.5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00542</IRI>
-        <Literal>SNOMEDCT:70342003</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00542</IRI>
-        <Literal>SNOMEDCT:77528005</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00542</IRI>
-        <Literal>readcode:J64z0</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00542</IRI>
-        <Literal>readcode:J64z1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00542</IRI>
-        <Literal xml:lang="en">cholelithiasis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
