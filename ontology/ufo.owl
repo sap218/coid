@@ -1661,6 +1661,9 @@
         <Class IRI="#UFO_00541"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00542"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00543"/>
     </Declaration>
     <Declaration>
@@ -9508,6 +9511,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00541"/>
         <Class IRI="#UFO_00261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00542"/>
+        <Class IRI="#UFO_00256"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00543"/>
@@ -18340,11 +18347,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00256</IRI>
-        <Literal>ICD10:K52.9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
-        <IRI>#UFO_00256</IRI>
         <Literal>ICD9:558</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -21278,6 +21280,11 @@
         <Literal>ICD10:K62.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
+        <IRI>#UFO_00390</IRI>
+        <Literal>anusitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00390</IRI>
         <Literal xml:lang="en">cryptitis</Literal>
@@ -24026,6 +24033,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00541</IRI>
         <Literal xml:lang="en">anal abscess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00542</IRI>
+        <Literal>ICD10:K52.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00542</IRI>
+        <Literal>SNOMEDCT:25552000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00542</IRI>
+        <Literal xml:lang="en">cecitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
