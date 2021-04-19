@@ -8,7 +8,7 @@
 
 **License**
 
-[https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/) - please see [LICENSE](https://github.com/sap218/ufo/blob/master/LICENSE) for further information
+License: CC BY 3.0 - see [LICENSE](https://github.com/sap218/ufo/blob/master/LICENSE) for futher information
 
 **File**
 
@@ -17,10 +17,8 @@
 
 **Development**
 
-* Ontology was built with `Protégé`
-* Version: 13-10-2020 was ontology expanded with synonyms from  [patient.info](https://patient.info/forums) forums of a limited inflammatory terms of interest list.
-* Version: 25-02-2020 was ontology expanded with additional synonyms from [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT) - word2vec model trained on MIMIC-III clinical letters via the inflammatory terms of interest.
-* Current version has ontology expanded with additional synonyms from `ClinicalBERT` (domain-expert other synonyms, e.g. anatomy).
+* Ontology was built with [Protégé](https://protege.stanford.edu/)
+* See [CHANGELOG.md](https://github.com/sap218/ufo/blob/master/CHANGELOG.md) for development changes
 
 ---
 
@@ -32,7 +30,7 @@ Following the MIRO guidelines for reporting on an ontology [1]
   * A.3 [License](https://github.com/sap218/ufo/blob/master/LICENSE), which governs the permissions surrounding the ontology, https://creativecommons.org/licenses/by/3.0/
   * A.4 Located in `ontology` directory: https://github.com/sap218/ufo/blob/master/ontology/ufo.owl
   * A.5 GitHub repository: https://github.com/sap218/ufo.
-  * A.6 Methodological framework: used [Protégé](https://protege.stanford.edu/) software for ontology building using ICD-10, SNOMED-CT, HPO, DOID, and other biomedical ontologies. Synonym expansion followed the works of Braithwaite et al. using the tf-idf statistical analysis to gain patient-preferred synonyms [2]. Additionally expanded with external domain-expert terms from [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT)
+  * A.6 Methodological framework: used [Protégé](https://protege.stanford.edu/) software for ontology building using ICD-10, SNOMED-CT, HPO, DOID, and other biomedical ontologies. Synonym expansion followed the works of Braithwaite et al. using the tf-idf statistical analysis to gain patient-preferred synonyms [2] from the [patient.info](https://patient.info/forums) forums. Additionally expanded with external domain-expert terms from [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT)
   
 **B. Motivation**
   * B.1 Ontology is required as there currently lacks a system for inflammatory disorders, specifically the controlled vocabulary for these diseases & the need for understanding the “patient-voice” via symptoms and conditions.
