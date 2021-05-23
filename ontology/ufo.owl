@@ -2007,6 +2007,9 @@
         <Class IRI="#UFO_00655"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00656"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00657"/>
     </Declaration>
     <Declaration>
@@ -2059,6 +2062,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00675"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00676"/>
@@ -10990,6 +10996,10 @@
         <Class IRI="#UFO_00463"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00656"/>
+        <Class IRI="#UFO_01012"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00657"/>
         <Class IRI="#UFO_00580"/>
     </SubClassOf>
@@ -11064,6 +11074,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00674"/>
         <Class IRI="#UFO_00372"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00675"/>
+        <Class IRI="#UFO_01012"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00676"/>
@@ -12898,11 +12912,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01034"/>
-        <Class IRI="#UFO_00372"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_01034"/>
-        <Class IRI="#UFO_00530"/>
+        <Class IRI="#UFO_00673"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01035"/>
@@ -12946,11 +12956,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01045"/>
-        <Class IRI="#UFO_00687"/>
+        <Class IRI="#UFO_00675"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01045"/>
-        <Class IRI="#UFO_01012"/>
+        <Class IRI="#UFO_00687"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01046"/>
@@ -13354,7 +13364,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01136"/>
-        <Class IRI="#UFO_00372"/>
+        <Class IRI="#UFO_00656"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01137"/>
@@ -29115,6 +29125,16 @@
         <Literal xml:lang="en">pessary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00656</IRI>
+        <Literal>parasite is spread by mosquitoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00656</IRI>
+        <Literal xml:lang="en">plasmodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00657</IRI>
         <Literal>vitmin</Literal>
@@ -29353,6 +29373,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00674</IRI>
         <Literal xml:lang="en">fungal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00675</IRI>
+        <Literal>an anaerobic parasite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00675</IRI>
+        <Literal xml:lang="en">trichomonas vaginalis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -34175,6 +34205,11 @@
         <Literal xml:lang="en">ehrlichiosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00992</IRI>
+        <Literal>infection usually occurs by eating undercooked contaminated meat, exposure from infected cat feces, or mother-to-child transmission during pregnancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00992</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34510,6 +34545,11 @@
         <Literal xml:lang="en">parasite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01013</IRI>
+        <Literal>a malaria-like parasitic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01013</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34588,6 +34628,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01017</IRI>
         <Literal xml:lang="en">beeswax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01018</IRI>
+        <Literal>microscopic parasite that can live in your digestive tract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34730,6 +34775,11 @@
         <Literal xml:lang="en">common variable immune deficiency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01028</IRI>
+        <Literal>caused by larval cysts which infect brain, muscle, or other tissue, and are a major cause of adult onset seizures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01028</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34833,6 +34883,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01033</IRI>
         <Literal xml:lang="en">melanosis coli</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01034</IRI>
+        <Literal>an infection that originates within a tooth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35003,6 +35058,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01045</IRI>
         <Literal>vaginalis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01045</IRI>
+        <Literal>sexually transmitted infection caused by a tiny parasite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36452,7 +36512,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01136</IRI>
-        <Literal>malaria</Literal>
+        <Literal>malarial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01136</IRI>
+        <Literal>a serious tropical disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36462,7 +36527,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01136</IRI>
-        <Literal xml:lang="en">malarial</Literal>
+        <Literal xml:lang="en">malaria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -37120,6 +37185,11 @@
         <Literal xml:lang="en">lower leg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01190</IRI>
+        <Literal>parasite that infects red blood cells and is transmitted by ticks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01190</IRI>
         <Literal xml:lang="en">babesia</Literal>
@@ -37135,9 +37205,19 @@
         <Literal xml:lang="en">ehrlichia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01192</IRI>
+        <Literal>pork tapeworm is found throughout the world and is most common in countries where pork is eaten - humans is the host and pigs as secondary host</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01192</IRI>
         <Literal xml:lang="en">taenia solium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01193</IRI>
+        <Literal>parasite that infects most species of warm-blooded animals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
