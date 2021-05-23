@@ -3360,9 +3360,6 @@
         <Class IRI="#UFO_01108"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_01109"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_01110"/>
     </Declaration>
     <Declaration>
@@ -13222,10 +13219,6 @@
     <SubClassOf>
         <Class IRI="#UFO_01108"/>
         <Class IRI="#UFO_00863"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_01109"/>
-        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01110"/>
@@ -32305,12 +32298,22 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00890</IRI>
+        <Literal>sicca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00890</IRI>
         <Literal>sjogren</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00890</IRI>
         <Literal>sjogrens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00890</IRI>
+        <Literal>a condition that affects parts of the body that produce fluids</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -32466,6 +32469,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00900</IRI>
         <Literal>strasuss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00900</IRI>
+        <Literal>a disease characterized by inflammation of the blood vessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35793,16 +35801,6 @@
         <Literal xml:lang="en">septoplasty</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_01109</IRI>
-        <Literal>ClinicalBERT</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_01109</IRI>
-        <Literal xml:lang="en">sicca syndrome</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01110</IRI>
         <Literal>welder</Literal>
@@ -36511,6 +36509,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01163</IRI>
         <Literal>PCOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01163</IRI>
+        <Literal>a condition that affects a woman&apos;s hormone levels and ovaries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
