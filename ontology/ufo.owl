@@ -2238,9 +2238,6 @@
         <Class IRI="#UFO_00732"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00733"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00734"/>
     </Declaration>
     <Declaration>
@@ -3384,9 +3381,6 @@
         <Class IRI="#UFO_01115"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_01116"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_01117"/>
     </Declaration>
     <Declaration>
@@ -3616,6 +3610,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_01195"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UFO_00136"/>
@@ -10771,12 +10768,8 @@
         <Class IRI="#UFO_00283"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00610"/>
-        <Class IRI="#UFO_00761"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00611"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00612"/>
@@ -11013,7 +11006,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00658"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00016"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00659"/>
@@ -11117,7 +11110,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00683"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00886"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00683"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00684"/>
@@ -11141,7 +11138,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00689"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00382"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00690"/>
@@ -11314,10 +11311,6 @@
     <SubClassOf>
         <Class IRI="#UFO_00732"/>
         <Class IRI="#UFO_00569"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_00733"/>
-        <Class IRI="#UFO_00761"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00734"/>
@@ -11833,7 +11826,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00846"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00886"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00847"/>
@@ -12466,7 +12459,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00944"/>
-        <Class IRI="#UFO_01116"/>
+        <Class IRI="#UFO_00373"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00945"/>
@@ -12543,10 +12536,6 @@
         <Class IRI="#UFO_00049"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00952"/>
-        <Class IRI="#UFO_00761"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00953"/>
         <Class IRI="#UFO_00463"/>
     </SubClassOf>
@@ -12616,7 +12605,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00967"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00968"/>
@@ -12640,7 +12629,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00972"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00016"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00973"/>
@@ -12936,7 +12925,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01041"/>
-        <Class IRI="#UFO_01116"/>
+        <Class IRI="#UFO_00761"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01042"/>
@@ -12972,7 +12961,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01049"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00168"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01050"/>
@@ -13044,7 +13033,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01064"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_00016"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01065"/>
@@ -13128,7 +13117,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01085"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_01195"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01086"/>
@@ -13196,7 +13185,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01099"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01100"/>
@@ -13212,7 +13201,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01103"/>
-        <Class IRI="#UFO_00761"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01104"/>
@@ -13267,10 +13256,6 @@
         <Class IRI="#UFO_01089"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_01116"/>
-        <Class IRI="#UFO_00761"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_01117"/>
         <Class IRI="#UFO_00371"/>
     </SubClassOf>
@@ -13296,7 +13281,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01123"/>
-        <Class IRI="#UFO_01085"/>
+        <Class IRI="#UFO_01195"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01124"/>
@@ -13605,6 +13590,10 @@
     <SubClassOf>
         <Class IRI="#UFO_01194"/>
         <Class IRI="#UFO_00674"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01195"/>
+        <Class IRI="#UFO_00761"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UFO_00002"/>
@@ -14482,6 +14471,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00050</IRI>
         <Literal>perioral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>seborrhea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>seborrheic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -28809,6 +28808,11 @@
         <Literal>SLE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00640</IRI>
+        <Literal>autoimmune disease in which the body&apos;s immune system becomes hyperactive and attacks normal, healthy tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00640</IRI>
         <Literal>patient.info</Literal>
@@ -29369,6 +29373,11 @@
         <Literal xml:lang="en">d-mannose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00679</IRI>
+        <Literal>an uncommon condition that creates patchy, white skin that appears thinner than normal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00679</IRI>
         <Literal>patient.info</Literal>
@@ -29422,6 +29431,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00683</IRI>
         <Literal>MGD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00683</IRI>
+        <Literal>eye glands are not secreting enough oil</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -29509,6 +29523,11 @@
         <Literal xml:lang="en">clitoris</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00689</IRI>
+        <Literal>non-cancerous growths that develop in or around the womb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00689</IRI>
         <Literal>patient.info</Literal>
@@ -29532,6 +29551,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00690</IRI>
         <Literal xml:lang="en">labia minora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00691</IRI>
+        <Literal>disorder where the body does not produce insulin or does not use it efficiently</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -30042,21 +30066,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00732</IRI>
         <Literal xml:lang="en">sulfacetamide</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00733</IRI>
-        <Literal>seborrheic</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_00733</IRI>
-        <Literal>patient.info</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00733</IRI>
-        <Literal xml:lang="en">seborrhea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -33309,6 +33318,11 @@
         <Literal>readcode:M153</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00952</IRI>
+        <Literal>a common skin condition that causes redness and visible blood vessels in your face</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00952</IRI>
         <Literal>patient.info</Literal>
@@ -34084,6 +34098,11 @@
         <Literal xml:lang="en">proctocolitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00998</IRI>
+        <Literal>raynaud</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00998</IRI>
         <Literal>ICD10:I73.0</Literal>
@@ -34099,6 +34118,11 @@
         <Literal>readcode:G730</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00998</IRI>
+        <Literal>condition affecting circulation, causing some areas to change colour when cold or stressed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00998</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34106,7 +34130,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00998</IRI>
-        <Literal xml:lang="en">raynaud</Literal>
+        <Literal xml:lang="en">raynaud&apos;s disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -34584,6 +34608,11 @@
         <Literal xml:lang="en">odontogenic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01035</IRI>
+        <Literal>condition that occurs when a person has low counts for all three types of blood cells: red blood cells, white blood cells, and platelets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01035</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34657,6 +34686,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01041</IRI>
         <Literal>pemphigoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01041</IRI>
+        <Literal>a rare and serious (potentially life-threatening) condition that causes painful blisters to develop on the skin and lining of the mouth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34749,6 +34783,11 @@
         <Literal>PUD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01047</IRI>
+        <Literal>ulcers in the stomach develop because a bacterial infection eats away the protective lining of the digestive system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01047</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34756,7 +34795,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01047</IRI>
-        <Literal xml:lang="en">ulcer disease</Literal>
+        <Literal xml:lang="en">peptic ulcer disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -34767,6 +34806,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01048</IRI>
         <Literal>psoriasiform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01048</IRI>
+        <Literal>condition that causes red and crusty patches of skin covered with silvery scales</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34934,6 +34978,11 @@
         <Literal xml:lang="en">disseminated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01058</IRI>
+        <Literal>a condition that affects the fascia, which thickens and tightens over time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01058</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34954,6 +35003,16 @@
         <Literal xml:lang="en">ectropion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_01060</IRI>
+        <Literal>gastroporesis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01060</IRI>
+        <Literal>partial paralysis of the stomach, which the stomach cannot empty itself in a normal way</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01060</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34961,7 +35020,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01060</IRI>
-        <Literal xml:lang="en">gastroporesis</Literal>
+        <Literal xml:lang="en">gastroparesis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -35069,6 +35128,11 @@
         <Literal xml:lang="en">hemochromatosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01067</IRI>
+        <Literal>blood disorder that occurs when the blood types of a mother and baby are incompatible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01067</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35077,6 +35141,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01067</IRI>
         <Literal xml:lang="en">hemolytic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01068</IRI>
+        <Literal>rare disorder in which your blood doesn&apos;t clot normally because it lacks sufficient blood-clotting proteins</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35344,6 +35413,11 @@
         <Literal>throbocytopenia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01085</IRI>
+        <Literal>a disorder characterized by a blood abnormality - a shortage of blood cells called platelets that are needed for normal blood clotting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01085</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35489,6 +35563,11 @@
         <Literal xml:lang="en">mole</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01094</IRI>
+        <Literal>a skin disease characterised by itchy nodules which usually appear on the arms or legs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01094</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35497,6 +35576,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01094</IRI>
         <Literal xml:lang="en">prurigo nodularis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01095</IRI>
+        <Literal>lose bone mass and your bones get weaker - not as severe as osteoporosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35522,6 +35606,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01096</IRI>
         <Literal xml:lang="en">salivary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01097</IRI>
+        <Literal>chronic small hole or tunnel in the skin at the top of the buttocks</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35681,7 +35770,12 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01110</IRI>
-        <Literal>siderosis</Literal>
+        <Literal>welder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01110</IRI>
+        <Literal>rare disease characterized by the deposition of excess iron in body tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35691,7 +35785,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01110</IRI>
-        <Literal xml:lang="en">welder&apos;s disease</Literal>
+        <Literal xml:lang="en">siderosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -35782,11 +35876,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01115</IRI>
         <Literal xml:lang="en">connective tissue</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_01116</IRI>
-        <Literal xml:lang="en">vulgaris</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -36222,6 +36311,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01149</IRI>
         <Literal>syndome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01149</IRI>
+        <Literal>group of symptoms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36697,6 +36791,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01194</IRI>
         <Literal xml:lang="en">histoplasma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01195</IRI>
+        <Literal>a condition in which there is a low blood platelet count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_01195</IRI>
+        <Literal xml:lang="en">thrombocytopenia</Literal>
     </AnnotationAssertion>
 </Ontology>
 
