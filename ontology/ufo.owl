@@ -10633,6 +10633,10 @@
         <Class IRI="#UFO_00403"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00579"/>
+        <Class IRI="#UFO_00487"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00580"/>
         <Class IRI="#UFO_00463"/>
     </SubClassOf>
@@ -17323,6 +17327,11 @@
         <Literal xml:lang="en">neuromyelitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00134</IRI>
+        <Literal>surgical removal of the rectum and all or part of the colon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00134</IRI>
         <Literal xml:lang="en">proctocolectomy</Literal>
@@ -17991,6 +18000,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00155</IRI>
         <Literal xml:lang="en">myringitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00156</IRI>
+        <Literal>surgical removal of any extent of the colon, or case with the entire large intestine is removed it is total colectomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24213,6 +24227,11 @@
         <Literal>procedure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00370</IRI>
+        <Literal>the treatment of injuries or diseases by cutting open the body and removing or repairing the damaged part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00370</IRI>
         <Literal xml:lang="en">surgical therapy</Literal>
@@ -24843,6 +24862,11 @@
         <Literal xml:lang="en">inflammation of parathyroid gland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00401</IRI>
+        <Literal>surgical procedure performed to alleviate bowel narrowing due to scar tissue that has built up in the intestinal wall from inflammatory bowel conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00401</IRI>
         <Literal xml:lang="en">strictureplasty</Literal>
@@ -24851,6 +24875,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00402</IRI>
         <Literal>ileo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00402</IRI>
+        <Literal>surgical procedure which creates the opening of the end of small intestine out onto the surface of the skin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24868,6 +24897,11 @@
         <Literal xml:lang="en">surgery of musculoskeletal system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00405</IRI>
+        <Literal>procedure where the synovial tissue surrounding a joint is removed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00405</IRI>
         <Literal xml:lang="en">synovectomy</Literal>
@@ -24878,9 +24912,19 @@
         <Literal>replace</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00406</IRI>
+        <Literal>surgical procedure to restore the function of a joint by resurfacing the bones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00406</IRI>
         <Literal xml:lang="en">arthroplasty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00407</IRI>
+        <Literal>surgical joint ossification used to fuse joints</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24901,6 +24945,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00408</IRI>
         <Literal>removal of appendix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00408</IRI>
+        <Literal>surgical operation in which the appendix is removed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28378,6 +28427,11 @@
         <Literal>keyhole</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00579</IRI>
+        <Literal>procedure used to examine the organs inside the abdomen - minimally invasive procedure that requires only small incision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00579</IRI>
         <Literal>patient.info</Literal>
@@ -29711,6 +29765,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00669</IRI>
         <Literal>removal of the uterus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00669</IRI>
+        <Literal>surgical removal of the uterus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31738,6 +31797,11 @@
         <Literal xml:lang="en">ursodiol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00812</IRI>
+        <Literal>an organ is removed from one body and placed in the body of a recipient to replace a damaged organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00812</IRI>
         <Literal>patient.info</Literal>
@@ -32533,6 +32597,11 @@
         <Literal xml:lang="en">surgery of the respiratory system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00864</IRI>
+        <Literal>surgical procedure for the nasal passage, to relieve nasal obstruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00864</IRI>
         <Literal>patient.info</Literal>
@@ -32853,6 +32922,11 @@
         <Literal xml:lang="en">amoxicillin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00882</IRI>
+        <Literal>balloons to dilate the sinus openings for expansion of airway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00882</IRI>
         <Literal>patient.info</Literal>
@@ -33081,6 +33155,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00895</IRI>
         <Literal xml:lang="en">surgery of the circulatory system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00896</IRI>
+        <Literal>surgical treatment in which diseases of the vascular system are managed, such as veins or arteries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33473,6 +33552,11 @@
         <Literal>colonostomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00925</IRI>
+        <Literal>an opening in the large intestine and drawing the healthy end of the colon through an incision in the anterior abdominal wall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00925</IRI>
         <Literal>patient.info</Literal>
@@ -33531,6 +33615,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00929</IRI>
         <Literal xml:lang="en">blood clot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00930</IRI>
+        <Literal>removes all or part of the sigmoid colon and rejoin the two healthy end parts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34061,6 +34150,16 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00954</IRI>
         <Literal>arthroscopic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00954</IRI>
+        <Literal>keyhole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00954</IRI>
+        <Literal>minimally invasive surgical procedure on a joint in which an examination and sometimes treatment of damage is performed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34653,6 +34752,11 @@
         <Literal>fasciotomies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00981</IRI>
+        <Literal>surgical procedure where the fascia is cut to relieve tension or pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00981</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34856,6 +34960,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00994</IRI>
         <Literal>TURP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00994</IRI>
+        <Literal>a surgical procedure that involves cutting away a section of the prostate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35063,6 +35172,11 @@
         <Literal xml:lang="en">amputation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01004</IRI>
+        <Literal>surgical procedure in which tonsils are removed from the throat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01004</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35071,6 +35185,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01004</IRI>
         <Literal xml:lang="en">tonsillectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01005</IRI>
+        <Literal>surgical procedure for male sterilization or permanent contraception</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35086,6 +35205,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01006</IRI>
         <Literal xml:lang="en">surgery of visual system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01007</IRI>
+        <Literal>surgery to remove some or all of the vitreous humor from the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35286,6 +35410,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01019</IRI>
         <Literal xml:lang="en">benign prostatic hyperplasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01020</IRI>
+        <Literal>the removal of a bursa, which is a small sac filled with synovial fluid that cushions adjacent bone structures and reduces friction in joint movement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35851,6 +35980,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01052</IRI>
         <Literal>TKR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01052</IRI>
+        <Literal>surgical procedure whereby the diseased knee joint is replaced with artificial material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36843,6 +36977,11 @@
         <Literal xml:lang="en">sebaceous</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01108</IRI>
+        <Literal>surgical procedure to straighten the bone and cartilage dividing the septum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01108</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -37141,6 +37280,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01128</IRI>
         <Literal>pseudophakia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01128</IRI>
+        <Literal>also called lens replacement surgery, is the removal of the natural lens of the eye and its replacement with an intraocular lens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -37898,6 +38042,11 @@
         <Literal>splenosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01174</IRI>
+        <Literal>to remove the entire spleen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01174</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -37921,6 +38070,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01175</IRI>
         <Literal xml:lang="en">staghorn calculi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01176</IRI>
+        <Literal>partial or total debridement of the sternum to remove infected bone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
