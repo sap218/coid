@@ -3363,6 +3363,9 @@
         <Class IRI="#UFO_01108"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_01109"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_01110"/>
     </Declaration>
     <Declaration>
@@ -11077,6 +11080,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00675"/>
+        <Class IRI="#UFO_00687"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00675"/>
         <Class IRI="#UFO_01012"/>
     </SubClassOf>
     <SubClassOf>
@@ -12668,7 +12675,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00979"/>
-        <Class IRI="#UFO_00987"/>
+        <Class IRI="#UFO_00875"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00980"/>
@@ -12700,7 +12707,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00987"/>
-        <Class IRI="#UFO_00875"/>
+        <Class IRI="#UFO_00979"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00988"/>
@@ -12957,10 +12964,6 @@
     <SubClassOf>
         <Class IRI="#UFO_01045"/>
         <Class IRI="#UFO_00675"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_01045"/>
-        <Class IRI="#UFO_00687"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01046"/>
@@ -13245,6 +13248,10 @@
     <SubClassOf>
         <Class IRI="#UFO_01108"/>
         <Class IRI="#UFO_00863"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01109"/>
+        <Class IRI="#UFO_00979"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01110"/>
@@ -30900,6 +30907,11 @@
         <Literal xml:lang="en">garlic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00790</IRI>
+        <Literal>a harmless infection that causes small dimpled spots to appear on the skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00790</IRI>
         <Literal>patient.info</Literal>
@@ -32220,6 +32232,11 @@
         <Literal>flu</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00876</IRI>
+        <Literal>a common infection that can easily spread to other people during the winter season - known as a bad cold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00876</IRI>
         <Literal>patient.info</Literal>
@@ -32648,6 +32665,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00902</IRI>
         <Literal>warts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00902</IRI>
+        <Literal>a viral infection that&apos;s passed between people through skin-to-skin contact, causing genital warts and even cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34017,17 +34039,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00979</IRI>
-        <Literal>chickenpox</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00979</IRI>
         <Literal>vzv</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00979</IRI>
         <Literal>zoster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00979</IRI>
+        <Literal>one of nine herpesviruses known to infect humans</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34140,6 +34162,16 @@
         <Literal xml:lang="en">hepatocellular carcinoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00987</IRI>
+        <Literal>shingles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00987</IRI>
+        <Literal>viral infection is characterized by a red skin rash that can cause pain and burning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00987</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34147,7 +34179,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00987</IRI>
-        <Literal xml:lang="en">shingles</Literal>
+        <Literal xml:lang="en">herpes zoster</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00988</IRI>
+        <Literal>shingles involving the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34935,6 +34972,11 @@
         <Literal>parvo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01037</IRI>
+        <Literal>a common and highly contagious childhood illness - also called slapped-cheek disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01037</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35375,6 +35417,11 @@
         <Literal>herpetic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01062</IRI>
+        <Literal>a common viral infection that presents with localised blistering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01062</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35418,6 +35465,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01065</IRI>
         <Literal>hantavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01065</IRI>
+        <Literal>spread mainly by rodents and can cause varied disease syndromes in people worldwide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36113,6 +36165,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01108</IRI>
         <Literal xml:lang="en">septoplasty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01109</IRI>
+        <Literal>a highly contagious infection that is common in children</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_01109</IRI>
+        <Literal>ClinicalBERT expanded with patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_01109</IRI>
+        <Literal xml:lang="en">chickenpox</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
