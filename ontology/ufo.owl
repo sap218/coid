@@ -1563,6 +1563,9 @@
         <Class IRI="#UFO_00507"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00508"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00509"/>
     </Declaration>
     <Declaration>
@@ -1647,6 +1650,9 @@
         <Class IRI="#UFO_00536"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00537"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00538"/>
     </Declaration>
     <Declaration>
@@ -1687,6 +1693,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00551"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00552"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00553"/>
@@ -2134,9 +2143,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00702"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFO_00703"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00704"/>
@@ -8250,7 +8256,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00362"/>
-        <Class IRI="#UFO_00354"/>
+        <Class IRI="#UFO_00490"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00363"/>
@@ -10091,6 +10097,10 @@
         <Class IRI="#UFO_00261"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00508"/>
+        <Class IRI="#UFO_00463"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00509"/>
         <Class IRI="#UFO_00026"/>
     </SubClassOf>
@@ -10109,6 +10119,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00511"/>
         <Class IRI="#UFO_00509"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00512"/>
+        <Class IRI="#UFO_00369"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00512"/>
@@ -10200,6 +10214,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00531"/>
+        <Class IRI="#UFO_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00531"/>
         <Class IRI="#UFO_00530"/>
     </SubClassOf>
     <SubClassOf>
@@ -10219,12 +10237,12 @@
         <Class IRI="#UFO_00167"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00535"/>
-        <Class IRI="#UFO_00510"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00536"/>
         <Class IRI="#UFO_00192"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00537"/>
+        <Class IRI="#UFO_00720"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00538"/>
@@ -10289,6 +10307,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00551"/>
         <Class IRI="#UFO_00318"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00552"/>
+        <Class IRI="#UFO_00661"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00553"/>
@@ -11007,7 +11029,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00662"/>
-        <Class IRI="#UFO_00661"/>
+        <Class IRI="#UFO_00552"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00663"/>
@@ -11182,16 +11204,12 @@
         <Class IRI="#UFO_00700"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00703"/>
-        <Class IRI="#UFO_00720"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00704"/>
         <Class IRI="#UFO_00719"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00705"/>
-        <Class IRI="#UFO_00661"/>
+        <Class IRI="#UFO_00719"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00706"/>
@@ -11227,7 +11245,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00714"/>
-        <Class IRI="#UFO_00661"/>
+        <Class IRI="#UFO_00719"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00715"/>
@@ -11247,7 +11265,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00718"/>
-        <Class IRI="#UFO_00661"/>
+        <Class IRI="#UFO_00719"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00719"/>
@@ -12923,6 +12941,14 @@
     <SubClassOf>
         <Class IRI="#UFO_01037"/>
         <Class IRI="#UFO_00875"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01038"/>
+        <Class IRI="#UFO_00026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01038"/>
+        <Class IRI="#UFO_00508"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01038"/>
@@ -23848,6 +23874,11 @@
         <Literal xml:lang="en">chronic symptoms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00344</IRI>
+        <Literal>description of inflammatory therapies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00344</IRI>
         <Literal xml:lang="en">therapeautic intervention</Literal>
@@ -23928,6 +23959,11 @@
         <Literal xml:lang="en">medical therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00354</IRI>
+        <Literal>how treatment is provided</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00354</IRI>
         <Literal xml:lang="en">route of administration</Literal>
@@ -23963,9 +23999,19 @@
         <Literal>tablet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00357</IRI>
+        <Literal>administering drug into the body by mouth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00357</IRI>
         <Literal xml:lang="en">oral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00358</IRI>
+        <Literal>administering drug to external layer of the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23981,6 +24027,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00359</IRI>
         <Literal>eyedrop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00359</IRI>
+        <Literal>administering drug to eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24013,6 +24064,11 @@
         <Literal>rub</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00360</IRI>
+        <Literal>administering drug to skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00360</IRI>
         <Literal xml:lang="en">skin surface</Literal>
@@ -24033,9 +24089,19 @@
         <Literal>shot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00361</IRI>
+        <Literal>administering drug into the body using a needle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00361</IRI>
         <Literal xml:lang="en">injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00362</IRI>
+        <Literal>device for delivering medicine into the lungs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24043,9 +24109,19 @@
         <Literal xml:lang="en">inhaler</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00363</IRI>
+        <Literal>device inserted into body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00363</IRI>
         <Literal xml:lang="en">implant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00364</IRI>
+        <Literal>injection into the muscle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24053,9 +24129,19 @@
         <Literal xml:lang="en">intramuscular</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00365</IRI>
+        <Literal>injection into the vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00365</IRI>
         <Literal xml:lang="en">intravenous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00366</IRI>
+        <Literal>injection into the vitreous humor of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24063,9 +24149,19 @@
         <Literal xml:lang="en">intravitreal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00367</IRI>
+        <Literal>injection into the eye underneath the conjunctiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00367</IRI>
         <Literal xml:lang="en">sub-conjunctival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00368</IRI>
+        <Literal>injection into skin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26423,6 +26519,11 @@
         <Literal xml:lang="en">sigmoidoscopy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00490</IRI>
+        <Literal>device for delivering medicine into the body by air</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00490</IRI>
         <Literal xml:lang="en">spray</Literal>
@@ -26706,6 +26807,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00507</IRI>
         <Literal xml:lang="en">tuberculous enteritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00508</IRI>
+        <Literal xml:lang="en">mechanical ventilation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27103,6 +27209,11 @@
         <Literal>ICD9:371.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00531</IRI>
+        <Literal>damage to the cornea due to dryness caused by incomplete or inadequate eyelid closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00531</IRI>
         <Literal xml:lang="en">keratopathy</Literal>
@@ -27206,6 +27317,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00536</IRI>
         <Literal xml:lang="en">post thrombotic syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00537</IRI>
+        <Literal>vagisil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <IRI>#UFO_00537</IRI>
+        <Literal>patient.info</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00537</IRI>
+        <Literal xml:lang="en">benzocaine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -27636,6 +27762,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00551</IRI>
         <Literal xml:lang="en">during pregnancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00552</IRI>
+        <Literal xml:lang="en">aet of the skin and subcutaneous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -29363,6 +29494,11 @@
         <Literal xml:lang="en">urethra</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00661</IRI>
+        <Literal>moisturising treatments applied directly to the skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00661</IRI>
         <Literal>patient.info</Literal>
@@ -29981,16 +30117,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00702</IRI>
         <Literal xml:lang="en">sodium chloride</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_00703</IRI>
-        <Literal>patient.info</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00703</IRI>
-        <Literal xml:lang="en">vagisil</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -32246,6 +32372,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00864</IRI>
         <Literal xml:lang="en">turbinectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00865</IRI>
+        <Literal>administering drug into the body under the tongue for diffuse</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35268,6 +35399,11 @@
         <Literal xml:lang="en">human parvovirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01038</IRI>
+        <Literal>intrapulmonary gas-filled cystic spaces - usually the result of ventilator-induced lung injury in neonates or post-infectious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01038</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35276,6 +35412,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01038</IRI>
         <Literal xml:lang="en">pneumatoceles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01039</IRI>
+        <Literal>body rejecting the therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
