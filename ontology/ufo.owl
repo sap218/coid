@@ -8326,6 +8326,10 @@
         <Class IRI="#UFO_00371"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00374"/>
+        <Class IRI="#UFO_00379"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00375"/>
         <Class IRI="#UFO_00027"/>
     </SubClassOf>
@@ -24087,6 +24091,11 @@
         <Literal xml:lang="en">hypersensitivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00374</IRI>
+        <Literal>body produces physical and mental responses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00374</IRI>
         <Literal xml:lang="en">stress</Literal>
@@ -32387,6 +32396,11 @@
         <Literal xml:lang="en">mold</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00885</IRI>
+        <Literal>fine particles of solid matter in the atmosphere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00885</IRI>
         <Literal>patient.info</Literal>
@@ -36970,6 +36984,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01160</IRI>
         <Literal xml:lang="en">makeup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01161</IRI>
+        <Literal>unintentional aspiration of very small amounts of reflux material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
