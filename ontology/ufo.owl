@@ -1707,6 +1707,9 @@
         <Class IRI="#UFO_00555"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00556"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00557"/>
     </Declaration>
     <Declaration>
@@ -9926,7 +9929,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00465"/>
-        <Class IRI="#UFO_00353"/>
+        <Class IRI="#UFO_00556"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00466"/>
@@ -10323,6 +10326,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00555"/>
         <Class IRI="#UFO_00375"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00556"/>
+        <Class IRI="#UFO_00353"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00557"/>
@@ -10920,7 +10927,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00642"/>
-        <Class IRI="#UFO_00641"/>
+        <Class IRI="#UFO_00353"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00643"/>
@@ -23899,6 +23906,11 @@
         <Literal>steroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00346</IRI>
+        <Literal>a class of drug that lowers inflammation in the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00346</IRI>
         <Literal xml:lang="en">corticosteroid</Literal>
@@ -23952,6 +23964,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00353</IRI>
         <Literal>medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00353</IRI>
+        <Literal>treatment of medicine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25064,6 +25081,11 @@
         <Literal xml:lang="en">difficulty speaking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00416</IRI>
+        <Literal>class of medication used for treating viral infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00416</IRI>
         <Literal>patient.info</Literal>
@@ -25071,7 +25093,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00416</IRI>
-        <Literal xml:lang="en">anti viral</Literal>
+        <Literal xml:lang="en">antiviral</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -26299,6 +26321,11 @@
         <Literal xml:lang="en">prednisone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00465</IRI>
+        <Literal>a type of antiparasitic chemical agent that can be used to treat or to prevent malaria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00465</IRI>
         <Literal xml:lang="en">antimalarial</Literal>
@@ -26307,6 +26334,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00466</IRI>
         <Literal xml:lang="en">hydroxychloroquine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00467</IRI>
+        <Literal>non-steroidal anti-inflammatory drugs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26322,6 +26354,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00468</IRI>
         <Literal>immunosuppressive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00468</IRI>
+        <Literal>disease-modifying antirheumatic drugs comprise a category of otherwise unrelated drugs defined by their use to slow down disease progression</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26364,9 +26401,14 @@
         <Literal xml:lang="en">cyclophosphamide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00474</IRI>
+        <Literal>a product that is produced from living organisms or contain components of living organisms - to treat long term medical conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00474</IRI>
-        <Literal xml:lang="en">biologic</Literal>
+        <Literal xml:lang="en">biologics</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -27799,6 +27841,16 @@
         <Literal xml:lang="en">chemical fumes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00556</IRI>
+        <Literal>class of medications which are indicated for the treatment of parasitic diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00556</IRI>
+        <Literal xml:lang="en">antiparasitic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00557</IRI>
         <Literal>ICD10:T80.8</Literal>
@@ -28114,6 +28166,11 @@
         <Literal>biotics</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00569</IRI>
+        <Literal>also known as antibiotics that destroy or slow down the growth of bacteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00569</IRI>
         <Literal>patient.info</Literal>
@@ -28121,7 +28178,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00569</IRI>
-        <Literal xml:lang="en">anti bacterial</Literal>
+        <Literal xml:lang="en">antibacterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -28844,6 +28901,11 @@
         <Literal>painkiller</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00612</IRI>
+        <Literal>drug for relief from pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00612</IRI>
         <Literal xml:lang="en">analgesia</Literal>
@@ -29014,6 +29076,11 @@
         <Literal xml:lang="en">seronegative rheumatoid arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00627</IRI>
+        <Literal>agents used in the treatment of epileptic seizures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00627</IRI>
         <Literal>patient.info</Literal>
@@ -29021,7 +29088,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00627</IRI>
-        <Literal xml:lang="en">anti convulsant</Literal>
+        <Literal xml:lang="en">anticonvulsant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -29387,6 +29454,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00653</IRI>
         <Literal>hormone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00653</IRI>
+        <Literal>treatment to relieve symptoms of the menopause</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -30089,6 +30161,11 @@
         <Literal xml:lang="en">bacterial vaginosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00700</IRI>
+        <Literal>patient is given a drug that produces unpleasant effects, such as nausea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00700</IRI>
         <Literal>patient.info</Literal>
@@ -30467,6 +30544,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00734</IRI>
         <Literal>histamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00734</IRI>
+        <Literal>class of drugs commonly used to treat symptoms of allergies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31669,6 +31751,11 @@
         <Literal xml:lang="en">overweight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00817</IRI>
+        <Literal>medication or fluids are administered through a needle or catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00817</IRI>
         <Literal>patient.info</Literal>
@@ -31764,6 +31851,11 @@
         <Literal xml:lang="en">fascia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00823</IRI>
+        <Literal>treatments that are used instead of modern medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00823</IRI>
         <Literal>patient.info</Literal>
@@ -31772,6 +31864,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00823</IRI>
         <Literal xml:lang="en">alternative medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00824</IRI>
+        <Literal>thin needles are inserted into the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -32859,6 +32956,11 @@
         <Literal xml:lang="en">levofloxacin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00893</IRI>
+        <Literal>used to treat and prevent fungal infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00893</IRI>
         <Literal>patient.info</Literal>
@@ -32866,7 +32968,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00893</IRI>
-        <Literal xml:lang="en">anti fungal</Literal>
+        <Literal xml:lang="en">antifungal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
