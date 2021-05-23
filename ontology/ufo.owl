@@ -1419,9 +1419,6 @@
         <Class IRI="#UFO_00458"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00459"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00460"/>
     </Declaration>
     <Declaration>
@@ -3523,9 +3520,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01171"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFO_01172"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01173"/>
@@ -9898,10 +9892,6 @@
         <Class IRI="#UFO_00456"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00459"/>
-        <Class IRI="#UFO_00456"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00460"/>
         <Class IRI="#UFO_00457"/>
     </SubClassOf>
@@ -9999,7 +9989,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00484"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_00807"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00485"/>
@@ -10007,7 +9997,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00486"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_00807"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00487"/>
@@ -11582,7 +11572,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00795"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_00797"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00796"/>
@@ -11606,11 +11596,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00799"/>
+        <Class IRI="#UFO_00797"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00799"/>
         <Class IRI="#UFO_00802"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00799"/>
+        <Class IRI="#UFO_00807"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00800"/>
-        <Class IRI="#UFO_00802"/>
+        <Class IRI="#UFO_00797"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00800"/>
+        <Class IRI="#UFO_00807"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00801"/>
@@ -11642,7 +11644,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00806"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_00797"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00807"/>
@@ -11654,7 +11656,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00809"/>
-        <Class IRI="#UFO_00807"/>
+        <Class IRI="#UFO_00932"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00810"/>
@@ -12193,6 +12195,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00931"/>
         <Class IRI="#UFO_00807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00932"/>
+        <Class IRI="#UFO_00485"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00932"/>
@@ -12881,7 +12887,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01031"/>
-        <Class IRI="#UFO_00807"/>
+        <Class IRI="#UFO_00808"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01031"/>
@@ -13085,7 +13091,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01076"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01077"/>
@@ -13389,7 +13395,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01142"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_00802"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01143"/>
@@ -13453,7 +13459,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01157"/>
-        <Class IRI="#UFO_00462"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01158"/>
@@ -13514,10 +13520,6 @@
     <SubClassOf>
         <Class IRI="#UFO_01171"/>
         <Class IRI="#UFO_00371"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_01172"/>
-        <Class IRI="#UFO_00462"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01173"/>
@@ -13878,6 +13880,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00014</IRI>
         <Literal xml:lang="en">physical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00015</IRI>
+        <Literal>symptoms as reported by NHS and patient.info</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26095,6 +26102,11 @@
         <Literal xml:lang="en">myofibrositis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00455</IRI>
+        <Literal>medical investigations for condition diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00455</IRI>
         <Literal xml:lang="en">investigations</Literal>
@@ -26113,11 +26125,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00458</IRI>
         <Literal xml:lang="en">pattern of inflammation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00459</IRI>
-        <Literal xml:lang="en">joint stiffness in morning</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26305,6 +26312,11 @@
         <Literal xml:lang="en">rituximab</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00483</IRI>
+        <Literal>measures specific proteins in the blood to help identify some diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00483</IRI>
         <Literal xml:lang="en">serum protein electrophoresis</Literal>
@@ -26313,6 +26325,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00484</IRI>
         <Literal>CRP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00484</IRI>
+        <Literal>increases when there is inflammation in your body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26325,9 +26342,24 @@
         <Literal>ESR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00485</IRI>
+        <Literal>sediments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00485</IRI>
+        <Literal>blood test that measures how quickly erythrocytes (red blood cells) settle at the bottom of a test tube - faster-than-normal rate may indicate inflammation in the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00485</IRI>
         <Literal xml:lang="en">erythrocyte sedimentation rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00486</IRI>
+        <Literal>an indirect measure of the amount of protein present in the plasma part of the blood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -30725,6 +30757,11 @@
         <Literal xml:lang="en">endometriosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00769</IRI>
+        <Literal>a sample of tissue taken from the body in order to examine it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00769</IRI>
         <Literal>patient.info</Literal>
@@ -31100,6 +31137,11 @@
         <Literal>LFT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00797</IRI>
+        <Literal>set of tests for liver function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00797</IRI>
         <Literal>patient.info</Literal>
@@ -31140,6 +31182,11 @@
         <Literal>SGOT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00799</IRI>
+        <Literal>an enzyme that is found mostly in the liver - when liver is damaged, it releases into bloodstream</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00799</IRI>
         <Literal>patient.info</Literal>
@@ -31153,6 +31200,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00800</IRI>
         <Literal>SGPT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00800</IRI>
+        <Literal>checks for liver damage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31220,6 +31272,11 @@
         <Literal>seroconversion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00804</IRI>
+        <Literal>test for past infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00804</IRI>
         <Literal>patient.info</Literal>
@@ -31255,6 +31312,11 @@
         <Literal>metavir</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00806</IRI>
+        <Literal>a biomarker test that uses the results of six blood serum tests to generate a score that is correlated with the degree of liver damage in people with a variety of liver diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00806</IRI>
         <Literal>patient.info</Literal>
@@ -31273,6 +31335,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00808</IRI>
         <Literal>WBC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00808</IRI>
+        <Literal>also called leukocytes - are the cells of the immune system that are involved in protecting the body against both infectious disease and foreign invaders</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31298,6 +31365,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00809</IRI>
         <Literal>hemoglobin E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00809</IRI>
+        <Literal>an iron-rich protein in red blood cells - carries oxygen from the lungs to all parts of the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31425,6 +31497,11 @@
         <Literal>geno</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00818</IRI>
+        <Literal>looking at DNA to find variations linking to other diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00818</IRI>
         <Literal>patient.info</Literal>
@@ -31453,6 +31530,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00820</IRI>
         <Literal xml:lang="en">levothyroxine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00821</IRI>
+        <Literal>forms after red blood cells break down, and it travels through your liver, gallbladder, and digestive tract before being excreted</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33070,6 +33152,11 @@
         <Literal xml:lang="en">sigmoidectomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00931</IRI>
+        <Literal>small cell fragments in blood that form clots and stop or prevent bleeding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00931</IRI>
         <Literal>patient.info</Literal>
@@ -33083,6 +33170,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00932</IRI>
         <Literal>anaemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00932</IRI>
+        <Literal>made in the bone marrow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35700,6 +35792,11 @@
         <Literal>high cholesterol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01071</IRI>
+        <Literal>high cholesterol found in blood - too much of it can cause serious health problems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01071</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35773,6 +35870,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01076</IRI>
         <Literal>hypothyroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01076</IRI>
+        <Literal>underactive thyroid gland does not produce enough hormones</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36860,6 +36962,11 @@
         <Literal>PSA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01142</IRI>
+        <Literal>a protein made by cells in the prostate gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01142</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -37068,6 +37175,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01156</IRI>
         <Literal xml:lang="en">sarcoptes scabiei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01157</IRI>
+        <Literal>a condition in which the body doesn&apos;t produce enough of the sex hormone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -37305,6 +37417,11 @@
         <Literal>retenti</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01171</IRI>
+        <Literal>a condition in which you cannot empty all the urine from your bladder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01171</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -37313,16 +37430,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01171</IRI>
         <Literal xml:lang="en">urinary retention</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_01172</IRI>
-        <Literal>ClinicalBERT expanded with patient.info</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_01172</IRI>
-        <Literal xml:lang="en">sediments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
