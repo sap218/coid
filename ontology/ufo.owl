@@ -1419,6 +1419,9 @@
         <Class IRI="#UFO_00458"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00459"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00460"/>
     </Declaration>
     <Declaration>
@@ -9892,6 +9895,10 @@
         <Class IRI="#UFO_00456"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00459"/>
+        <Class IRI="#UFO_00457"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00460"/>
         <Class IRI="#UFO_00457"/>
     </SubClassOf>
@@ -9901,7 +9908,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00462"/>
-        <Class IRI="#UFO_00457"/>
+        <Class IRI="#UFO_00459"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00463"/>
@@ -10579,7 +10586,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00576"/>
-        <Class IRI="#UFO_00026"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00577"/>
@@ -12114,7 +12121,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00912"/>
-        <Class IRI="#UFO_00457"/>
+        <Class IRI="#UFO_00459"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00913"/>
@@ -12851,7 +12858,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01022"/>
-        <Class IRI="#UFO_00457"/>
+        <Class IRI="#UFO_00459"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01023"/>
@@ -13203,11 +13210,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01100"/>
-        <Class IRI="#UFO_00457"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01101"/>
         <Class IRI="#UFO_01100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01102"/>
+        <Class IRI="#UFO_00168"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01102"/>
@@ -13539,7 +13550,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01177"/>
-        <Class IRI="#UFO_00457"/>
+        <Class IRI="#UFO_00459"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01178"/>
@@ -13750,6 +13761,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00005</IRI>
         <Literal>inflammatory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00005</IRI>
+        <Literal>inflammatory disorders organised by ICD-10 system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26128,6 +26144,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00459</IRI>
+        <Literal xml:lang="en">tests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00460</IRI>
         <Literal xml:lang="en">evaluation of symptoms</Literal>
     </AnnotationAssertion>
@@ -26140,6 +26161,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00461</IRI>
         <Literal>xray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00461</IRI>
+        <Literal>a form of electromagnetic radiation to generate images of tissues and structures inside the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26367,14 +26393,29 @@
         <Literal xml:lang="en">plasma viscosity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00487</IRI>
+        <Literal>the insertion of a long, thin tube directly into the body to observe an internal organ or tissue in detail</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00487</IRI>
         <Literal xml:lang="en">endoscopy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00488</IRI>
+        <Literal>examination of the large bowel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00488</IRI>
         <Literal xml:lang="en">colonoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00489</IRI>
+        <Literal>examination of the rectum and lower part of the large intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27977,6 +28018,11 @@
         <Literal>fibroscan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00571</IRI>
+        <Literal>a procedure that uses high-frequency sound waves to create an image of part of the inside of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00571</IRI>
         <Literal>patient.info</Literal>
@@ -28295,6 +28341,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00591</IRI>
         <Literal>MRI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00591</IRI>
+        <Literal>scan that uses strong magnetic fields and radio waves to produce detailed images of the inside of the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -29602,6 +29653,11 @@
         <Literal xml:lang="en">sclerosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00681</IRI>
+        <Literal>to take a sample from inside the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00681</IRI>
         <Literal>patient.info</Literal>
@@ -30337,6 +30393,11 @@
         <Literal>EGD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00737</IRI>
+        <Literal>examination of the the upper part of the gastrointestinal tract down to the duodenum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00737</IRI>
         <Literal>patient.info</Literal>
@@ -30650,6 +30711,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00759</IRI>
         <Literal xml:lang="en">infectious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00760</IRI>
+        <Literal>examination of the urinary bladder via the urethra</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -32832,6 +32898,11 @@
         <Literal xml:lang="en">human papillomavirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00903</IRI>
+        <Literal>for evaluating blockages in the arterial system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00903</IRI>
         <Literal>patient.info</Literal>
@@ -32935,6 +33006,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00912</IRI>
         <Literal>stool sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00912</IRI>
+        <Literal>collection and analysis of fecal matter to diagnose the presence or absence of a medical condition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34927,6 +35003,11 @@
         <Literal>candiduria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01022</IRI>
+        <Literal>used to detect and manage a wide range of disorders, such as urinary tract infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01022</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35857,6 +35938,11 @@
         <Literal>hypotension</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01075</IRI>
+        <Literal>blood pressure that is abnormally low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01075</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36292,6 +36378,11 @@
         <Literal xml:lang="en">prostatism</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01100</IRI>
+        <Literal>false or spurious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01100</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36300,6 +36391,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01100</IRI>
         <Literal xml:lang="en">pseudo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01101</IRI>
+        <Literal>resembling a cyst but lacking a wall or lining</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -37492,6 +37588,11 @@
         <Literal>VA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01177</IRI>
+        <Literal>ability to discern the shapes and details of the things a person sees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01177</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -37505,6 +37606,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01178</IRI>
         <Literal>cotton wool spots</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01178</IRI>
+        <Literal>a direct view of blood vessels as well as the central nervous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
