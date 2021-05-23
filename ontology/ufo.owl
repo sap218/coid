@@ -12859,7 +12859,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01021"/>
-        <Class IRI="#UFO_01117"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01022"/>
@@ -13319,7 +13319,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01125"/>
-        <Class IRI="#UFO_01117"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01126"/>
@@ -28002,6 +28002,11 @@
         <Literal xml:lang="en">cyst</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00577</IRI>
+        <Literal>calcified deposit within the appendix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00577</IRI>
         <Literal>patient.info</Literal>
@@ -29210,6 +29215,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00662</IRI>
         <Literal xml:lang="en">hydromol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00663</IRI>
+        <Literal>refers to a descending or drooping of organs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34102,6 +34112,11 @@
         <Literal xml:lang="en">androgen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00983</IRI>
+        <Literal>swollen or enlarged blood vessels, as well as the formation of bleeding lesions in the colon and stomach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00983</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34687,6 +34702,11 @@
         <Literal>BPH</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01019</IRI>
+        <Literal>prostate gland enlargement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01019</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34710,6 +34730,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01021</IRI>
         <Literal>calciphylaxis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01021</IRI>
+        <Literal>a rare painful syndrome of calcification of the small blood vessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35917,6 +35942,11 @@
         <Literal>nephrolitiasis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01092</IRI>
+        <Literal>calcified deposit within the kidneys</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01092</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36407,6 +36437,11 @@
         <Literal xml:lang="en">irritable bowel syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01125</IRI>
+        <Literal>an abnormal distribution of fat in the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01125</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36515,6 +36550,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01132</IRI>
         <Literal>gallstones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01132</IRI>
+        <Literal>calcified deposit within the gallbladder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36742,6 +36782,11 @@
         <Literal xml:lang="en">stones</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01147</IRI>
+        <Literal>calcified deposit within the salivary glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01147</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -36792,6 +36837,11 @@
         <Literal>BPD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01150</IRI>
+        <Literal>a breathing disorder where an infant&apos;s lungs become irritated and do not develop normally</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01150</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -36820,6 +36870,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01151</IRI>
         <Literal xml:lang="en">cerebral palsy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01152</IRI>
+        <Literal>an anomaly in that the pancreas in which a single pancreatic duct is not formed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36982,6 +37037,11 @@
         <Literal xml:lang="en">personality disorder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01165</IRI>
+        <Literal>the simultaneous malfunction of many peripheral nerves throughout the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01165</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -37045,6 +37105,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01168</IRI>
         <Literal xml:lang="en">pseudomonas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01169</IRI>
+        <Literal>triangular tissue growth on the cornea of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -37130,6 +37195,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01174</IRI>
         <Literal xml:lang="en">splenectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01175</IRI>
+        <Literal>calcified deposit within the pelvic system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
