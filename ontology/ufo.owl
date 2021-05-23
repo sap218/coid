@@ -28453,6 +28453,11 @@
         <Literal xml:lang="en">polymyalgia rheumatica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00611</IRI>
+        <Literal>a long-term condition that causes pain all over the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00611</IRI>
         <Literal>patient.info</Literal>
@@ -32418,6 +32423,11 @@
         <Literal>behcet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00898</IRI>
+        <Literal>a rare disorder that causes blood vessel inflammation throughout your body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00898</IRI>
         <Literal>patient.info</Literal>
@@ -33613,6 +33623,16 @@
         <Literal xml:lang="en">gluteals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00967</IRI>
+        <Literal>goodpasture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00967</IRI>
+        <Literal>a rare autoimmune disease in which antibodies attack membrane in lungs and kidneys, leading to bleeding from the lungs, glomerulonephritis, and kidney failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00967</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -33620,7 +33640,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00967</IRI>
-        <Literal xml:lang="en">goodpasture</Literal>
+        <Literal xml:lang="en">goodpasture syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33726,6 +33746,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00974</IRI>
         <Literal>HLH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00974</IRI>
+        <Literal>a rare immune disorder where the body reacts inappropriately, usually an infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35643,6 +35668,11 @@
         <Literal xml:lang="en">sarcoidosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01099</IRI>
+        <Literal>non-cancerous enlargement of the prostate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01099</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35686,6 +35716,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01103</IRI>
         <Literal>PSH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01103</IRI>
+        <Literal>syndrome that causes episodes of increased activity of the sympathetic nervous system, such as increasing heart rate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
