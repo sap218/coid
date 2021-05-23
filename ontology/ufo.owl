@@ -138,9 +138,6 @@
         <Class IRI="#UFO_00029"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00030"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00031"/>
     </Declaration>
     <Declaration>
@@ -3779,16 +3776,12 @@
         <Class IRI="#UFO_00007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00030"/>
-        <Class IRI="#UFO_00007"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00031"/>
-        <Class IRI="#UFO_00007"/>
+        <Class IRI="#UFO_00033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00032"/>
-        <Class IRI="#UFO_00007"/>
+        <Class IRI="#UFO_00033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00033"/>
@@ -13492,7 +13485,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01173"/>
-        <Class IRI="#UFO_00007"/>
+        <Class IRI="#UFO_00034"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01174"/>
@@ -13592,25 +13585,41 @@
     <DisjointClasses>
         <Class IRI="#UFO_00028"/>
         <Class IRI="#UFO_00029"/>
-        <Class IRI="#UFO_00030"/>
-        <Class IRI="#UFO_00031"/>
-        <Class IRI="#UFO_00032"/>
         <Class IRI="#UFO_00033"/>
         <Class IRI="#UFO_00034"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFO_00031"/>
+        <Class IRI="#UFO_00032"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UFO_00494"/>
         <Class IRI="#UFO_00495"/>
     </DisjointClasses>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00001</IRI>
+        <Literal>type of condition onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00001</IRI>
         <Literal xml:lang="en">course</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00002</IRI>
+        <Literal>within 6 weeks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00002</IRI>
         <Literal xml:lang="en">acute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00003</IRI>
+        <Literal>lasting longer than 6 months</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13648,6 +13657,11 @@
         <Literal>reucrrent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00004</IRI>
+        <Literal>condition reoccuring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00004</IRI>
         <Literal xml:lang="en">recurrent</Literal>
@@ -13683,9 +13697,19 @@
         <Literal>age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00007</IRI>
+        <Literal>age group of patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00007</IRI>
         <Literal xml:lang="en">maturity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00008</IRI>
+        <Literal>speed at which condition developed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13706,6 +13730,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00010</IRI>
         <Literal>fulminate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00010</IRI>
+        <Literal>fast development</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13763,6 +13792,11 @@
         <Literal xml:lang="en">myelitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00012</IRI>
+        <Literal>characterising condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00012</IRI>
         <Literal xml:lang="en">classification</Literal>
@@ -13788,9 +13822,19 @@
         <Literal xml:lang="en">complication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00017</IRI>
+        <Literal>current condition activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00017</IRI>
         <Literal xml:lang="en">activity status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00018</IRI>
+        <Literal>condition currently occuring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13828,14 +13872,29 @@
         <Literal xml:lang="en">no change</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00022</IRI>
+        <Literal>condition not currently occuring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00022</IRI>
         <Literal xml:lang="en">quiescent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00023</IRI>
+        <Literal>patient doing better but still on treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00023</IRI>
         <Literal xml:lang="en">in remission on treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00024</IRI>
+        <Literal>patient doing better and off treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13863,6 +13922,11 @@
         <Literal>baby</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00028</IRI>
+        <Literal>29 days and less</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00028</IRI>
         <Literal xml:lang="en">neonatal</Literal>
@@ -13888,9 +13952,9 @@
         <Literal xml:lang="en">juvenile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00030</IRI>
-        <Literal xml:lang="en">immature</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00031</IRI>
+        <Literal>10-13 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13898,14 +13962,29 @@
         <Literal xml:lang="en">prepubescent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00032</IRI>
+        <Literal>11-16 years</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00032</IRI>
         <Literal xml:lang="en">pubescent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00033</IRI>
+        <Literal>10-19 years</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00033</IRI>
         <Literal xml:lang="en">adolescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00034</IRI>
+        <Literal>20 years over</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26058,14 +26137,29 @@
         <Literal xml:lang="en">characterised by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00493</IRI>
+        <Literal>how long condition is occuring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00493</IRI>
         <Literal xml:lang="en">duration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00494</IRI>
+        <Literal>condition short bout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00494</IRI>
         <Literal xml:lang="en">short</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00495</IRI>
+        <Literal>condition continious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -34913,6 +35007,11 @@
         <Literal xml:lang="en">ichthyosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01078</IRI>
+        <Literal>what sort of condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01078</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36186,6 +36285,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01172</IRI>
         <Literal xml:lang="en">sediments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01173</IRI>
+        <Literal>65 years over</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
