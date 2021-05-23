@@ -2148,6 +2148,9 @@
         <Class IRI="#UFO_00702"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00703"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00704"/>
     </Declaration>
     <Declaration>
@@ -10823,7 +10826,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00619"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00926"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00620"/>
@@ -10851,7 +10854,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00625"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00926"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00626"/>
@@ -11008,7 +11011,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00655"/>
-        <Class IRI="#UFO_00463"/>
+        <Class IRI="#UFO_00724"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00656"/>
@@ -11211,6 +11214,10 @@
         <Class IRI="#UFO_00700"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFO_00703"/>
+        <Class IRI="#UFO_00463"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFO_00704"/>
         <Class IRI="#UFO_00719"/>
     </SubClassOf>
@@ -11408,7 +11415,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00752"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00907"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00753"/>
@@ -11464,11 +11471,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00764"/>
-        <Class IRI="#UFO_00463"/>
+        <Class IRI="#UFO_00823"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00765"/>
-        <Class IRI="#UFO_00463"/>
+        <Class IRI="#UFO_00641"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00766"/>
@@ -11508,7 +11515,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00775"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00927"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00776"/>
@@ -11576,7 +11583,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00789"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00927"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00790"/>
@@ -12158,7 +12165,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00915"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00910"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00916"/>
@@ -12178,7 +12185,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00920"/>
-        <Class IRI="#UFO_00580"/>
+        <Class IRI="#UFO_00907"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00921"/>
@@ -12575,7 +12582,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00953"/>
-        <Class IRI="#UFO_00463"/>
+        <Class IRI="#UFO_00703"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00954"/>
@@ -13495,7 +13502,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01155"/>
-        <Class IRI="#UFO_00463"/>
+        <Class IRI="#UFO_00703"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01156"/>
@@ -26311,6 +26318,11 @@
         <Literal>physiotherapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00463</IRI>
+        <Literal>maintain health through physical activity or devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00463</IRI>
         <Literal xml:lang="en">physical therapy</Literal>
@@ -26849,6 +26861,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00507</IRI>
         <Literal xml:lang="en">tuberculous enteritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00508</IRI>
+        <Literal>a treatment to help a person breathe when they find it difficult or are unable to breathe on their own</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28371,6 +28388,11 @@
         <Literal xml:lang="en">laparoscopy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00580</IRI>
+        <Literal>dietary changes, such as food, to improve health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00580</IRI>
         <Literal>patient.info</Literal>
@@ -28689,6 +28711,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00599</IRI>
         <Literal>stem cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00599</IRI>
+        <Literal>therapy uses injections of a concentration of a patient&apos;s own platelets to accelerate the healing of injured tendons, ligaments, muscles and joints</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -29491,6 +29518,11 @@
         <Literal xml:lang="en">cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00655</IRI>
+        <Literal>a prosthetic device inserted into the vagina for structural and pharmaceutical purposes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00655</IRI>
         <Literal>patient.info</Literal>
@@ -30196,6 +30228,16 @@
         <Literal xml:lang="en">sodium chloride</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00703</IRI>
+        <Literal>therapy to remove elements from the body to improve health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00703</IRI>
+        <Literal xml:lang="en">removal therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00704</IRI>
         <Literal>patient.info</Literal>
@@ -30376,6 +30418,11 @@
         <Literal xml:lang="en">staphylococcus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00717</IRI>
+        <Literal>reduces scurf and bacterial debris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00717</IRI>
         <Literal>patient.info</Literal>
@@ -30454,6 +30501,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00724</IRI>
         <Literal xml:lang="en">physical devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00725</IRI>
+        <Literal>heated pulsation method to deliver heat into the inner eyelid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -31084,6 +31136,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00772</IRI>
         <Literal xml:lang="en">hydroxyzine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00773</IRI>
+        <Literal>thin tube that can be inserted in the body to treat diseases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31926,6 +31983,11 @@
         <Literal>extracorporeal pulse activation technology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00827</IRI>
+        <Literal>shockwaves are passed through the skin to the injured part of the foot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00827</IRI>
         <Literal>patient.info</Literal>
@@ -31959,6 +32021,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00829</IRI>
         <Literal xml:lang="en">ligament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00830</IRI>
+        <Literal>a form of soft tissue mobilization to break down the scar tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -32399,6 +32466,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00860</IRI>
         <Literal>enama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00860</IRI>
+        <Literal>an injection of fluid into the lower bowel by way of the rectum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33166,6 +33238,11 @@
         <Literal>stretch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00906</IRI>
+        <Literal>physical movement to improve health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00906</IRI>
         <Literal>patient.info</Literal>
@@ -33406,6 +33483,11 @@
         <Literal xml:lang="en">colostomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00926</IRI>
+        <Literal>spicy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00926</IRI>
         <Literal>patient.info</Literal>
@@ -33413,7 +33495,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00926</IRI>
-        <Literal xml:lang="en">spicy</Literal>
+        <Literal xml:lang="en">spice</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33959,6 +34041,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00953</IRI>
         <Literal>debridment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00953</IRI>
+        <Literal>medical removal of dead, damaged, or infected tissue to improve the healing potential of the remaining healthy tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35271,6 +35358,11 @@
         <Literal xml:lang="en">chronic myelomonocytic leukaemia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01024</IRI>
+        <Literal>streams gallons of water into the body through a tube inserted into the rectum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01024</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36386,6 +36478,11 @@
         <Literal xml:lang="en">immune thrombocytopenia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01086</IRI>
+        <Literal>shockwaves or a laser to break down stones in the kidney, gallbladder, or ureter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01086</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -37486,6 +37583,11 @@
         <Literal>epiduarl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01154</IRI>
+        <Literal>an injection in your back to stop you feeling pain in part of your body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01154</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -37494,6 +37596,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01154</IRI>
         <Literal xml:lang="en">epidural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01155</IRI>
+        <Literal>removal of the oldest dead skin cells on the skin&apos;s outermost surface</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
