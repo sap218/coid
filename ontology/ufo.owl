@@ -2007,9 +2007,6 @@
         <Class IRI="#UFO_00655"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00656"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00657"/>
     </Declaration>
     <Declaration>
@@ -2062,9 +2059,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00674"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFO_00675"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00676"/>
@@ -2545,6 +2539,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00835"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_00836"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00837"/>
@@ -3376,6 +3373,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFO_01116"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01117"/>
@@ -10990,14 +10990,6 @@
         <Class IRI="#UFO_00463"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00656"/>
-        <Class IRI="#UFO_00675"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_00656"/>
-        <Class IRI="#UFO_00971"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00657"/>
         <Class IRI="#UFO_00580"/>
     </SubClassOf>
@@ -11072,10 +11064,6 @@
     <SubClassOf>
         <Class IRI="#UFO_00674"/>
         <Class IRI="#UFO_00372"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_00675"/>
-        <Class IRI="#UFO_00674"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00676"/>
@@ -11776,6 +11764,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00835"/>
         <Class IRI="#UFO_00879"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00836"/>
+        <Class IRI="#UFO_01011"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00837"/>
@@ -12530,6 +12522,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00951"/>
+        <Class IRI="#UFO_00373"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00951"/>
         <Class IRI="#UFO_01011"/>
     </SubClassOf>
     <SubClassOf>
@@ -12930,7 +12926,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01040"/>
-        <Class IRI="#UFO_00674"/>
+        <Class IRI="#UFO_01116"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01041"/>
@@ -12942,7 +12938,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01043"/>
-        <Class IRI="#UFO_00675"/>
+        <Class IRI="#UFO_00971"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01044"/>
@@ -13267,6 +13263,10 @@
     <SubClassOf>
         <Class IRI="#UFO_01115"/>
         <Class IRI="#UFO_01089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01116"/>
+        <Class IRI="#UFO_00674"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01117"/>
@@ -29116,26 +29116,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00656</IRI>
-        <Literal>candidal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00656</IRI>
-        <Literal>monilial</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_00656</IRI>
-        <Literal>patient.info</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00656</IRI>
-        <Literal xml:lang="en">thrush</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00657</IRI>
         <Literal>vitmin</Literal>
     </AnnotationAssertion>
@@ -29373,21 +29353,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00674</IRI>
         <Literal xml:lang="en">fungal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00675</IRI>
-        <Literal>fungemia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_00675</IRI>
-        <Literal>patient.info</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00675</IRI>
-        <Literal xml:lang="en">yeast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -31571,6 +31536,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00836</IRI>
+        <Literal>infection usually affecting the respiratory system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00836</IRI>
+        <Literal xml:lang="en">aspergillosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFO_00837</IRI>
         <Literal>the front part of the neck - for air and food to travel down</Literal>
     </AnnotationAssertion>
@@ -32332,7 +32307,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00884</IRI>
+        <Literal>colonization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00884</IRI>
         <Literal>mould</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00884</IRI>
+        <Literal>a type of fungus that consists of small organisms found almost everywhere</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33410,6 +33395,11 @@
         <Literal>ABPA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00951</IRI>
+        <Literal>condition characterised by an exaggerated response of the immune system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00951</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -33615,6 +33605,11 @@
         <Literal xml:lang="en">furuncle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00962</IRI>
+        <Literal>a common type of superficial fungal infection of the groin region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00962</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -33708,6 +33703,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00964</IRI>
         <Literal>corporis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00964</IRI>
+        <Literal>a fungal infection of the skin and hair loss may occur in the area affected</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33827,12 +33827,42 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00971</IRI>
+        <Literal>candidal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00971</IRI>
         <Literal>candidemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00971</IRI>
+        <Literal>fungemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00971</IRI>
+        <Literal>monilial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00971</IRI>
+        <Literal>thrush</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00971</IRI>
+        <Literal>yeast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00971</IRI>
+        <Literal>a type of fungal yeast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00971</IRI>
-        <Literal>ClinicalBERT</Literal>
+        <Literal>patient.info</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -34028,6 +34058,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00983</IRI>
         <Literal xml:lang="en">angiodysplasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00984</IRI>
+        <Literal>most severe and aggressive form of invasive aspergillus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34875,6 +34910,11 @@
         <Literal xml:lang="en">rejection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01040</IRI>
+        <Literal>cause cutaneous, locally invasive, and disseminated infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01040</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34923,6 +34963,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01042</IRI>
         <Literal xml:lang="en">volvulus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01043</IRI>
+        <Literal>a harmless fungal infection that causes patches of discoloured skin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35102,7 +35147,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFO_01053</IRI>
-        <Literal>ringworm</Literal>
+        <Literal>ringworm infection of the skin - often ring-shaped</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35388,6 +35433,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01069</IRI>
         <Literal xml:lang="en">hemorrhagic stroke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01070</IRI>
+        <Literal>type of lung infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36115,6 +36165,16 @@
         <Literal xml:lang="en">connective tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01116</IRI>
+        <Literal>such as those that invade breads and other food products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_01116</IRI>
+        <Literal xml:lang="en">zygomycota</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01117</IRI>
         <Literal>hypofunction</Literal>
@@ -36403,6 +36463,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01136</IRI>
         <Literal xml:lang="en">malarial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01137</IRI>
+        <Literal>normal inhabitants of the human skin surface and only cause disease under specific conditions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -37078,6 +37143,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01193</IRI>
         <Literal xml:lang="en">toxoplasma gondii</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01194</IRI>
+        <Literal>fungus found in bird and bat fecal material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
