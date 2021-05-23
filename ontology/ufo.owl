@@ -2238,6 +2238,9 @@
         <Class IRI="#UFO_00732"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFO_00733"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFO_00734"/>
     </Declaration>
     <Declaration>
@@ -2542,9 +2545,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00835"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFO_00836"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_00837"/>
@@ -10478,7 +10478,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00573"/>
-        <Class IRI="#UFO_00026"/>
+        <Class IRI="#UFO_00803"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00574"/>
@@ -10606,7 +10606,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00577"/>
-        <Class IRI="#UFO_00371"/>
+        <Class IRI="#UFO_01146"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00578"/>
@@ -11003,7 +11003,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00658"/>
-        <Class IRI="#UFO_00016"/>
+        <Class IRI="#UFO_00026"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00659"/>
@@ -11308,6 +11308,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00732"/>
         <Class IRI="#UFO_00569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00733"/>
+        <Class IRI="#UFO_00716"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00734"/>
@@ -11774,10 +11778,6 @@
         <Class IRI="#UFO_00879"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00836"/>
-        <Class IRI="#UFO_00373"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00837"/>
         <Class IRI="#UFO_00601"/>
     </SubClassOf>
@@ -11824,6 +11824,10 @@
     <SubClassOf>
         <Class IRI="#UFO_00846"/>
         <Class IRI="#UFO_00886"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00846"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00847"/>
@@ -12626,7 +12630,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00972"/>
-        <Class IRI="#UFO_00016"/>
+        <Class IRI="#UFO_00026"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00973"/>
@@ -12874,7 +12878,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01030"/>
+        <Class IRI="#UFO_00886"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01030"/>
         <Class IRI="#UFO_01118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01031"/>
+        <Class IRI="#UFO_00807"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01031"/>
@@ -13030,7 +13042,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01064"/>
-        <Class IRI="#UFO_00016"/>
+        <Class IRI="#UFO_00026"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01065"/>
@@ -13038,7 +13050,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01066"/>
-        <Class IRI="#UFO_01118"/>
+        <Class IRI="#UFO_01010"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01067"/>
@@ -13058,11 +13070,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01071"/>
+        <Class IRI="#UFO_00807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01071"/>
         <Class IRI="#UFO_01118"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01072"/>
         <Class IRI="#UFO_00970"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01073"/>
+        <Class IRI="#UFO_00807"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01073"/>
@@ -13150,7 +13170,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01092"/>
-        <Class IRI="#UFO_00573"/>
+        <Class IRI="#UFO_01146"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01093"/>
@@ -13278,7 +13298,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01124"/>
-        <Class IRI="#UFO_00373"/>
+        <Class IRI="#UFO_01149"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01125"/>
@@ -13306,7 +13326,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01130"/>
-        <Class IRI="#UFO_00293"/>
+        <Class IRI="#UFO_00355"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01131"/>
@@ -13459,6 +13479,10 @@
     <SubClassOf>
         <Class IRI="#UFO_01165"/>
         <Class IRI="#UFO_01117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_01166"/>
+        <Class IRI="#UFO_00761"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01166"/>
@@ -13846,6 +13870,11 @@
         <Literal xml:lang="en">clinical symptom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00016</IRI>
+        <Literal>impacts to result in inflammation - or complications outcome from inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00016</IRI>
         <Literal xml:lang="en">complication</Literal>
@@ -13936,9 +13965,19 @@
         <Literal xml:lang="en">inactivity of recent onset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00026</IRI>
+        <Literal>outcomes to inflammatory events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00026</IRI>
         <Literal xml:lang="en">outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00027</IRI>
+        <Literal>factors which can cause inflammation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -19043,7 +19082,32 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00201</IRI>
+        <Literal>allergic rhinitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>allergies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>hay fever</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>hayfever</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00201</IRI>
         <Literal>perennial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00201</IRI>
+        <Literal>pollen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -27826,14 +27890,14 @@
         <Literal xml:lang="en">sharp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFO_00573</IRI>
-        <Literal>patient.info</Literal>
+        <Literal>a rare, infectious disease in which bacteria spread from one part of the body to another - over time, it can result in linked abscesses, pain, and inflammation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00573</IRI>
-        <Literal xml:lang="en">stone</Literal>
+        <Literal xml:lang="en">actinomycosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -27974,6 +28038,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00581</IRI>
         <Literal>angiodema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00581</IRI>
+        <Literal>swelling of the area beneath the skin - normally an allergic reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -29686,6 +29755,11 @@
         <Literal>BV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00699</IRI>
+        <Literal>caused by a change in the natural balance of bacteria in your vagina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00699</IRI>
         <Literal>patient.info</Literal>
@@ -29816,6 +29890,11 @@
         <Literal xml:lang="en">doxycycline</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00710</IRI>
+        <Literal>affecting any age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00710</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -29889,6 +29968,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00716</IRI>
         <Literal>staphylococcal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00716</IRI>
+        <Literal>bacteria that can cause a number of infectious diseases in various tissues of the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -30064,6 +30148,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00732</IRI>
         <Literal xml:lang="en">sulfacetamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00733</IRI>
+        <Literal>affect the skin - they can go away on their own, but sometimes they need to be treated with antibiotics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFO_00733</IRI>
+        <Literal xml:lang="en">staph infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -30264,6 +30358,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00748</IRI>
         <Literal>lymphoedema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00748</IRI>
+        <Literal>lymph vessels are unable to adequately drain lymph fluid - excess fluid builds up</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -30569,6 +30668,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00770</IRI>
         <Literal xml:lang="en">pentosan polysulfate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00771</IRI>
+        <Literal>a part of the normal intestinal flora of humans</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31001,6 +31105,11 @@
         <Literal xml:lang="en">enzyme test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00803</IRI>
+        <Literal>a genus of the actinobacteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00803</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -31063,7 +31172,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00807</IRI>
-        <Literal xml:lang="en">results</Literal>
+        <Literal xml:lang="en">blood test results</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -31461,21 +31570,6 @@
         <Literal xml:lang="en">nasal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00836</IRI>
-        <Literal>pollen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_00836</IRI>
-        <Literal>patient.info</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00836</IRI>
-        <Literal xml:lang="en">hayfever</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFO_00837</IRI>
         <Literal>the front part of the neck - for air and food to travel down</Literal>
@@ -31596,6 +31690,11 @@
         <Literal xml:lang="en">saline</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00845</IRI>
+        <Literal>constriction or dilation of blood vessels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00845</IRI>
         <Literal>patient.info</Literal>
@@ -31609,6 +31708,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00846</IRI>
         <Literal>ETD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00846</IRI>
+        <Literal>tube connecting your throat and middle ear gets inflamed and plugged up</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -31664,6 +31768,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00849</IRI>
         <Literal xml:lang="en">lung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00850</IRI>
+        <Literal>inability to eat a food or take a drug without adverse effects</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -32384,6 +32493,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00894</IRI>
         <Literal>urticaria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00894</IRI>
+        <Literal>raised skin from high levels of histamine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33486,6 +33600,11 @@
         <Literal xml:lang="en">excoriation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00961</IRI>
+        <Literal>painful infection that forms around a hair follicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00961</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -33571,6 +33690,11 @@
         <Literal>dificile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00963</IRI>
+        <Literal>bacteria that can cause a bowel infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00963</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -33649,6 +33773,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00967</IRI>
         <Literal xml:lang="en">goodpasture syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00968</IRI>
+        <Literal>a skin infection that&apos;s very contagious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -33996,6 +34125,11 @@
         <Literal xml:lang="en">chemosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00991</IRI>
+        <Literal>a disease that develops in dogs after being bitten by an infected tick</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00991</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34196,9 +34330,19 @@
         <Literal xml:lang="en">sunburn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01001</IRI>
+        <Literal>bacterium with various subspecies - it is transmitted only amongst humans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01001</IRI>
         <Literal xml:lang="en">treponema pallidum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01002</IRI>
+        <Literal>spread by sexual contact - starts as a painless sore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -34346,6 +34490,11 @@
         <Literal>bactermia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01014</IRI>
+        <Literal>presence of bacteria in the bloodstream</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01014</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34359,6 +34508,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01015</IRI>
         <Literal>bascule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01015</IRI>
+        <Literal>large bowel obstruction from folding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34556,6 +34710,11 @@
         <Literal>DAH</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01029</IRI>
+        <Literal>widespread damage to the pulmonary small vessels, leading to blood collecting within the alveoli</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01029</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34571,6 +34730,11 @@
         <Literal>DIC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01030</IRI>
+        <Literal>blood clots form throughout the body, blocking small blood vessels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01030</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34579,6 +34743,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01030</IRI>
         <Literal xml:lang="en">disseminated intravascular coagulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01031</IRI>
+        <Literal>a higher than normal level of eosinophils, a disease-fighting white blood cell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -34741,6 +34910,11 @@
         <Literal>volvulous</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01042</IRI>
+        <Literal>a loop of intestine twists around itself resulting in a bowel obstruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01042</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -34759,6 +34933,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01043</IRI>
         <Literal xml:lang="en">pityriasis versicolor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01044</IRI>
+        <Literal>urine can&apos;t flow due to some type of obstruction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35151,6 +35330,11 @@
         <Literal>hemachromatosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01066</IRI>
+        <Literal>a disorder where too much iron builds up in your body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01066</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35221,6 +35405,11 @@
         <Literal>hypercholester</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01071</IRI>
+        <Literal>high cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01071</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35244,6 +35433,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01073</IRI>
         <Literal>hyperlipidimia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01073</IRI>
+        <Literal>abnormally high levels of fats in the blood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35741,6 +35935,11 @@
         <Literal xml:lang="en">paroxysmal sympathetic hyperactivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01104</IRI>
+        <Literal>found in soil and presented clinically as pneumonia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01104</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35754,6 +35953,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01105</IRI>
         <Literal>SBO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01105</IRI>
+        <Literal>a mechanical blockage of the bowel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35936,6 +36140,11 @@
         <Literal xml:lang="en">odontogenic sinusitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01120</IRI>
+        <Literal>bacteria are made up of a thick, mesh-like layer of peptidoglycan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01120</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35959,6 +36168,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01121</IRI>
         <Literal xml:lang="en">paronychia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01122</IRI>
+        <Literal>bacteria have only a thin layer of peptidoglycan in their cell walls</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35989,6 +36203,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01124</IRI>
         <Literal>ibs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01124</IRI>
+        <Literal>a common condition affecting the digestive system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36221,6 +36440,11 @@
         <Literal>MRSA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01139</IRI>
+        <Literal>bacteria that&apos;s resistant to several widely used antibiotics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01139</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -36234,6 +36458,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01140</IRI>
         <Literal>OAB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01140</IRI>
+        <Literal>a combination of symptoms that can cause you to need to urinate more frequently</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36308,7 +36537,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01146</IRI>
-        <Literal>ClinicalBERT expanded with patient.info</Literal>
+        <Literal>patient.info</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -36466,6 +36695,11 @@
         <Literal xml:lang="en">hypopigmented</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01159</IRI>
+        <Literal>bacteria that normally live in your intestines and feces - if they spread to another part of your body, they can cause severe infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01159</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -36494,6 +36728,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01161</IRI>
         <Literal xml:lang="en">microaspiration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01162</IRI>
+        <Literal>live in the mouths of most cats, as well as a significant number of dogs and other animals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36556,6 +36795,11 @@
         <Literal xml:lang="en">polyneuropathy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01166</IRI>
+        <Literal>rare inherited blood disorders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01166</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -36589,6 +36833,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01168</IRI>
         <Literal>psuedomonal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01168</IRI>
+        <Literal>bacteria that can cause lung infections</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -36809,6 +37058,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01190</IRI>
         <Literal xml:lang="en">babesia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01191</IRI>
+        <Literal>a genus of Rickettsiales bacteria that are transmitted to vertebrates by ticks</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
