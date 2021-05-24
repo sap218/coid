@@ -2976,9 +2976,6 @@
         <Class IRI="#UFO_00984"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFO_00985"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UFO_00986"/>
     </Declaration>
     <Declaration>
@@ -3166,9 +3163,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01048"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UFO_01049"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFO_01050"/>
@@ -12733,10 +12727,6 @@
         <Class IRI="#UFO_01011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFO_00985"/>
-        <Class IRI="#UFO_00168"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UFO_00986"/>
         <Class IRI="#UFO_00030"/>
     </SubClassOf>
@@ -13015,10 +13005,6 @@
     <SubClassOf>
         <Class IRI="#UFO_01048"/>
         <Class IRI="#UFO_00761"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_01049"/>
-        <Class IRI="#UFO_00168"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01050"/>
@@ -13454,7 +13440,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01143"/>
-        <Class IRI="#UFO_00286"/>
+        <Class IRI="#UFO_01010"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01144"/>
@@ -16047,6 +16033,11 @@
         <Literal>readcode:F4A3z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00088</IRI>
+        <Literal>inflammation of the cornea and conjunctiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00088</IRI>
         <Literal xml:lang="en">keratoconjuctivitis</Literal>
@@ -17355,6 +17346,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00132</IRI>
         <Literal>readcode:Ayu81</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00132</IRI>
+        <Literal>commonly shortened to polio, is an infectious disease caused by the poliovirus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18802,6 +18798,11 @@
         <Literal>readcode:N0541</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00178</IRI>
+        <Literal>condition that causes joints to become painful and stiff, the most common type of arthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00178</IRI>
         <Literal xml:lang="en">osteoarthritis</Literal>
@@ -18945,6 +18946,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00182</IRI>
         <Literal>readcode:N2401</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00182</IRI>
+        <Literal>inflammation of the muscle sheaths, muscles and connective-tissue layers of the joints, bones, tendons and muscles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22137,6 +22143,11 @@
         <Literal>readcode:N243z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00277</IRI>
+        <Literal>inflammation in the fat layer under your skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00277</IRI>
         <Literal xml:lang="en">panniculitis</Literal>
@@ -22145,6 +22156,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00278</IRI>
         <Literal xml:lang="en">inflammation of musculoskeletal system and connective tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_00279</IRI>
+        <Literal>polyarticular</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
@@ -22175,6 +22191,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00279</IRI>
         <Literal>readcode:Nyu01</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00279</IRI>
+        <Literal>five or more joints are affected with arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22217,6 +22238,11 @@
         <Literal>SNOMEDCT:20258000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00280</IRI>
+        <Literal>a blood vessel disease characterized by inflammation of small and medium-sized arteries, preventing them from bringing oxygen and food to organs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00280</IRI>
         <Literal xml:lang="en">polyarteritis</Literal>
@@ -22245,6 +22271,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00281</IRI>
         <Literal>readcode:G752z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00281</IRI>
+        <Literal>inflammation of the blood vessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22292,6 +22323,11 @@
         <Literal>ICD10:M30.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00282</IRI>
+        <Literal>a rare condition where the blood vessels become inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00282</IRI>
         <Literal xml:lang="en">polyangiitis</Literal>
@@ -22325,6 +22361,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00284</IRI>
         <Literal>ICD10:M33.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00284</IRI>
+        <Literal>a rare disease that includes a distinctive skin rash and progressive muscular weakness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22527,6 +22568,11 @@
         <Literal>readcode:N2411</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00287</IRI>
+        <Literal>inflammation in muscles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00287</IRI>
         <Literal xml:lang="en">myositis</Literal>
@@ -22550,6 +22596,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00288</IRI>
         <Literal>readcode:A3Ay0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00288</IRI>
+        <Literal>rare bacterial infection of the skeletal muscle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25102,6 +25153,11 @@
         <Literal>readcode:XaKcC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00391</IRI>
+        <Literal>inflammation of the synovial membrane, which lines joints that possess cavities, known as synovial joints</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00391</IRI>
         <Literal xml:lang="en">synovitis</Literal>
@@ -25135,6 +25191,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00392</IRI>
         <Literal>readcode:X707s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00392</IRI>
+        <Literal>inflammation of the sheath, surrounds the two tendons that are involved in moving the thumb</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25200,6 +25261,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00393</IRI>
         <Literal>readcode:N040Q</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00393</IRI>
+        <Literal>inflammation or irritation of a bursa sac</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26522,6 +26588,11 @@
         <Literal>readcode:Nyu12</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00445</IRI>
+        <Literal>autoimmune disease that can cause joint pain and damage throughout your body, usually happens on both sides of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00445</IRI>
         <Literal xml:lang="en">rheumatoid arthritis</Literal>
@@ -26667,6 +26738,11 @@
         <Literal>readcode:N043z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00449</IRI>
+        <Literal>inflammation of the synovium in children aged 16 or younger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00449</IRI>
         <Literal xml:lang="en">juvenile arthritis</Literal>
@@ -26712,6 +26788,11 @@
         <Literal>readcode:N040</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00450</IRI>
+        <Literal>a rare type of arthritis that causes pain and stiffness in your spine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00450</IRI>
         <Literal xml:lang="en">ankylosing spondylitis</Literal>
@@ -26730,6 +26811,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00451</IRI>
         <Literal>SNOMEDCT:156370009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00451</IRI>
+        <Literal>type of arthritis that affects some people with the skin condition psoriasis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26792,6 +26878,11 @@
         <Literal>readcode:C34yz</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00452</IRI>
+        <Literal>a common and complex form of arthritis that can affect anyone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00452</IRI>
         <Literal xml:lang="en">gout</Literal>
@@ -26805,6 +26896,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00454</IRI>
         <Literal>ICD10:M79.7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00454</IRI>
+        <Literal>inflammation of the perimysium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27282,6 +27378,11 @@
         <Literal>readcode:N05zK</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00499</IRI>
+        <Literal>inflammation of one or both of the sacroiliac joints, located at the lower spine and pelvis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00499</IRI>
         <Literal xml:lang="en">sacroiliitis</Literal>
@@ -27310,6 +27411,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00500</IRI>
         <Literal>readcode:N0660</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00500</IRI>
+        <Literal>inflammation of one joint at a time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28357,6 +28463,11 @@
         <Literal>readcode:N21z0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00547</IRI>
+        <Literal>affects the ligaments around the joint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00547</IRI>
         <Literal xml:lang="en">capsulitis</Literal>
@@ -28430,6 +28541,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00549</IRI>
         <Literal>readcode:XaE2H</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00549</IRI>
+        <Literal>inflammation or irritation of a tendon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28632,6 +28748,11 @@
         <Literal>readcode:Xa1jd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00561</IRI>
+        <Literal>inflammation that develops between the intervertebral discs of your spine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00561</IRI>
         <Literal xml:lang="en">discitis</Literal>
@@ -28655,6 +28776,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00562</IRI>
         <Literal>readcode:N004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00562</IRI>
+        <Literal>an uncommon inflammatory disease that causes muscle weakness affecting both sides of your body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -29567,6 +29693,11 @@
         <Literal>polymalgia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00610</IRI>
+        <Literal>inflammatory disorder that causes widespread aching, stiffness and flu-like symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00610</IRI>
         <Literal>patient.info</Literal>
@@ -29760,6 +29891,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00625</IRI>
         <Literal xml:lang="en">ginger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00626</IRI>
+        <Literal>ICD10:M06.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00626</IRI>
+        <Literal>SNOMEDCT:239792003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_00626</IRI>
+        <Literal>readcode:X701i</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00626</IRI>
+        <Literal>same symptoms as rheumatoid arthritis but a patient doesn&apos;t have certain antibodies in their blood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35428,21 +35579,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_00985</IRI>
-        <Literal>CPPD</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_00985</IRI>
-        <Literal>ClinicalBERT</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_00985</IRI>
-        <Literal xml:lang="en">calcium pyrophosphate dihydrate</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_00986</IRI>
         <Literal>HCC</Literal>
     </AnnotationAssertion>
@@ -36577,21 +36713,6 @@
         <Literal xml:lang="en">psoriasis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
-        <IRI>#UFO_01049</IRI>
-        <Literal>polyaticular</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
-        <IRI>#UFO_01049</IRI>
-        <Literal>ClinicalBERT</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFO_01049</IRI>
-        <Literal xml:lang="en">polyarticular arthritis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_01050</IRI>
         <Literal>ICD10:L43</Literal>
@@ -37532,6 +37653,21 @@
         <Literal xml:lang="en">pseudocyst</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_01102</IRI>
+        <Literal>CPPD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
+        <IRI>#UFO_01102</IRI>
+        <Literal>calcium pyrophosphate dihydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01102</IRI>
+        <Literal>form of arthritis that affects one or several joints at once, commonly affecting the knee or wrist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01102</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -38217,6 +38353,11 @@
         <Literal xml:lang="en">prostate-specific antigen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01143</IRI>
+        <Literal>persistent chronic condition which causes blisters filled with fluid on the palms and the soles of the feet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01143</IRI>
         <Literal>ClinicalBERT expanded with patient.info</Literal>
@@ -38285,6 +38426,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01148</IRI>
         <Literal>spondyloarthropathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01148</IRI>
+        <Literal>inflammatory diseases that can affect mutiple bones and larger joints, as well as internal organs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -38370,6 +38516,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01152</IRI>
         <Literal xml:lang="en">pancreatic divisum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_01153</IRI>
+        <Literal>ICD10:M77.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_01153</IRI>
+        <Literal>SNOMEDCT:359643005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01153</IRI>
+        <Literal>inflammation of the entheses, the sites where tendons or ligaments insert into the bone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -38650,6 +38811,26 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01170</IRI>
         <Literal>reiter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_01170</IRI>
+        <Literal>ICD10:M03.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_01170</IRI>
+        <Literal>SNOMEDCT:239783001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
+        <IRI>#UFO_01170</IRI>
+        <Literal>readcode:N01w</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01170</IRI>
+        <Literal>inflammation in various joints in the body, usually develops after an infection, particularly a sexually transmitted infection or food poisoning</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
