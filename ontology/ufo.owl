@@ -17657,6 +17657,11 @@
         <Literal>readcode:F5025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00150</IRI>
+        <Literal>inflammation of the external ear canal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00150</IRI>
         <Literal xml:lang="en">otitis externa</Literal>
@@ -17897,6 +17902,11 @@
         <Literal>SNOMEDCT:37600001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00152</IRI>
+        <Literal>infection of the tissue covering the cartilage of the external part of the ear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00152</IRI>
         <Literal xml:lang="en">perichondritis</Literal>
@@ -17905,6 +17915,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00153</IRI>
         <Literal>ICD10:H61.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00153</IRI>
+        <Literal>inflammation of the skin of the ear</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18017,6 +18032,11 @@
         <Literal>readcode:FyuP5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00154</IRI>
+        <Literal>infection of the middle ear that causes inflammation and a build-up of fluid behind the eardrum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00154</IRI>
         <Literal xml:lang="en">otitis media</Literal>
@@ -18045,6 +18065,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00155</IRI>
         <Literal>SNOMEDCT:14852000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00155</IRI>
+        <Literal>a form of acute otitis media in which vesicles develop with viral or bacterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18122,6 +18147,11 @@
         <Literal>readcode:FyuP7</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00158</IRI>
+        <Literal>a serious infection in the bone just behind and under the ear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00158</IRI>
         <Literal xml:lang="en">mastoiditis</Literal>
@@ -18145,6 +18175,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00159</IRI>
         <Literal>readcode:F5320</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00159</IRI>
+        <Literal>infection and inflammation of the petrous temporal bone, usually a complication of mastoiditis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18177,6 +18212,11 @@
         <Literal>readcode:F541</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00161</IRI>
+        <Literal>inflamed tympanic membrane, also known as the eardrum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00161</IRI>
         <Literal xml:lang="en">tympanitis</Literal>
@@ -18197,6 +18237,11 @@
         <Literal>ICD9:385.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00163</IRI>
+        <Literal>an abacterial inflammation of the middle ear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00163</IRI>
         <Literal xml:lang="en">adhesive otitis</Literal>
@@ -18205,6 +18250,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00164</IRI>
         <Literal>ICD10:H81.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00164</IRI>
+        <Literal>disorder characterized by a sudden severe attack of vertigo caused by inflammation of the vestibular nerve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18230,6 +18280,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00165</IRI>
         <Literal>readcode:F5630</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00165</IRI>
+        <Literal>inner ear disorder which one of the nerves becomes inflamed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
