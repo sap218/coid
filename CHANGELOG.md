@@ -8,4 +8,6 @@
 
 * Version: 22-05-2021 ontology expanded with synonyms from patient.info expansion of ClinicalBERT - word2vec model expansion.
 
+* Version: 24-05-2021 almost all ontology concepts have a descriptive comment.
+
 * Version **1.0.0** current date 
