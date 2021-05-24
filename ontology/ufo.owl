@@ -16917,6 +16917,11 @@
         <Literal>readcode:N3020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00119</IRI>
+        <Literal>infection of the bone, a rare but serious condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00119</IRI>
         <Literal xml:lang="en">osteomyelitis</Literal>
@@ -16945,6 +16950,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00120</IRI>
         <Literal>readcode:X70Ao</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00120</IRI>
+        <Literal>inflammation of the periosteum, a layer of connective tissue that surrounds bone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20372,6 +20382,11 @@
         <Literal>readcode:J0650</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00223</IRI>
+        <Literal>inflammation in the inner part of the lungs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00223</IRI>
         <Literal xml:lang="en">alveolitis</Literal>
@@ -20452,6 +20467,11 @@
         <Literal>readcode:J020z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00229</IRI>
+        <Literal>inflammation of the dental pulp, or tissue in the center of a tooth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00229</IRI>
         <Literal xml:lang="en">pulpitis</Literal>
@@ -20487,6 +20507,11 @@
         <Literal>readcode:XM0sC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00230</IRI>
+        <Literal>severe gum infection that can lead to tooth loss and other serious health complications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00230</IRI>
         <Literal xml:lang="en">periodontitis</Literal>
@@ -20520,6 +20545,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00231</IRI>
         <Literal>readcode:Xa1Im</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00231</IRI>
+        <Literal>inflammation of the gums</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20562,6 +20592,11 @@
         <Literal>readcode:X20Sh</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00233</IRI>
+        <Literal>inflammation of bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00233</IRI>
         <Literal xml:lang="en">osteitis</Literal>
@@ -20595,6 +20630,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00236</IRI>
         <Literal>readcode:J072z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00236</IRI>
+        <Literal>inflammation of salivary glands</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20632,6 +20672,11 @@
         <Literal>readcode:J080z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00237</IRI>
+        <Literal>inflammation of the mouth and lips</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00237</IRI>
         <Literal xml:lang="en">stomatitis</Literal>
@@ -20645,6 +20690,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00238</IRI>
         <Literal>ICD9:528.02</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00238</IRI>
+        <Literal>painful inflammation and ulceration of the mucous membranes lining the digestive tract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20677,6 +20727,11 @@
         <Literal>readcode:XM0sG</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00240</IRI>
+        <Literal>inflammation of the lips</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00240</IRI>
         <Literal xml:lang="en">cheilitis</Literal>
@@ -20707,6 +20762,11 @@
         <Literal>readcode:J090z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00242</IRI>
+        <Literal>inflammation of the tongue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00242</IRI>
         <Literal xml:lang="en">glossitis</Literal>
@@ -20735,6 +20795,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00244</IRI>
         <Literal>SNOMEDCT:409657002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00244</IRI>
+        <Literal>inflammation of the lining of the oesophagus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20797,6 +20862,11 @@
         <Literal>readcode:J154</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00245</IRI>
+        <Literal>inflammation of the protective lining of the stomach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00245</IRI>
         <Literal xml:lang="en">gastritis</Literal>
@@ -20825,6 +20895,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00246</IRI>
         <Literal>readcode:J157</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00246</IRI>
+        <Literal>inflammation of the duodenum, the first part of the small intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20930,6 +21005,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00249</IRI>
         <Literal>readcode:X302j</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00249</IRI>
+        <Literal>inflammation of the small intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21072,6 +21152,11 @@
         <Literal>readcode:X302s</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00251</IRI>
+        <Literal>irritation or inflammation of the ileum, the last part of the small intestine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00251</IRI>
         <Literal xml:lang="en">ileitis</Literal>
@@ -21095,6 +21180,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00252</IRI>
         <Literal>readcode:XaYzX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00252</IRI>
+        <Literal>inflammation of the entire colon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21127,6 +21217,11 @@
         <Literal>readcode:J574C</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00253</IRI>
+        <Literal>the lining tissue of the inner rectum becomes inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00253</IRI>
         <Literal xml:lang="en">proctitis</Literal>
@@ -21142,6 +21237,11 @@
         <Literal>SNOMEDCT:52506002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00254</IRI>
+        <Literal>a form of ulcerative colitis that affects the rectum and sigmoid colon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00254</IRI>
         <Literal xml:lang="en">rectosigmoiditis</Literal>
@@ -21150,6 +21250,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00255</IRI>
         <Literal>ICD10:K51.5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00255</IRI>
+        <Literal>one-sided colitis, affecting either the descending colon or ascending colon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21222,6 +21327,11 @@
         <Literal>readcode:Jyu42</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00256</IRI>
+        <Literal>inflammation of the stomach and intestines, typically resulting from bacterial toxins or viral infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00256</IRI>
         <Literal xml:lang="en">gastroenteritis</Literal>
@@ -21250,6 +21360,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00258</IRI>
         <Literal>readcode:XaB5z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00258</IRI>
+        <Literal>inflammation of the the inner linings of both the small intestine and the colon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21315,6 +21430,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00259</IRI>
         <Literal>readcode:J511y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00259</IRI>
+        <Literal>infection or inflammation of pouches that can form in the intestines</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21582,6 +21702,11 @@
         <Literal>readcode:J661y</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00266</IRI>
+        <Literal>inflammation of the bile duct system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00266</IRI>
         <Literal xml:lang="en">cholangitis</Literal>
@@ -21670,6 +21795,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00268</IRI>
         <Literal>readcode:J651</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00268</IRI>
+        <Literal>inflammation of the gallbladder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21840,6 +21970,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00274</IRI>
         <Literal>readcode:J670z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00274</IRI>
+        <Literal>inflammation of the pancreas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23587,6 +23722,11 @@
         <Literal>readcode:J55yz</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00331</IRI>
+        <Literal>inflammation of the peritoneum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00331</IRI>
         <Literal xml:lang="en">peritonitis</Literal>
@@ -24697,9 +24837,19 @@
         <Literal>readcode:J0722</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00388</IRI>
+        <Literal>inflammation of one or both parotid glands, the major salivary glands located on either side of the face</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00388</IRI>
         <Literal xml:lang="en">parotitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00389</IRI>
+        <Literal>inflammation of the jaw or adjacent soft parts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24715,6 +24865,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:hasExactSynonym"/>
         <IRI>#UFO_00390</IRI>
         <Literal>anusitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00390</IRI>
+        <Literal>inflammation of the intestinal crypts, glands in the intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27062,6 +27217,11 @@
         <Literal>readcode:A14y2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00507</IRI>
+        <Literal>infection and inflammation of the small intestine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00507</IRI>
         <Literal xml:lang="en">tuberculous enteritis</Literal>
@@ -27227,6 +27387,11 @@
         <Literal>readcode:J0314</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00517</IRI>
+        <Literal>common infection of the mouth and gums</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00517</IRI>
         <Literal xml:lang="en">gingivostomatitis</Literal>
@@ -27300,6 +27465,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00521</IRI>
         <Literal>readcode:X00mL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00521</IRI>
+        <Literal>an infection spread through spit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27702,6 +27872,11 @@
         <Literal>readcode:Jyu40</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00538</IRI>
+        <Literal>a type of inflammatory bowel disease, causing inflammation of the digestive tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00538</IRI>
         <Literal xml:lang="en">crohns disease</Literal>
@@ -27720,6 +27895,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00539</IRI>
         <Literal>SNOMEDCT:399505005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00539</IRI>
+        <Literal>growths on the inner lining of the large intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27757,6 +27937,11 @@
         <Literal>SNOMEDCT:1082661000119103</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00541</IRI>
+        <Literal>condition in which a collection of pus develops near the anus, cavity becoming inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00541</IRI>
         <Literal xml:lang="en">anal abscess</Literal>
@@ -27770,6 +27955,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00542</IRI>
         <Literal>SNOMEDCT:25552000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00542</IRI>
+        <Literal>inflammation of the caecum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28275,6 +28465,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00564</IRI>
         <Literal>SNOMEDCT:442191002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00564</IRI>
+        <Literal>a type of fatty liver disease, characterized by inflammation of the liver with concurrent fat accumulation in liver</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -35177,6 +35372,11 @@
         <Literal>readcode:X304F</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00995</IRI>
+        <Literal>inflammation of a part of the large intestine known as the cecum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00995</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35207,6 +35407,11 @@
         <Literal>readcode:XaJgR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00996</IRI>
+        <Literal>inflammation that occurs in the lining of a pouch created during surgery to treat ulcerative colitis or certain other diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00996</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -35225,6 +35430,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00997</IRI>
         <Literal>SNOMEDCT:418130002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00997</IRI>
+        <Literal>inflammation of the rectum and colon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35280,6 +35490,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00999</IRI>
         <Literal>SNOMEDCT:370469003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00999</IRI>
+        <Literal>inflammation of the serous tissues of the body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -35812,6 +36027,11 @@
         <Literal>readcode:A35</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01032</IRI>
+        <Literal>common bacterial infection of the superficial layer of the skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_01032</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -36050,6 +36270,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_01046</IRI>
         <Literal>SNOMEDCT:449806001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01046</IRI>
+        <Literal>a rare inflammatory form of colitis that occurs when impacted fecal material leads to distention of the colon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
@@ -37350,6 +37575,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_01121</IRI>
         <Literal>ICD10:L03.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01121</IRI>
+        <Literal>inflammation of the skin around the nail caused by bacteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
