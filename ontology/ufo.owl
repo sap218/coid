@@ -6245,6 +6245,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_00175"/>
+        <Class IRI="#UFO_00057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFO_00175"/>
         <Class IRI="#UFO_00167"/>
     </SubClassOf>
     <SubClassOf>
@@ -13398,11 +13402,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01133"/>
-        <Class IRI="#UFO_00192"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFO_01133"/>
-        <Class IRI="#UFO_00261"/>
+        <Class IRI="#UFO_01117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFO_01134"/>
@@ -14917,6 +14917,11 @@
         <Literal>readcode:M12z0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00050</IRI>
+        <Literal>general term for skin inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00050</IRI>
         <Literal xml:lang="en">dermatitis</Literal>
@@ -15032,6 +15037,11 @@
         <Literal>readcode:M12z1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00054</IRI>
+        <Literal>a common skin condition that causes patches of skin that are itchy, cracked and sore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00054</IRI>
         <Literal xml:lang="en">eczema</Literal>
@@ -15062,6 +15072,11 @@
         <Literal>readcode:XE1CW</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00055</IRI>
+        <Literal>a skin condition characterized by chronic itching or scaling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00055</IRI>
         <Literal xml:lang="en">neurodermatitis</Literal>
@@ -15075,6 +15090,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00056</IRI>
         <Literal>ICD9:690.11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00056</IRI>
+        <Literal>a fungal infection of the scalp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15452,6 +15472,11 @@
         <Literal>readcode:G80z0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00066</IRI>
+        <Literal>inflammation of a vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00066</IRI>
         <Literal xml:lang="en">phlebitis</Literal>
@@ -15480,6 +15505,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00067</IRI>
         <Literal>readcode:G80z1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00067</IRI>
+        <Literal>one or more blood clots in a vein that cause inflammation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16812,6 +16842,11 @@
         <Literal>SNOMEDCT:8197001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00118</IRI>
+        <Literal>a common skin condition that typically affects children - a characteristic response of the skin to viral infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00118</IRI>
         <Literal xml:lang="en">acrodermatitis</Literal>
@@ -17074,7 +17109,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFO_00124</IRI>
-        <Literal>inflammation of the blood vessels</Literal>
+        <Literal>inflammation and narrowing of the blood vessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17265,6 +17300,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00131</IRI>
         <Literal>SNOMEDCT:54771008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00131</IRI>
+        <Literal>inflammation of the intima of a vein</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18432,6 +18472,11 @@
         <Literal>readcode:Gyu54</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00169</IRI>
+        <Literal>inflammation of the pericardium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00169</IRI>
         <Literal xml:lang="en">pericarditis</Literal>
@@ -18467,6 +18512,11 @@
         <Literal>readcode:Gyu5E</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00170</IRI>
+        <Literal>inflammation of the heart inner lining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00170</IRI>
         <Literal xml:lang="en">endocarditis</Literal>
@@ -18480,6 +18530,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00171</IRI>
         <Literal>SNOMEDCT:84871007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00171</IRI>
+        <Literal>inflammation of the valves of the heart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18507,6 +18562,11 @@
         <Literal>readcode:G5y0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00172</IRI>
+        <Literal>inflammation of the heart muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00172</IRI>
         <Literal xml:lang="en">myocarditis</Literal>
@@ -18525,6 +18585,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00173</IRI>
         <Literal>SNOMEDCT:62185008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00173</IRI>
+        <Literal>inflammation of the entire heart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18552,6 +18617,11 @@
         <Literal>readcode:XE0Vo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00174</IRI>
+        <Literal>the inflammation of the heart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00174</IRI>
         <Literal xml:lang="en">carditis</Literal>
@@ -18575,6 +18645,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00175</IRI>
         <Literal>readcode:XM0rI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00175</IRI>
+        <Literal>inflammation in the heart, joints, skin or central nervous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18722,6 +18797,11 @@
         <Literal>SNOMEDCT:52845002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00179</IRI>
+        <Literal>functional units of the kidneys become inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00179</IRI>
         <Literal xml:lang="en">nephritis</Literal>
@@ -18740,6 +18820,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00180</IRI>
         <Literal>SNOMEDCT:30328003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00180</IRI>
+        <Literal>inflammation of the muscular wall and membrane lining the heart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18852,6 +18937,11 @@
         <Literal>readcode:X2056</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00183</IRI>
+        <Literal>arteries at the side of the head become inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00183</IRI>
         <Literal xml:lang="en">arteritis</Literal>
@@ -18892,6 +18982,11 @@
         <Literal>SNOMEDCT:724865002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00185</IRI>
+        <Literal>a side effect of external beam ionizing radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00185</IRI>
         <Literal xml:lang="en">radiodermatitis</Literal>
@@ -18910,6 +19005,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00186</IRI>
         <Literal>SNOMEDCT:33806008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00186</IRI>
+        <Literal>inflammation of the inner lining of an artery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18942,6 +19042,11 @@
         <Literal>SNOMEDCT:8435000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00188</IRI>
+        <Literal>inflammation and clotting of arteries and veins in the hands and feet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00188</IRI>
         <Literal xml:lang="en">thromboangiitis</Literal>
@@ -18970,6 +19075,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00191</IRI>
         <Literal>SNOMEDCT:36675003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00191</IRI>
+        <Literal>inflammation of the tissues around a vein</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -19137,6 +19247,11 @@
         <Literal>readcode:D413</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00195</IRI>
+        <Literal>enlargement in one or more lymph nodes, usually due to infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00195</IRI>
         <Literal xml:lang="en">lymphadenitis</Literal>
@@ -19150,6 +19265,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00196</IRI>
         <Literal>ICD9:597.89</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00196</IRI>
+        <Literal>inflammation of a gland, often used to refer to lymphadenitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -19180,6 +19300,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00198</IRI>
         <Literal>readcode:G862</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00198</IRI>
+        <Literal>inflammation of the lymphatic system, which is a major component of the immune system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22307,6 +22432,11 @@
         <Literal>readcode:K0322</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00290</IRI>
+        <Literal>inflammation of the glomeruli, which are structures in your kidneys that are made up of tiny blood vessels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00290</IRI>
         <Literal xml:lang="en">glomerulonephritis</Literal>
@@ -22345,6 +22475,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00291</IRI>
         <Literal>readcode:K10y1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00291</IRI>
+        <Literal>inflammation of the renal pelvis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22395,6 +22530,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00292</IRI>
         <Literal>readcode:K10y0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00292</IRI>
+        <Literal>a type of urinary tract infection that begins in the urethra or bladder and travels to one or both of the kidneys</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -24442,6 +24582,11 @@
         <Literal>readcode:X50B4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00385</IRI>
+        <Literal>characterized by leakage of red blood cells from small, superficial blood vessels that results in pinpoint-like hemorrhages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00385</IRI>
         <Literal xml:lang="en">capillaritis</Literal>
@@ -24515,6 +24660,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00387</IRI>
         <Literal>readcode:H51z0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00387</IRI>
+        <Literal>a condition in which the pleura becomes inflamed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -26857,9 +27007,14 @@
         <Literal>ICD10:D73.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00503</IRI>
+        <Literal>inflammation of the capsule of the spleen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00503</IRI>
-        <Literal xml:lang="en">epispenitis</Literal>
+        <Literal xml:lang="en">episplenitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27357,6 +27512,11 @@
         <Literal>readcode:X200p</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00533</IRI>
+        <Literal>the mitral valve between the upper left heart chamber and the lower left heart chamber doesn&apos;t work properly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00533</IRI>
         <Literal xml:lang="en">mitral valve disease</Literal>
@@ -27380,6 +27540,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00534</IRI>
         <Literal>readcode:G140z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00534</IRI>
+        <Literal>condition in which the valve between the two right heart chambers doesn&apos;t function properly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27407,6 +27572,11 @@
         <Literal>readcode:G541</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00535</IRI>
+        <Literal>the valve between the main pumping chamber of the heart and the main artery to the body (aorta) doesn&apos;t work properly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00535</IRI>
         <Literal xml:lang="en">nonrheumatic aortic valve disorders</Literal>
@@ -27420,6 +27590,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00536</IRI>
         <Literal>ICD10:I87.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00536</IRI>
+        <Literal>condition can cause chronic pain, swelling, and other symptoms in your leg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -32582,6 +32757,11 @@
         <Literal>readcode:G766</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00862</IRI>
+        <Literal>a form of vasculitis, specifically inflammation of the aorta, which carries oxygenated blood from the heart to the rest of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00862</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -37380,6 +37560,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/hp#layperson"/>
         <IRI>#UFO_01133</IRI>
         <Literal>hemmoroids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01133</IRI>
+        <Literal>swollen veins in the lowest part of your rectum - often get better on their own but can be inflamed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
