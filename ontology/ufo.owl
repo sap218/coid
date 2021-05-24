@@ -15558,6 +15558,11 @@
         <Literal>readcode:F4D1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00069</IRI>
+        <Literal>small lump on the eyelid caused by an infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00069</IRI>
         <Literal xml:lang="en">hordeolum</Literal>
@@ -15581,6 +15586,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00070</IRI>
         <Literal>readcode:F4D2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00070</IRI>
+        <Literal>small cyst that develops within the eyelid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15723,6 +15733,11 @@
         <Literal>readcode:F4F00</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00073</IRI>
+        <Literal>inflammation of the lacrimal gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00073</IRI>
         <Literal xml:lang="en">dacryoadenitis</Literal>
@@ -15823,6 +15838,11 @@
         <Literal>readcode:F4C00</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00077</IRI>
+        <Literal>infection in the outer membrane of your eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00077</IRI>
         <Literal xml:lang="en">conjunctivitis</Literal>
@@ -15841,6 +15861,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00078</IRI>
         <Literal>readcode:F4C20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00078</IRI>
+        <Literal>inflammation of the eyelid and conjunctiva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16023,6 +16048,11 @@
         <Literal>readcode:FyuD2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00087</IRI>
+        <Literal>inflammation of the cornea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00087</IRI>
         <Literal xml:lang="en">keratitis</Literal>
@@ -16088,6 +16118,11 @@
         <Literal>readcode:XM0qt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00090</IRI>
+        <Literal>inflammation of the middle layer of the eye, called the uvea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00090</IRI>
         <Literal xml:lang="en">uveitis</Literal>
@@ -16108,6 +16143,11 @@
         <Literal>readcode:X00be</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00091</IRI>
+        <Literal>inflammation of the anterior chamber and uvea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00091</IRI>
         <Literal xml:lang="en">anterior uveitis</Literal>
@@ -16126,6 +16166,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00092</IRI>
         <Literal>SNOMEDCT:65074000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00092</IRI>
+        <Literal>type of anterior uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16193,6 +16238,11 @@
         <Literal>readcode:F4410</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00093</IRI>
+        <Literal>an inflammation of the iris and of the ciliary body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00093</IRI>
         <Literal xml:lang="en">iridocyclitis</Literal>
@@ -16206,6 +16256,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00094</IRI>
         <Literal>readcode:XaF44</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00094</IRI>
+        <Literal>type of uveitis localized to the vitreous and retina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16238,6 +16293,11 @@
         <Literal>readcode:XaF43</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00095</IRI>
+        <Literal>inflammation of the ciliary body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00095</IRI>
         <Literal xml:lang="en">posterior cyclitis</Literal>
@@ -16263,6 +16323,11 @@
         <Literal>readcode:XS1W4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00096</IRI>
+        <Literal>inflammation of the narrowed area between the iris and the choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00096</IRI>
         <Literal xml:lang="en">pars planitis</Literal>
@@ -16276,6 +16341,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00097</IRI>
         <Literal>SNOMEDCT:95802009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00097</IRI>
+        <Literal>inflammation of the jelly-like part of the eye, the vitreous cavity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16296,6 +16366,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00098</IRI>
         <Literal>readcode:F4322</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00098</IRI>
+        <Literal>inflammation of the choroid, the posterior chamber of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16348,6 +16423,11 @@
         <Literal>readcode:F4320</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00099</IRI>
+        <Literal>inflammation of the choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00099</IRI>
         <Literal xml:lang="en">choroiditis</Literal>
@@ -16396,6 +16476,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00100</IRI>
         <Literal>readcode:F432z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00100</IRI>
+        <Literal>inflammation of the choroid and retina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16493,6 +16578,11 @@
         <Literal>ICD9:363.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00102</IRI>
+        <Literal>manifestation of an infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00102</IRI>
         <Literal xml:lang="en">retinochoroiditis</Literal>
@@ -16516,6 +16606,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00103</IRI>
         <Literal>readcode:F4011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00103</IRI>
+        <Literal>inflammation of all layers of the uvea of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16628,6 +16723,11 @@
         <Literal>readcode:F401z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00110</IRI>
+        <Literal>inflammation of the interior cavity of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00110</IRI>
         <Literal xml:lang="en">endophthalmitis</Literal>
@@ -16678,6 +16778,11 @@
         <Literal>readcode:XE16k</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00112</IRI>
+        <Literal>inflammation of the eyelid that is characterized by exacerbations and remissions of eyelid edema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00112</IRI>
         <Literal xml:lang="en">blepharochalasis</Literal>
@@ -16711,6 +16816,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00113</IRI>
         <Literal>readcode:F4F30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00113</IRI>
+        <Literal>infection of the tear sac usually due to a blockage in the tear duct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16823,6 +16933,11 @@
         <Literal>readcode:X75gM</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00116</IRI>
+        <Literal>inflammation of the canaliculus, which is a short channel near the inner corner of the eyelid through which tears drain into the tear sac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00116</IRI>
         <Literal xml:lang="en">canaliculitis</Literal>
@@ -16846,6 +16961,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00117</IRI>
         <Literal>readcode:F4F42</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00117</IRI>
+        <Literal>salivary gland cyst, which contains mucous content</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17008,6 +17128,11 @@
         <Literal>readcode:F4G05</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00121</IRI>
+        <Literal>a rare eye disease, inflammation of the tenon capsule, which is the structure surrounding the eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00121</IRI>
         <Literal xml:lang="en">tenonitis</Literal>
@@ -17031,6 +17156,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00123</IRI>
         <Literal>ICD9:362.18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00123</IRI>
+        <Literal>inflammation of the adventitia of a blood vessel or a lymphatic vessel or of the tissues surrounding it</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17171,6 +17301,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00125</IRI>
         <Literal>readcode:F4002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00125</IRI>
+        <Literal>inflammation of all coats of the eye including intraocular structures</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28008,6 +28143,11 @@
         <Literal>readcode:A5323</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00520</IRI>
+        <Literal>shingles involving the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00520</IRI>
         <Literal xml:lang="en">zoster ocular disease</Literal>
@@ -28061,6 +28201,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00522</IRI>
         <Literal>readcode:XaEVn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00522</IRI>
+        <Literal>the most common cause of infections in the back of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28153,6 +28298,11 @@
         <Literal>readcode:X75j2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00528</IRI>
+        <Literal>pooling or collection of blood inside the anterior chamber of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00528</IRI>
         <Literal xml:lang="en">hyphaema</Literal>
@@ -28186,6 +28336,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00529</IRI>
         <Literal>readcode:F4500</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00529</IRI>
+        <Literal>common eye condition where the optic nerve becomes damaged and fluid builds up</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
