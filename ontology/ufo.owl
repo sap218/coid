@@ -19508,6 +19508,11 @@
         <Literal>SNOMEDCT:51476001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00200</IRI>
+        <Literal>also known as the common cold, an infection of the nose and throat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00200</IRI>
         <Literal xml:lang="en">nasopharyngitis</Literal>
@@ -19853,6 +19858,11 @@
         <Literal>readcode:X00mG</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00203</IRI>
+        <Literal>also known as a sore throat, caused by viral infections and bacterial infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00203</IRI>
         <Literal xml:lang="en">pharyngitis</Literal>
@@ -19908,6 +19918,11 @@
         <Literal>readcode:Xa7I0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00204</IRI>
+        <Literal>inflammation of the tonsils in the upper part of the throat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00204</IRI>
         <Literal xml:lang="en">tonsillitis</Literal>
@@ -19941,6 +19956,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00205</IRI>
         <Literal>SNOMEDCT:45913009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00205</IRI>
+        <Literal>inflammation of the voice box</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20003,6 +20023,11 @@
         <Literal>SNOMEDCT:80384002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00207</IRI>
+        <Literal>inflammation of the epiglottis, which is the flap at the base of the tongue that prevents food entering the trachea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00207</IRI>
         <Literal xml:lang="en">epiglottitis</Literal>
@@ -20031,6 +20056,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00208</IRI>
         <Literal>readcode:H050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00208</IRI>
+        <Literal>inflammation of the larynx and pharynx at the same time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20098,6 +20128,11 @@
         <Literal>readcode:Hyu0G</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00209</IRI>
+        <Literal>infection causes inflammation in the air sacs in your lungs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00209</IRI>
         <Literal xml:lang="en">pneumonia</Literal>
@@ -20131,6 +20166,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00211</IRI>
         <Literal>readcode:X100M</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00211</IRI>
+        <Literal>type of pneumonia that causes inflammation in the alveoli</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20248,6 +20288,11 @@
         <Literal>readcode:X1006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00213</IRI>
+        <Literal>infection of the main airways of the bronchi, causing them to become irritated and inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00213</IRI>
         <Literal xml:lang="en">bronchitis</Literal>
@@ -20276,6 +20321,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00214</IRI>
         <Literal>readcode:Xa87h</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00214</IRI>
+        <Literal>infection of the trachea, which is the breathing tube</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20313,6 +20363,11 @@
         <Literal>readcode:XaDtg</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00215</IRI>
+        <Literal>inflammation of the trachea and bronchi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00215</IRI>
         <Literal xml:lang="en">tracheobronchitis</Literal>
@@ -20331,6 +20386,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00216</IRI>
         <Literal>ICD9:473.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00216</IRI>
+        <Literal>inflammation of any antrum or sinus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20358,6 +20418,11 @@
         <Literal>readcode:H13y1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00217</IRI>
+        <Literal>all of the sinuses in the head become infected or inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00217</IRI>
         <Literal xml:lang="en">pansinusitis</Literal>
@@ -20376,6 +20441,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00218</IRI>
         <Literal>SNOMEDCT:18643000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00218</IRI>
+        <Literal>infection of the ethmoidal cells in the sinuses, the air-filled space behind the nose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20408,6 +20478,11 @@
         <Literal>readcode:XM1QS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00219</IRI>
+        <Literal>also known as croup and is when the larynx, trachea, and bronchi become infected</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00219</IRI>
         <Literal xml:lang="en">laryngotracheitis</Literal>
@@ -20436,6 +20511,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00221</IRI>
         <Literal>readcode:H1y55</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00221</IRI>
+        <Literal>inflammation of vocal cords</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20476,6 +20556,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00222</IRI>
         <Literal>readcode:H47yz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00222</IRI>
+        <Literal>inflammation of lung tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20563,6 +20648,11 @@
         <Literal>readcode:H5y2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00224</IRI>
+        <Literal>inflammation of the mediastinum, which is the chest cavity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00224</IRI>
         <Literal xml:lang="en">mediastinitis</Literal>
@@ -20571,6 +20661,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00225</IRI>
         <Literal>ICD10:J98.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00225</IRI>
+        <Literal>inflammation of the diaphragm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25098,6 +25193,11 @@
         <Literal>readcode:XSDOK</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00386</IRI>
+        <Literal>a common lower respiratory tract infection that affects babies and young children under two years old</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00386</IRI>
         <Literal xml:lang="en">bronchiolitis</Literal>
@@ -27843,6 +27943,11 @@
         <Literal>ICD10:J06.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00518</IRI>
+        <Literal>inflammation of the pharynx and tonsils</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00518</IRI>
         <Literal xml:lang="en">pharyngotonsillitis</Literal>
@@ -27856,6 +27961,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00519</IRI>
         <Literal>SNOMEDCT:721586007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00519</IRI>
+        <Literal>a manifestation of herpes simplex virus type 1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33083,6 +33193,11 @@
         <Literal>asthmatic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00839</IRI>
+        <Literal>condition in which your airways narrow and swell and may produce extra mucus, making it more difficult to breathe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00839</IRI>
         <Literal>patient.info</Literal>
@@ -35738,6 +35853,11 @@
         <Literal>BOOP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00989</IRI>
+        <Literal>a rare inflammatory lung disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
         <IRI>#UFO_00989</IRI>
         <Literal>ClinicalBERT</Literal>
@@ -38026,6 +38146,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_01118</IRI>
         <Literal xml:lang="en">blood-related</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01119</IRI>
+        <Literal>inflammatory condition of the paranasal sinuses that is the result of dental pathology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
