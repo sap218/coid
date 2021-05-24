@@ -50,7 +50,7 @@ Following the MIRO guidelines for reporting on an ontology [1]
 **E. Ontology content**
   * E.1 Ontology is `OWL` format, if you don't know how to convert, ask creator for an alternative ontology format.
   * E.2 Specifically used Protégé to develop the ontology with Git version control.
-  * E.3 Ontology metrics, as of 22-05-2021 version 1.0.0 (see [CHANGELOG.md](https://github.com/sap218/ufo/blob/master/CHANGELOG.md)) there are a total of 1173 classes, 7652 relationships and axioms, 4454 annotations, including 1755 database cross-references, and 770 patient-preferred synonyms.
+  * E.3 Ontology metrics, as of 22-05-2021 version 1.0.0 (see [CHANGELOG.md](https://github.com/sap218/ufo/blob/master/CHANGELOG.md)) there are a total of 1185 classes, 8439 relationships and axioms, 5164 annotations, including 1763 database cross-references, and 796 layperson synonyms, curated from ClinicalBERT and patient forum conversation.
   * E.4 Cross-references ontologies inclue: BFO, DOID, HPO, ICD-9, ICD-10, NCIT, ORDO, PATO, READCODES, SNOMED-CT, SYMP, and UBERON.
   * E.5 IRI for UFO is: https://github.com/sap218/UFO/blob/master/ontology/UFO.owl#UFO_00000.
   * E.6 Identifier generation policy: Protégé’s preferences schema is that ontology’s entities are to have the prefix “UFO” followed by an underscore then a five digit number. All classes have UFO prefix and own numeric identifier since UFO avoids importing axioms from other ontologies.
