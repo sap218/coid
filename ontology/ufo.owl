@@ -19988,6 +19988,11 @@
         <Literal>readcode:M2444</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00206</IRI>
+        <Literal>inflammatory cells in the skin around the hair follicles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00206</IRI>
         <Literal xml:lang="en">perifolliculitis</Literal>
@@ -22248,6 +22253,11 @@
         <Literal>readcode:X504C</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00275</IRI>
+        <Literal>inflammation also known as &apos;shaving bumps&apos;, caused by hairs trapped beneath the skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00275</IRI>
         <Literal xml:lang="en">pseudofolliculitis</Literal>
@@ -22291,6 +22301,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00276</IRI>
         <Literal>readcode:XE1BM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00276</IRI>
+        <Literal>long term skin condition that causes abscesses and scarring on the skin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28558,6 +28573,11 @@
         <Literal>readcode:X40R7</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00544</IRI>
+        <Literal>the accumulation of calcium salt crystals in the skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00544</IRI>
         <Literal xml:lang="en">calcinosis cutis</Literal>
@@ -28616,6 +28636,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00545</IRI>
         <Literal>readcode:XM05p</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00545</IRI>
+        <Literal>an open sore caused by poor blood flow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -36946,6 +36971,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_01050</IRI>
         <Literal>readcode:M170</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_01050</IRI>
+        <Literal>inflammatory skin condition, characterized by an itchy, non-infectious rash on the arms and legs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:derivedFromResource"/>
