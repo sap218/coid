@@ -16442,6 +16442,11 @@
         <Literal>readcode:F4321</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00101</IRI>
+        <Literal>inflammation of the retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00101</IRI>
         <Literal xml:lang="en">retinitis</Literal>
@@ -22922,6 +22927,11 @@
         <Literal>readcode:K17y</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00297</IRI>
+        <Literal>inflammation of the urethra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00297</IRI>
         <Literal xml:lang="en">urethritis</Literal>
@@ -22947,6 +22957,11 @@
         <Literal>readcode:X30Mv</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00298</IRI>
+        <Literal>inflammation of the ureter and often considered part of a urinary tract infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00298</IRI>
         <Literal xml:lang="en">ureteritis</Literal>
@@ -22970,6 +22985,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00299</IRI>
         <Literal>readcode:X30Mz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00299</IRI>
+        <Literal>a rare situation of the renal pelvis and ureters, characterized by cystical formations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23007,6 +23027,11 @@
         <Literal>readcode:K153z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00301</IRI>
+        <Literal>inflammation of the neck of the bladder, triangular piece of tissue located in the lower part of your bladder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00301</IRI>
         <Literal xml:lang="en">trigonitis</Literal>
@@ -23025,6 +23050,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00302</IRI>
         <Literal>readcode:K1532</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00302</IRI>
+        <Literal>inflammation of both the urethra and the trigone of the urinary bladder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23080,6 +23110,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00305</IRI>
         <Literal>readcode:K17y4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00305</IRI>
+        <Literal>inflammation at the opening of the penis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23162,6 +23197,11 @@
         <Literal>readcode:K21y</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00307</IRI>
+        <Literal>inflammation of the prostate gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00307</IRI>
         <Literal xml:lang="en">prostatitis</Literal>
@@ -23195,6 +23235,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00308</IRI>
         <Literal>readcode:K2402</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00308</IRI>
+        <Literal>inflammation of one or both testicles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23242,6 +23287,11 @@
         <Literal>readcode:K2412</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00309</IRI>
+        <Literal>inflammation of the epididymis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00309</IRI>
         <Literal xml:lang="en">epididymitis</Literal>
@@ -23272,6 +23322,11 @@
         <Literal>readcode:Kyu6A</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00311</IRI>
+        <Literal>inflammation of the glans, or the head, of the penis, due to infection or another cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00311</IRI>
         <Literal xml:lang="en">balanitis</Literal>
@@ -23297,6 +23352,11 @@
         <Literal>readcode:K271z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00312</IRI>
+        <Literal>inflammation of the foreskin and glans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00312</IRI>
         <Literal xml:lang="en">balanoposthitis</Literal>
@@ -23315,6 +23375,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00313</IRI>
         <Literal>SNOMEDCT:54770009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00313</IRI>
+        <Literal>inflammation of the corpus cavernosum penis, which is erectile tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23347,6 +23412,11 @@
         <Literal>readcode:K2845</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00314</IRI>
+        <Literal>inflammatory disorder of the vas deferens and spermatic cord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00314</IRI>
         <Literal xml:lang="en">vasitis</Literal>
@@ -23370,6 +23440,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00315</IRI>
         <Literal>readcode:K2800</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00315</IRI>
+        <Literal>inflammation and infection of the seminal vesicles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23405,6 +23480,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00317</IRI>
         <Literal>readcode:X40FT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00317</IRI>
+        <Literal>inflammation of breast tissue that sometimes involves an infection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23447,6 +23527,11 @@
         <Literal>readcode:K4026</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00319</IRI>
+        <Literal>inflammation of the fallopian tubes, caused by bacterial infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00319</IRI>
         <Literal xml:lang="en">salpingitis</Literal>
@@ -23485,6 +23570,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00320</IRI>
         <Literal>readcode:K4023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00320</IRI>
+        <Literal>inflammation of the ovaries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23527,6 +23617,11 @@
         <Literal>readcode:K41z1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00322</IRI>
+        <Literal>complication of pregnancy that can lead to serious life threatening conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00322</IRI>
         <Literal xml:lang="en">endomyometritis</Literal>
@@ -23567,6 +23662,11 @@
         <Literal>readcode:K41z3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00323</IRI>
+        <Literal>inflammation of the wall of the uterus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00323</IRI>
         <Literal xml:lang="en">metritis</Literal>
@@ -23590,6 +23690,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00324</IRI>
         <Literal>readcode:K41z2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00324</IRI>
+        <Literal>inflammation of the myometrium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23625,6 +23730,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00326</IRI>
         <Literal>readcode:K4200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00326</IRI>
+        <Literal>inflammation of the cervix</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23705,6 +23815,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00330</IRI>
         <Literal>readcode:K4050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00330</IRI>
+        <Literal>also known as pelvic cellulitis, is inflammation of the parametrium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23807,6 +23922,11 @@
         <Literal>readcode:K41z0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00332</IRI>
+        <Literal>inflammation of the inner lining of the uterus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00332</IRI>
         <Literal xml:lang="en">endometritis</Literal>
@@ -23835,6 +23955,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00333</IRI>
         <Literal>readcode:K42y3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00333</IRI>
+        <Literal>infection and inflammation of the major vestibular glands, whose function is related to lubrication during sexual intercourse</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23987,6 +24112,11 @@
         <Literal>readcode:K421</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00336</IRI>
+        <Literal>inflammation or infection of the vulva and vagina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00336</IRI>
         <Literal xml:lang="en">vulvovaginitis</Literal>
@@ -24020,6 +24150,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00337</IRI>
         <Literal>readcode:K4211</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00337</IRI>
+        <Literal>irritation or inflammation of the vulva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27067,6 +27202,11 @@
         <Literal>SNOMEDCT:95602007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00496</IRI>
+        <Literal>inflammation of the milk ducts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00496</IRI>
         <Literal xml:lang="en">galactophoritis</Literal>
@@ -27075,6 +27215,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00497</IRI>
         <Literal>ICD10:N70.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00497</IRI>
+        <Literal>inflammation of adnexa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27100,6 +27245,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00498</IRI>
         <Literal>readcode:K400z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00498</IRI>
+        <Literal>inflammation of the uterine appendage particularly on the fallopian tubes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27445,6 +27595,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00516</IRI>
         <Literal>readcode:K40y1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00516</IRI>
+        <Literal>infection of the upper genital tract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -28525,6 +28680,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00563</IRI>
         <Literal>readcode:K213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00563</IRI>
+        <Literal>inflammation of the urinary bladder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
