@@ -13903,6 +13903,11 @@
         <Literal>readcode:X001W</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00011</IRI>
+        <Literal>inflammation of the spinal cord which can disrupt the normal responses from the brain to the rest of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00011</IRI>
         <Literal xml:lang="en">myelitis</Literal>
@@ -15128,6 +15133,11 @@
         <Literal>readcode:Fyu04</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00058</IRI>
+        <Literal>inflammation of the lining around your brain and spinal cord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00058</IRI>
         <Literal xml:lang="en">meningitis</Literal>
@@ -15161,6 +15171,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00059</IRI>
         <Literal>readcode:F007z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00059</IRI>
+        <Literal>the most serious type of meningitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15368,6 +15383,11 @@
         <Literal>readcode:X000V</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00064</IRI>
+        <Literal>type of meningitis is less common, caused by parasites that are found in dirt, feces, and on some animals and food, like snails, raw fish, poultry, or produce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00064</IRI>
         <Literal xml:lang="en">parasitic meningitis</Literal>
@@ -15421,6 +15441,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00065</IRI>
         <Literal>readcode:XE15C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00065</IRI>
+        <Literal>inflammation of the brain tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16543,6 +16568,11 @@
         <Literal>readcode:X001X</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00106</IRI>
+        <Literal>inflammation of the brain and spinal cord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00106</IRI>
         <Literal xml:lang="en">encephalomyelitis</Literal>
@@ -17163,6 +17193,11 @@
         <Literal>SNOMEDCT:7125002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00126</IRI>
+        <Literal>inflammation of the brain and its surrounding protective membranes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00126</IRI>
         <Literal xml:lang="en">meningoencephalitis</Literal>
@@ -17188,6 +17223,11 @@
         <Literal>readcode:XE17V</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00127</IRI>
+        <Literal>inflammation of the arachnoid, one of the membranes that surround and protect the nerves of the spinal cord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00127</IRI>
         <Literal xml:lang="en">arachnoiditis</Literal>
@@ -17208,6 +17248,11 @@
         <Literal>SNOMEDCT:66074005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00128</IRI>
+        <Literal>inflammation of the subarachnoid space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00128</IRI>
         <Literal xml:lang="en">leptomeningitis</Literal>
@@ -17221,6 +17266,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00129</IRI>
         <Literal>SNOMEDCT:25822001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00129</IRI>
+        <Literal>localised inflammatory thickening of the dura</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17246,6 +17296,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00130</IRI>
         <Literal>SNOMEDCT:74772000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00130</IRI>
+        <Literal>inflammation of the sheath covering the nerves of the central nervous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17373,6 +17428,11 @@
         <Literal>SNOMEDCT:17674000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00133</IRI>
+        <Literal>autoimmune disorder in which white blood cells and antibodies primarily attack the optic nerves and the spinal cord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00133</IRI>
         <Literal xml:lang="en">neuromyelitis</Literal>
@@ -17448,6 +17508,11 @@
         <Literal>readcode:XE18H</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00139</IRI>
+        <Literal>inflammation of a nerve ganglion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00139</IRI>
         <Literal xml:lang="en">ganglionitis</Literal>
@@ -17481,6 +17546,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00141</IRI>
         <Literal>SNOMEDCT:32595002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00141</IRI>
+        <Literal>a disorder of the nervous system where there is damage to two or more different nerve areas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17523,6 +17593,11 @@
         <Literal>readcode:F4H30</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00143</IRI>
+        <Literal>inflammation damages the optic nerve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00143</IRI>
         <Literal xml:lang="en">optic neuritis</Literal>
@@ -17548,6 +17623,11 @@
         <Literal>readcode:F4H31</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00144</IRI>
+        <Literal>inflammation and deterioration of the portion of the optic nerve known as the optic disk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00144</IRI>
         <Literal xml:lang="en">papillitis</Literal>
@@ -17571,6 +17651,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00145</IRI>
         <Literal>readcode:X008e</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00145</IRI>
+        <Literal>a form of optic neuritis in which the optic nerve, which is at the back of the eye, becomes inflamed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27463,6 +27548,11 @@
         <Literal>readcode:A1302</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00501</IRI>
+        <Literal>a form of meningitis characterized by inflammation of the membranes around the brain or spinal cord and caused by a specific bacterium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00501</IRI>
         <Literal xml:lang="en">tuberculous meningitis</Literal>
@@ -27486,6 +27576,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00502</IRI>
         <Literal>readcode:N2421</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00502</IRI>
+        <Literal>inflammation of a nerve or the general inflammation of the peripheral nervous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27866,6 +27961,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00524</IRI>
         <Literal>SNOMEDCT:16026631000119103</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00524</IRI>
+        <Literal>rare neurological disorder resulting from damage to or near the parotid glands responsible for making saliva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
