@@ -25077,6 +25077,11 @@
         <Literal xml:lang="en">inflammation of endocrine system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00395</IRI>
+        <Literal>inflammation of a collection of endocrine tissue located in the pancreas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00395</IRI>
         <Literal xml:lang="en">insulitis</Literal>
@@ -25095,6 +25100,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00396</IRI>
         <Literal>readcode:X40LP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00396</IRI>
+        <Literal>inflammation of the pituitary gland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -25177,6 +25187,11 @@
         <Literal>readcode:C05z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00397</IRI>
+        <Literal>inflammation of the thyroid gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00397</IRI>
         <Literal xml:lang="en">thyroiditis</Literal>
@@ -25197,6 +25212,11 @@
         <Literal>ICD9:252.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00398</IRI>
+        <Literal>inflammation of the parathyroid gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFO_00398</IRI>
         <Literal xml:lang="en">parathyroiditis</Literal>
@@ -25210,6 +25230,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00399</IRI>
         <Literal>ICD10:E27.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00399</IRI>
+        <Literal>inflammation of one or both adrenal glands</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -27235,6 +27260,11 @@
         <AnnotationProperty abbreviatedIRI="oboInOWL:DbXref"/>
         <IRI>#UFO_00505</IRI>
         <Literal>ICD10:E32.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFO_00505</IRI>
+        <Literal>inflammation of the thymus gland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
