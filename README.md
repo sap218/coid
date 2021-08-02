@@ -8,12 +8,11 @@
 
 **License**
 
-License: CC BY 3.0 - see [LICENSE](https://github.com/sap218/coid/blob/master/LICENSE) for futher information
+License: CC BY 3.0 - see [LICENSE](https://github.com/sap218/coid/blob/master/LICENSE.md) for futher information
 
 **File**
 
-* Ontology is located in :file_folder: [`ontology`](https://github.com/sap218/coid/tree/master/ontology) directory
-* Ontology named appropriately :page_facing_up: [`coid.owl`](https://github.com/sap218/coid/blob/master/ontology/coid.owl) 
+* Ontology named appropriately :page_facing_up: [`coid.owl`](https://github.com/sap218/coid/blob/master/coid.owl) 
 
 **Development**
 
@@ -25,12 +24,12 @@ License: CC BY 3.0 - see [LICENSE](https://github.com/sap218/coid/blob/master/LI
 Following the MIRO guidelines for reporting on an ontology [1]
 
 **A. The basics**
-  * A.1 Unified Inflammatory Ontology (COID) v1.0.0
+  * A.1 Combined Ontology for Inflammatory Diseases (COID) v1.0.0
   * A.2 Ontology owner: [Samantha C Pendleton](https://github.com/sap218) (Institute of Cancer and Genomic Sciences, University of Birmingham, UK) | [samanfapc@gmail.com](mailto:samanfapc@gmail.com)
-  * A.3 [License](https://github.com/sap218/coid/blob/master/LICENSE), which governs the permissions surrounding the ontology (CC BY 3.0)
-  * A.4 Located in `ontology` directory under the appropriate filename `coid.owl`, full URL: https://github.com/sap218/coid/blob/master/ontology/coid.owl
+  * A.3 [License](https://github.com/sap218/coid/blob/master/LICENSE.md), which governs the permissions surrounding the ontology (CC BY 3.0)
+  * A.4 Ontology under the appropriate filename `coid.owl`, full URL: https://github.com/sap218/coid/blob/master/coid.owl
   * A.5 GitHub repository: https://github.com/sap218/coid
-  * A.6 Methodological framework: used [Protégé](https://protege.stanford.edu/) software for ontology building using ICD-10 and other biomedical ontologies. Synonym expansion followed the works of Braithwaite et al. using the tf-idf statistical analysis to gain patient-preferred synonyms [2] from the [patient.info](https://patient.info/forums) forums. Additionally expanded with external domain-expert terms from [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT), a pretrained word2vec model on MIMIC-III clinical letters.
+  * A.6 Methodological framework: used [Protégé](https://protege.stanford.edu/) software for ontology building using ICD-10 and other biomedical ontologies. Synonym expansion followed the works of Pendleton et al. using the tf-idf statistical analysis to gain patient-preferred synonyms [2] from the [patient.info](https://patient.info/forums) forums. Additionally expanded with external domain-expert terms from [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT), a pretrained word2vec model on MIMIC-III clinical letters.
   
 **B. Motivation**
   * B.1 Ontology is required in research as there currently lacks a system for specifically only inflammatory disorders, symptoms, and layman-specific terms. The controlled vocabulary for these disorders are quite limited and current biomedical layman terms are not useful for NLP tasks as layman terms should be specific to the forum: the need for understanding the “patient-voice”.
@@ -52,7 +51,7 @@ Following the MIRO guidelines for reporting on an ontology [1]
   * E.2 Specifically used Protégé to develop the ontology with Git version control.
   * E.3 Ontology metrics, as of 22-05-2021 version 1.0.0 (see [CHANGELOG.md](https://github.com/sap218/coid/blob/master/CHANGELOG.md)) there are a total of 1185 classes, 8439 relationships and axioms, 5164 annotations, including 1763 database cross-references, and 796 layperson synonyms, curated from ClinicalBERT and patient forum conversation.
   * E.4 Cross-references ontologies inclue: BFO, DOID, HPO, ICD-9, ICD-10, NCIT, ORDO, PATO, READCODES, SNOMED-CT, SYMP, and UBERON.
-  * E.5 IRI for COID is: https://github.com/sap218/coid/blob/master/ontology/coid.owl#COID_00000.
+  * E.5 IRI for COID is: https://github.com/sap218/coid/blob/master/coid.owl#COID_00000.
   * E.6 Identifier generation policy: Protégé’s preferences schema is that ontology’s entities are to have the prefix “COID” followed by an underscore then a five digit number. All classes have COID prefix and own numeric identifier since COID avoids importing axioms from other ontologies.
   * E.7 Entity metadata policy: currently `exact`, `broad`, `narrow`, and `related` synonyms in the ontology are additional clinical/medical terms derived from biomedical ontologies. However `layperson` are the patient-preferred terms, in addition to the ClinicalBERT terms.
   * E.8 ICD-10 was somewhat used as an upper ontology in the sense that the structure is followed when describing the inflammatory conditions.
@@ -75,4 +74,4 @@ Following the MIRO guidelines for reporting on an ontology [1]
 
 [1] Matentzoglu, N., Malone, J., Mungall, C., & Stevens, R. (2018). MIRO: guidelines for minimum information for the reporting of an ontology. Journal of Biomedical Semantics, 9(1), 6.
 
-[2] Braithwaite, T., Pendleton, S., Liu, X., Gilbert, R., Slater, L., Karwath, A., Davis, N., Pesudovs, K., Gkoutos, G., & Denniston, A. (2020). Development of a machine learning-guided computational ocular immune-mediated inflammatory disease ontology (ocIMIDo) and application to unstructured text in online patient fora for sentiment analysis. 61, 2061–2061.
+[2] Pendleton, S. C., Slater, L. T., Karwath, A., Gilbert, R. M., Davis, N., Pesudovs, K., Liu, X., Denniston, A. K., Gkoutos, G. V., & Braithwaite, T. (2021). Development and application of the ocular immune-mediated inflammatory diseases ontology enhanced with synonyms from online patient support forum conversation. Computers in Biology and Medicine, 135, 104542.
