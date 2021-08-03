@@ -12,7 +12,7 @@ License: CC BY 3.0 - see [LICENSE](https://github.com/sap218/coid/blob/master/LI
 
 **File**
 
-* Ontology named appropriately :page_facing_up: [`coid.owl`](https://github.com/sap218/coid/blob/master/coid.owl) 
+Ontology named appropriately :page_facing_up: [`coid.owl`](https://github.com/sap218/coid/blob/master/coid.owl) 
 
 **Development**
 
@@ -20,4 +20,5 @@ License: CC BY 3.0 - see [LICENSE](https://github.com/sap218/coid/blob/master/LI
 * See [CHANGELOG.md](https://github.com/sap218/coid/blob/master/CHANGELOG.md) for development changes
 
 **About**
-Come back soon
+
+Come back soon!
