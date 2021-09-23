@@ -1,5 +1,7 @@
 # Combined Ontology for Inflammatory Diseases **COID**
 
+[![DOI](https://zenodo.org/badge/249664643.svg)](https://zenodo.org/badge/latestdoi/249664643)
+
 #### See :grey_exclamation: [Issues](https://github.com/sap218/coid/issues)  for the term-tracker
 
 **Creators**
