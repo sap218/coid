@@ -8,7 +8,7 @@
 
 ## Ontology access
 
-* OcIMIDo is available on [**GitHub**](https://github.com/sap218/coid)
+* COID is available on [**GitHub**](https://github.com/sap218/coid)
 * See [license](https://github.com/sap218/coid/blob/master/LICENSE.md) before use 
 
 ## About
