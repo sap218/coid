@@ -1,4 +1,8 @@
-## Change Log
+# COID Documentation
+
+[Home](README.md) | [Documentation](MIRO) | [License](LICENSE) | [Changelog](CHANGELOG) | [Manuscript]() | [Bioportal]()
+
+## Changelog
 
 * Version: 29-09-2020 ontology original state - conditions, symptoms, etc. all dervied from ICD-10, biomedical ontologies, and NHS.
 

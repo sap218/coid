@@ -1,4 +1,8 @@
-# MIRO Guidelines
+# COID Documentation
+
+[Home](README.md) | [Documentation](MIRO) | [License](LICENSE) | [Changelog](CHANGELOG) | [Manuscript]() | [Bioportal]()
+
+## MIRO Guidelines
 
 Below we follow the MIRO guidelines for reporting on an ontology [1]. 
 
