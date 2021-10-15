@@ -4,7 +4,7 @@
 
 ### Creators
 
-* [Samantha Pendleton](https://twitter.com/sap218) Institute of Cancer and Genomic Sciences, University of Birmingham, UK
+* Samantha C Pendleton (University of Birmingham, UK) | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
 
 ### About
 
@@ -12,9 +12,9 @@ Come back soon!
 
 ### Important information before use
 
-* [Issues](https://github.com/sap218/ocimido/issues) - see for ontology suggestions, bug reporting, and future development information.
-* [License](LICENSE.html) - see before use (you can use/edit OcIMIDo as long as you give appropriate credit).
-* [Changelog](CHANGELOG.html) - see major changes of OcIMIDo throughout development.
+* [Issues](https://github.com/sap218/coid/issues) - see for ontology suggestions, bug reporting, and future development information.
+* [License](https://sap218.github.io/coid/LICENSE.html) - see before use (you can use/edit COID as long as you give appropriate credit).
+* [Changelog](https://sap218.github.io/coid/CHANGELOG.html) - see major changes of COID throughout development.
 
 ### Citing
 
