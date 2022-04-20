@@ -4,7 +4,7 @@
 
 * [Documentation](https://sap218.github.io/coid/)
 * [Wiki](https://sap218.github.io/coid/MIRO.html)
-* [Bioportal]()
+* [Bioportal](https://bioportal.bioontology.org/ontologies/COID)
 * [Manuscript]()
 
 ## Important information
