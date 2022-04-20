@@ -4,11 +4,11 @@
 
 ### Creators
 
-* Samantha Pendleton | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
+Samantha Pendleton | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
 
 ### About
 
-Come back soon!
+A domain ontology for inflammatory diseases, using ICD-10 as a foundation.
 
 ### Important information before use
 
@@ -19,6 +19,14 @@ Come back soon!
 ### Citing
 
 ```
-SOON
+@MISC{Pendleton2021-cy,
+  title     = "{Combined Ontology for Inflammatory Diseases COID}",
+  author    = "Pendleton, Samantha C",
+  publisher = "Zenodo",
+  month     =  sep,
+  year      =  2021,
+  url       = "https://doi.org/10.5281/zenodo.5524650",
+  doi       = "10.5281/zenodo.5524650"
+}
 ```
 

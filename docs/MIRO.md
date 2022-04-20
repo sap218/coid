@@ -6,6 +6,8 @@
 
 Below we follow the MIRO guidelines for reporting on an ontology [1]. 
 
+**THIS PAGE NEEDS UPDATING**
+
 ---
 
 **A. The basics**
@@ -34,7 +36,7 @@ Below we follow the MIRO guidelines for reporting on an ontology [1].
 **E. Ontology content**
   * E.1 Ontology is `RDF/XML OWL` format, if you don't know how to convert, create an [Issue](https://github.com/sap218/coid/issues) for information about alternative formats.
   * E.2 Specifically used Protégé to develop the ontology with Git version control.
-  * E.3 Ontology metrics, as of v1.0.0 (see [Changelog](https://sap218.github.io/coid/changelog.html) 22-05-2021) there are a total of 1185 classes, 8439 relationships and axioms, 5164 annotations, including 1763 database cross-references, and 796 layperson synonyms - curated Patient.info patient forum conversation and from [PatientFORUM](https://github.com/sap218/patientFORUM) + [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT) embeddings.
+  * E.3 Ontology metrics, as of v1.0.0 (see [Changelog](https://sap218.github.io/coid/changelog.html) 22-05-2021) there are a total of 1185 classes, 8439 relationships and axioms, 5164 annotations, including 1763 database cross-references, and 796 layperson synonyms - curated Patient.info patient forum conversation and from [PatientINF](https://github.com/sap218/patientINF) + [ClinicalBERT](https://github.com/kexinhuang12345/clinicalBERT) embeddings.
   * E.4 Cross-references ontologies inclue: BFO, DOID, HPO, ICD-9, ICD-10, NCIT, ORDO, PATO, READCODES, SNOMED-CT, SYMP, and UBERON.
   * E.5 IRI for COID is: https://github.com/sap218/coid/blob/master/coid.owl#COID_00000.
   * E.6 Identifier generation policy: Protégé’s preferences schema is that ontology’s entities are to have the prefix `COID` followed by an underscore then a five digit number. All classes have COID prefix and own numeric identifier since COID avoids importing axioms from other ontologies.
@@ -51,7 +53,7 @@ Below we follow the MIRO guidelines for reporting on an ontology [1].
 **G. Quality Assurance**
   * G.1 Successful testing on the Patient.info patient forum and ClinicalBERT embeddings. Also used Protégé’s HermiT (v1.4.3.456) reasoner to ensure a coherent and consistent ontology. 
   * G.2 Ontology is novel and first application ontology in inflammatory disorders. Additionally this method of building (TF-IDF) was previous validated and our re-using proves a fast approach to synonym curation. COID meets the stated requirements as an ontology suitable for the biomedical domain in additon to capturing the patient voice. Moreover we show that not only is expert knowledge dervived from ontologies but also extracted from clinical letters.
-  * G.3 An example of application is using the ontology to perform ROC AUC analysis on ClinicalBERT and PatientFORUM embeddings to observe how clinicians and patients discuss conditions. Additionally layman terms can be used for sentiment analysis on patient forum text, as seen from Pendleton et. al [3]. Future applications include using medical terminology x-ref codes (e.g. ICD-10) on electronic health records, or semantic similarity with COID's implicit axiomatic structure.
+  * G.3 An example of application is using the ontology to perform ROC AUC analysis on ClinicalBERT and PatientINF embeddings to observe how clinicians and patients discuss conditions. Additionally layman terms can be used for sentiment analysis on patient forum text, as seen from Pendleton et. al [3]. Future applications include using medical terminology x-ref codes (e.g. ICD-10) on electronic health records, or semantic similarity with COID's implicit axiomatic structure.
   * G.4 Ontology not yet available on ontology repositories however freely available on [GitHub](https://github.com/sap218/coid/).
   * G.5 Evidence of use: as soon as the manuscript is accepted the creator will include a reference/link here.
   
